@@ -60,7 +60,7 @@ export default function HelpModal({ onClose }: Props) {
               Alexander Atalay
             </a>
           </p>
-          <p>Conceived of by Alexander Atalay, Grant Mannino, Gracy Grimsrud, and Lucy Anderson</p>
+          <p>Conceived of by Alexander Atalay, Grant Mannino, Gracie Grimsrud, and Lucy Anderson</p>
         </div>
 
         <button

@@ -65,7 +65,7 @@ export default function Home() {
         )}
 
         {/* 3D Viewer */}
-        <div className="h-72 sm:h-80 flex-shrink-0">
+        <div className="h-72 sm:h-80 lg:h-96 flex-shrink-0">
           {game.targetRegion ? (
             <BrainViewer
               targetRegion={game.targetRegion}
