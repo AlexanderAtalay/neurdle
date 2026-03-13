@@ -1,0 +1,23 @@
+# Dependencies
+neurdle/node_modules/
+
+# Next.js build output
+neurdle/.next/
+neurdle/out/
+
+# Raw pipeline outputs (large binary/generated files — not needed to deploy)
+meshes_raw/
+data/distances_medium.json
+data/distances_subcortical.json
+
+# Python
+pipeline/__pycache__/
+pipeline/*.pyc
+pipeline/neurdle-plan.md
+.DS_Store
+**/.DS_Store
+
+# Env files
+.env
+.env.local
+neurdle/.env*

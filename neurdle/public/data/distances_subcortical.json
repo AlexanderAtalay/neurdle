@@ -1,0 +1,3504 @@
+{
+  "thalamus_L": {
+    "cerebellum_cortex_L": {
+      "distance_mm": 12.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 0.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 4.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 4.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 19.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 21.3,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 5.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 10.7,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 4.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 17.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 20.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 5.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 0.4,
+      "direction": []
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 19.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 10.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 16.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 11.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 27.7,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    }
+  },
+  "cerebellum_cortex_L": {
+    "thalamus_L": {
+      "distance_mm": 12.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 38.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 25.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 39.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 36.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 11.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 24.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 7.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 14.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 21.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 19.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 40.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 17.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 22.6,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 20.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 0.0,
+      "direction": []
+    },
+    "caudate_R": {
+      "distance_mm": 42.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 38.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 45.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 0.4,
+      "direction": [
+        "anterior"
+      ]
+    }
+  },
+  "caudate_L": {
+    "thalamus_L": {
+      "distance_mm": 0.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 38.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 2.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 38.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 23.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 27.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 3.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 19.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 15.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 11.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 19.5,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 28.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 9.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 10.3,
+      "direction": [
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 43.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 12.5,
+      "direction": []
+    },
+    "pallidum_R": {
+      "distance_mm": 20.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 12.1,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 42.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "pallidum_L": {
+    "thalamus_L": {
+      "distance_mm": 4.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 25.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 2.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 3.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 25.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 14.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 28.5,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 1.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 5.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 4.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 2.5,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 15.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 24.0,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 29.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 15.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 15.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 38.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 17.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 25.0,
+      "direction": []
+    },
+    "accumbens_R": {
+      "distance_mm": 17.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 40.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "accumbens_L": {
+    "thalamus_L": {
+      "distance_mm": 4.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 39.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 3.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 34.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 20.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 24.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 2.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 15.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 10.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 9.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 17.4,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 25.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 7.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 10.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 46.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 10.5,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 18.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 9.4,
+      "direction": []
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 40.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "cerebellum_wm_L": {
+    "thalamus_L": {
+      "distance_mm": 19.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 38.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 25.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 34.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 34.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 8.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 25.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 9.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 23.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 18.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 19.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 41.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 26.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 30.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 28.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 0.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 44.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 42.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 40.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 0.1,
+      "direction": []
+    }
+  },
+  "brainstem": {
+    "thalamus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 23.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 14.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 20.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 8.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 16.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 4.0,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 10.6,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 8.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 15.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 5.0,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 9.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 23.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 12.7,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 19.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    }
+  },
+  "amygdala_R": {
+    "thalamus_L": {
+      "distance_mm": 21.3,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 36.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 27.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 28.5,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 24.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 34.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 8.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 15.4,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 27.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 27.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 26.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 28.0,
+      "direction": []
+    },
+    "ventral_DC_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 18.1,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 11.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 22.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 16.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 2.1,
+      "direction": [
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 9.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 18.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "ventral_DC_L": {
+    "thalamus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 11.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 3.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 1.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 2.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 8.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 15.4,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 1.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 2.6,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 0.0,
+      "direction": []
+    },
+    "putamen_R": {
+      "distance_mm": 14.9,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 15.6,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 8.9,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 4.9,
+      "direction": [
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 18.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 10.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 16.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 9.7,
+      "direction": [
+        "anterior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 16.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "putamen_L": {
+    "thalamus_L": {
+      "distance_mm": 5.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 24.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 25.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 16.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 27.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 1.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 3.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 5.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 15.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 22.5,
+      "direction": []
+    },
+    "hippocampus_R": {
+      "distance_mm": 28.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 16.7,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 18.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 39.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 19.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 25.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 17.1,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 41.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "hippocampus_L": {
+    "thalamus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 7.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 19.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 5.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 15.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 9.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 4.0,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 27.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 3.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 16.6,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 29.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 25.4,
+      "direction": []
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 24.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 20.8,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 16.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 29.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 31.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 27.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 25.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "lateral_ventricle_L": {
+    "thalamus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 14.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 4.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 23.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 10.6,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 26.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 2.6,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 5.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 18.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 8.3,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 15.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 21.7,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 0.1,
+      "direction": []
+    },
+    "thalamus_R": {
+      "distance_mm": 2.7,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 21.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 8.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 15.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 6.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 29.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    }
+  },
+  "amygdala_L": {
+    "thalamus_L": {
+      "distance_mm": 10.7,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 21.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 15.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 2.5,
+      "direction": [
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 10.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 18.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 8.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 28.0,
+      "direction": []
+    },
+    "ventral_DC_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 18.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 17.4,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 28.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 28.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 26.5,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 21.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 35.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 27.4,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 30.9,
+      "direction": [
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 25.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 35.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "ventral_DC_R": {
+    "thalamus_L": {
+      "distance_mm": 4.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 19.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 11.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 15.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 9.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 19.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 0.0,
+      "direction": []
+    },
+    "putamen_L": {
+      "distance_mm": 15.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 16.6,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 8.3,
+      "direction": [
+        "superior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 17.4,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 3.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 11.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 3.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 1.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 6.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "putamen_R": {
+    "thalamus_L": {
+      "distance_mm": 17.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 40.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 19.5,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 24.0,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 17.4,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 41.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 15.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 14.9,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 22.5,
+      "direction": []
+    },
+    "hippocampus_L": {
+      "distance_mm": 29.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 15.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 28.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 3.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 5.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 5.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 25.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 24.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "hippocampus_R": {
+    "thalamus_L": {
+      "distance_mm": 20.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 17.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 28.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 29.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 25.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 26.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 5.0,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 15.6,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 28.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 25.4,
+      "direction": []
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 21.7,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 28.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 3.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 8.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 19.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 5.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 12.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 8.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "lateral_ventricle_R": {
+    "thalamus_L": {
+      "distance_mm": 5.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 22.6,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 9.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 15.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 7.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 30.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 9.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 18.1,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 8.9,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 16.7,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 24.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 0.1,
+      "direction": []
+    },
+    "amygdala_L": {
+      "distance_mm": 26.5,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 3.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 5.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 14.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 4.8,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 23.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    }
+  },
+  "thalamus_R": {
+    "thalamus_L": {
+      "distance_mm": 0.4,
+      "direction": []
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 20.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 10.3,
+      "direction": [
+        "anterior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 15.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 10.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 28.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 11.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 4.9,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 18.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 20.8,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 2.7,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 21.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 5.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 12.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 1.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 3.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 5.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 19.4,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    }
+  },
+  "cerebellum_cortex_R": {
+    "thalamus_L": {
+      "distance_mm": 19.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 0.0,
+      "direction": []
+    },
+    "caudate_L": {
+      "distance_mm": 43.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 38.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 46.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 0.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 22.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 18.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 39.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 16.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 21.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 35.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 11.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 25.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 8.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 14.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 12.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 38.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 24.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 37.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior"
+      ]
+    }
+  },
+  "caudate_R": {
+    "thalamus_L": {
+      "distance_mm": 10.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 42.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 12.5,
+      "direction": []
+    },
+    "pallidum_L": {
+      "distance_mm": 17.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 10.5,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 44.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 23.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 16.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 10.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 19.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 29.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 8.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 27.4,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 3.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 19.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 1.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 38.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 3.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 38.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "pallidum_R": {
+    "thalamus_L": {
+      "distance_mm": 16.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 38.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 20.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 25.0,
+      "direction": []
+    },
+    "accumbens_L": {
+      "distance_mm": 18.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 42.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 12.7,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 2.1,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 16.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 25.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 31.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 15.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 30.9,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 1.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 5.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 4.8,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 3.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 24.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 3.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 2.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 24.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "accumbens_R": {
+    "thalamus_L": {
+      "distance_mm": 11.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 45.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 12.1,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 17.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 9.4,
+      "direction": []
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 40.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 19.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 9.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 9.7,
+      "direction": [
+        "posterior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 17.1,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 27.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 6.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 25.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 12.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 5.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 37.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 2.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "cerebellum_wm_R": {
+      "distance_mm": 31.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    }
+  },
+  "cerebellum_wm_R": {
+    "thalamus_L": {
+      "distance_mm": 27.7,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex_L": {
+      "distance_mm": 0.4,
+      "direction": [
+        "posterior"
+      ]
+    },
+    "caudate_L": {
+      "distance_mm": 42.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_L": {
+      "distance_mm": 40.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_L": {
+      "distance_mm": 40.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_wm_L": {
+      "distance_mm": 0.1,
+      "direction": []
+    },
+    "brainstem": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "amygdala_R": {
+      "distance_mm": 18.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_L": {
+      "distance_mm": 16.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_L": {
+      "distance_mm": 41.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_L": {
+      "distance_mm": 25.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_L": {
+      "distance_mm": 29.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "amygdala_L": {
+      "distance_mm": 35.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "ventral_DC_R": {
+      "distance_mm": 6.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen_R": {
+      "distance_mm": 24.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "hippocampus_R": {
+      "distance_mm": 8.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle_R": {
+      "distance_mm": 23.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus_R": {
+      "distance_mm": 19.4,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex_R": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior"
+      ]
+    },
+    "caudate_R": {
+      "distance_mm": 38.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum_R": {
+      "distance_mm": 24.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens_R": {
+      "distance_mm": 31.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8858 @@
+{
+  "cerebellum_wm": {
+    "brainstem": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 8.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 24.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 10.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 40.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 25.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 33.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 19.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 25.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 20.6,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    }
+  },
+  "brainstem": {
+    "cerebellum_wm": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 0.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 11.6,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 5.4,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 25.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 14.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 20.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 9.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 16.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 0.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    }
+  },
+  "ventral_DC": {
+    "cerebellum_wm": {
+      "distance_mm": 8.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 4.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 0.2,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 4.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 2.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 1.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 12.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 0.3,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 1.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 0.1,
+      "direction": [
+        "superior"
+      ]
+    }
+  },
+  "fusiform": {
+    "frontalpole": {
+      "distance_mm": 60.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 36.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 12.8,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 32.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 28.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 22.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 25.9,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 43.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 48.1,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 53.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 10.9,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 16.9,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 12.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 15.6,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 52.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 9.1,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 19.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 32.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 14.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 10.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 13.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 34.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 56.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 20.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 37.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 0.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 61.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 65.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "frontalpole": {
+    "fusiform": {
+      "distance_mm": 60.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 18.3,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 95.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 64.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 0.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 110.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 88.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 32.9,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 64.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 87.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 108.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 125.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 127.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 47.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 74.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 100.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 98.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 57.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 0.9,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 74.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 42.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 125.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 58.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 113.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 46.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 60.0,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 80.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 55.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 17.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 45.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 33.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    }
+  },
+  "lateral_ventricle": {
+    "cerebellum_wm": {
+      "distance_mm": 24.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 11.6,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 4.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 0.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 0.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 5.8,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 0.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 15.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 19.8,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 6.7,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 0.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    }
+  },
+  "parsorbitalis": {
+    "fusiform": {
+      "distance_mm": 36.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 18.3,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 70.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 21.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 22.1,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 78.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 49.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 56.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 69.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 83.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 94.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 88.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 9.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 48.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 59.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 70.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 22.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 35.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 7.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 93.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 31.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 74.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 13.0,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 33.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 37.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 30.9,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 24.4,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 15.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 24.6,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 38.2,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    }
+  },
+  "isthmuscingulate": {
+    "fusiform": {
+      "distance_mm": 12.8,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 95.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 70.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 25.3,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 48.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 17.9,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 22.8,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 58.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 10.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 6.1,
+      "direction": [
+        "posterior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 24.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 29.1,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 26.8,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 55.8,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 25.6,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 46.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 24.2,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 27.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 6.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 24.6,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 20.1,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 48.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 37.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 27.9,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 27.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 49.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 42.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 23.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 31.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "precentral": {
+    "fusiform": {
+      "distance_mm": 32.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 64.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 21.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 25.3,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 36.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 9.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 8.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 12.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 14.7,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 0.3,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 7.8,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 51.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 54.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 2.4,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 35.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 26.7,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 9.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 40.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 20.8,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 20.8,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 55.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 32.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 20.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 3.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 29.9,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 40.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 26.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 21.0,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    }
+  },
+  "medialorbitofrontal": {
+    "fusiform": {
+      "distance_mm": 28.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 0.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 22.1,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 48.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 36.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 73.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 51.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 24.6,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 38.3,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 57.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 65.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 75.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 76.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 22.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 24.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 54.9,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 8.0,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 48.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 34.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 42.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 10.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 75.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 29.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 70.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 31.4,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 43.6,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 42.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 11.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 13.0,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 18.3,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    }
+  },
+  "hippocampus": {
+    "cerebellum_wm": {
+      "distance_mm": 10.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 5.4,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 0.2,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 0.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 21.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 7.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 13.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 8.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 4.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    }
+  },
+  "superiorparietal": {
+    "fusiform": {
+      "distance_mm": 22.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 110.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 78.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 17.9,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 9.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 73.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 62.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 16.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 0.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.3,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 21.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 40.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 24.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 54.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 15.6,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 22.7,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 70.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 21.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 9.9,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 25.7,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 44.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 30.3,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 23.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 61.9,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 76.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 71.9,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 28.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 47.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    }
+  },
+  "supramarginal": {
+    "fusiform": {
+      "distance_mm": 25.9,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 88.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 49.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 22.8,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 8.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 51.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 37.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 16.9,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 15.7,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 16.9,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 31.3,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 17.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 26.1,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 34.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 25.8,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 6.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 45.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 31.2,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 19.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 23.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 24.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 39.3,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 55.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 43.3,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 31.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 43.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    }
+  },
+  "parstriangularis": {
+    "fusiform": {
+      "distance_mm": 43.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 32.9,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 58.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 12.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 24.6,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 62.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 37.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 37.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 50.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 65.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 84.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 83.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 17.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 49.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 54.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 63.2,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 30.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 25.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 85.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 38.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 64.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 16.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 29.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 33.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 24.4,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 23.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 24.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 26.2,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    }
+  },
+  "posteriorcingulate": {
+    "fusiform": {
+      "distance_mm": 48.1,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 64.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 56.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 14.7,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 38.3,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 16.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 16.9,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 37.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 33.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 50.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 31.7,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 30.1,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 42.2,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 24.9,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 31.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 51.2,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 42.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 16.2,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 27.7,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 36.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 56.1,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 21.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 30.0,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 14.9,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 29.4,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 51.4,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 31.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 57.5,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    }
+  },
+  "paracentral": {
+    "fusiform": {
+      "distance_mm": 53.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 87.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 69.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 10.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 0.3,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 57.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 0.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 15.7,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 50.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 36.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 49.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 31.9,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 40.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 42.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 38.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 41.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 51.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 57.5,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 0.5,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 27.9,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 41.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 55.9,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 19.9,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 35.9,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 15.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 29.6,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 59.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 52.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 67.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 18.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    }
+  },
+  "caudate": {
+    "cerebellum_wm": {
+      "distance_mm": 40.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 25.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 4.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 0.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 21.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 3.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 0.1,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 40.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 17.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 0.1,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 2.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    }
+  },
+  "precuneus": {
+    "fusiform": {
+      "distance_mm": 10.9,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 108.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 83.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 7.8,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 65.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 16.9,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 65.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 0.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 11.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 29.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 17.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 22.6,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 59.2,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 18.5,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 65.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 0.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 29.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 17.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 9.4,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 49.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 32.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 31.1,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 44.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 67.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 59.8,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 23.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 42.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    }
+  },
+  "cuneus": {
+    "fusiform": {
+      "distance_mm": 16.9,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 125.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 94.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 6.1,
+      "direction": [
+        "anterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 51.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 75.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 31.3,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 84.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 33.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 36.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.4,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 35.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 25.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 28.1,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 81.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 3.5,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 25.1,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 73.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 41.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 36.3,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 0.5,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 25.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 11.1,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 71.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 67.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 36.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 52.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 76.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 68.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 60.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 69.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "lateraloccipital": {
+    "fusiform": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 127.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 88.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 24.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 54.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 76.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 17.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 83.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 50.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 49.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 11.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 0.4,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 22.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 23.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 12.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 82.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 0.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 74.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 42.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 34.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 0.4,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 0.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 68.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 71.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 31.9,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 49.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 83.9,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 64.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 72.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 82.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "superiortemporal": {
+    "fusiform": {
+      "distance_mm": 12.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 47.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 9.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 29.1,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 2.4,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 22.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 21.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 17.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 31.7,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 31.9,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 29.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 35.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 22.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 15.6,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 31.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 19.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 6.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 2.7,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.3,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 34.2,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 9.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 10.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 3.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 32.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 9.1,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 33.7,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 0.5,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 43.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 52.4,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    }
+  },
+  "parahippocampal": {
+    "fusiform": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 74.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 48.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 35.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 24.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 40.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 26.1,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 49.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 30.1,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 40.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 17.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 25.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 23.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 15.6,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 15.5,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 58.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 0.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 15.2,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 21.4,
+      "direction": [
+        "anterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 32.1,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 15.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 24.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 6.7,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 24.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 39.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 53.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 20.3,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 0.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 29.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 13.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 51.9,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 53.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "bankssts": {
+    "fusiform": {
+      "distance_mm": 15.6,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 100.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 59.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 26.8,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 26.7,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 54.9,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 24.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 54.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 42.2,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 42.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 22.6,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 28.1,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 12.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 15.5,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 57.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 17.3,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 50.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 19.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 12.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 24.8,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 10.7,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 40.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 49.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 10.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 33.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 61.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 41.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 58.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 64.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    }
+  },
+  "rostralmiddlefrontal": {
+    "fusiform": {
+      "distance_mm": 52.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 0.4,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 55.8,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 9.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 8.0,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 54.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 34.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 24.9,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 38.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 59.2,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 81.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 82.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 31.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 58.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 57.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 64.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 44.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 0.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 22.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 12.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 82.9,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 49.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 60.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 36.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 46.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 14.8,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 33.9,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 14.2,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    }
+  },
+  "pallidum": {
+    "cerebellum_wm": {
+      "distance_mm": 25.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 14.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 2.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 5.8,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 7.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 3.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 4.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 26.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 3.1,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 0.1,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 4.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    }
+  },
+  "lingual": {
+    "fusiform": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 98.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 70.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 40.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 48.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 15.6,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 25.8,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 63.2,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 31.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 41.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 3.5,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 19.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 17.3,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 64.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 18.1,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 46.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 33.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 22.2,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 12.2,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 15.2,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 50.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 57.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 22.4,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 25.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 49.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 43.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 53.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 53.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "middletemporal": {
+    "fusiform": {
+      "distance_mm": 9.1,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 57.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 22.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 25.6,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 20.8,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 34.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 22.7,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 6.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 30.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 51.2,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 51.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 18.5,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 25.1,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 15.2,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 44.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 18.1,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 18.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 20.7,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "insula": {
+      "distance_mm": 10.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 19.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 22.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 48.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 10.9,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 14.2,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 45.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 0.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 58.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 64.4,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    }
+  },
+  "lateralorbitofrontal": {
+    "fusiform": {
+      "distance_mm": 19.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 0.9,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 46.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 20.8,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 70.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 45.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 0.2,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 42.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 57.5,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 65.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 73.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 74.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 6.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 21.4,
+      "direction": [
+        "posterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 50.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 0.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 46.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 18.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 31.8,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 73.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 17.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 64.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 5.6,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 23.7,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 36.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 5.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 9.9,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 5.6,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 18.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 26.7,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    }
+  },
+  "postcentral": {
+    "fusiform": {
+      "distance_mm": 32.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 74.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 35.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 24.2,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 42.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 25.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 16.2,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 0.5,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 41.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 42.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 2.7,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 32.1,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 19.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 22.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 33.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 20.7,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 31.8,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 46.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 32.7,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 10.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 11.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 14.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 2.7,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 35.5,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 47.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 33.8,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 17.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 36.9,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    }
+  },
+  "insula": {
+    "fusiform": {
+      "distance_mm": 14.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 42.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 7.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 27.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 10.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 21.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 27.7,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 27.9,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 29.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 36.3,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 34.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 15.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 12.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 12.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 22.2,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 10.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 37.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 14.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 20.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 13.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 24.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 25.4,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 26.3,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    }
+  },
+  "pericalcarine": {
+    "fusiform": {
+      "distance_mm": 10.8,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 125.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 93.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 6.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 55.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 75.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 9.9,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 31.2,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 85.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 36.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 41.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 0.5,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.4,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 34.2,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 24.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 24.8,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 82.9,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 19.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 73.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 46.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 37.1,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 19.2,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 14.4,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 71.0,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 71.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 36.9,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 50.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 76.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 68.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 63.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 70.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "accumbens": {
+    "cerebellum_wm": {
+      "distance_mm": 33.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 20.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 1.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 0.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 13.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 0.1,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 4.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 38.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 10.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 0.0,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 5.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    }
+  },
+  "cerebellum_cortex": {
+    "cerebellum_wm": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 12.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 15.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 8.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 40.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 26.3,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 38.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 22.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 25.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 13.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    }
+  },
+  "inferiortemporal": {
+    "fusiform": {
+      "distance_mm": 0.2,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 58.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 31.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 24.6,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 32.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 29.8,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 25.7,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 19.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 38.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 56.1,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 55.9,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 17.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 25.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 9.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 6.7,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 10.7,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 49.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 12.2,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 17.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 32.7,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 14.8,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 19.2,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 5.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 32.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 56.9,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 23.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 6.9,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 39.0,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 0.6,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 58.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 63.4,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    }
+  },
+  "inferiorparietal": {
+    "fusiform": {
+      "distance_mm": 13.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 113.5,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 74.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 20.1,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 20.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 70.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 64.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 21.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 19.9,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 9.4,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 11.1,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 10.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 24.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 60.7,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 15.2,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 64.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 10.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 20.0,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 14.4,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 5.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 51.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 41.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 15.6,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 48.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 73.9,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 57.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 42.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 56.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    }
+  },
+  "amygdala": {
+    "cerebellum_wm": {
+      "distance_mm": 19.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 9.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 0.3,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 19.8,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 17.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 3.1,
+      "direction": [
+        "superior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 10.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 22.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 0.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 12.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    }
+  },
+  "parsopercularis": {
+    "fusiform": {
+      "distance_mm": 34.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 46.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 13.0,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 48.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 31.4,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 44.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 23.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 30.0,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 35.9,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 49.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 71.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 68.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 3.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 39.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 40.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 50.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 22.3,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 5.6,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 11.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 71.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 32.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 51.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 16.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 28.5,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 28.2,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 24.8,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 18.8,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 26.7,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    }
+  },
+  "putamen": {
+    "cerebellum_wm": {
+      "distance_mm": 25.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 16.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 1.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 6.7,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 4.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 0.1,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 0.1,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 0.0,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 25.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 0.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "thalamus": {
+      "distance_mm": 6.6,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    }
+  },
+  "caudalmiddlefrontal": {
+    "fusiform": {
+      "distance_mm": 56.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 60.0,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 33.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 37.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 43.6,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 30.3,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 24.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 16.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 14.9,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 15.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 32.0,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 67.1,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 71.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 32.0,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 53.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 49.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 57.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 48.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 23.7,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 14.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 13.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 71.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 56.9,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 41.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 30.8,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 49.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 27.7,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 48.5,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 15.0,
+      "direction": [
+        "medial",
+        "inferior"
+      ]
+    }
+  },
+  "transversetemporal": {
+    "fusiform": {
+      "distance_mm": 20.5,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 80.5,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 37.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 27.9,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 3.5,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 42.4,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 23.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 29.4,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 29.4,
+      "direction": [
+        "medial",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 29.6,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 31.1,
+      "direction": [
+        "medial",
+        "posterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 36.7,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 31.9,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 0.1,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 20.3,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 10.8,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 36.7,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 22.4,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 10.9,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 36.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 2.7,
+      "direction": [
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.2,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 36.9,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 23.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 15.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 16.1,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 30.8,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 26.2,
+      "direction": [
+        "inferior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 51.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 30.9,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 40.0,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 46.1,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    }
+  },
+  "entorhinal": {
+    "fusiform": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 55.4,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 30.9,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 27.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 29.9,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 11.2,
+      "direction": [
+        "anterior",
+        "medial"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 61.9,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 39.3,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 33.7,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 51.4,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 59.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 44.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 52.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 49.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 9.1,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 0.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 33.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 46.2,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 25.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 14.2,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 5.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 35.5,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.3,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 50.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 6.9,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 48.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 28.5,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 49.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 26.2,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 22.5,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 0.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 49.9,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 50.3,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    }
+  },
+  "rostralanteriorcingulate": {
+    "fusiform": {
+      "distance_mm": 37.2,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 17.1,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 24.4,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 49.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 40.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 76.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 55.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 24.4,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 31.3,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 52.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 67.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 76.5,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 83.9,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 33.7,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 29.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 61.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 14.8,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 49.7,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 45.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 9.9,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 47.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 24.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 76.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 39.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 73.9,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 28.2,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 27.7,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 51.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 22.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 22.1,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 0.4,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    }
+  },
+  "temporalpole": {
+    "fusiform": {
+      "distance_mm": 0.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 45.9,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 15.6,
+      "direction": [
+        "anterior",
+        "superior"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 42.6,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 26.6,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 13.0,
+      "direction": [
+        "medial",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 71.9,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 43.3,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 23.1,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 57.5,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 67.1,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 59.8,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 68.7,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 64.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 0.5,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 13.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 41.8,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 33.9,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 43.1,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 0.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 5.6,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 33.8,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "insula": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 68.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 0.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 57.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 24.8,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 48.5,
+      "direction": [
+        "superior",
+        "lateral"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 30.9,
+      "direction": [
+        "superior",
+        "posterior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 0.5,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 22.1,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 46.2,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 50.0,
+      "direction": [
+        "superior",
+        "medial"
+      ]
+    }
+  },
+  "superiorfrontal": {
+    "fusiform": {
+      "distance_mm": 61.5,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 0.6,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 24.6,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 23.9,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 0.4,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 28.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 31.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 24.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "medial"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 0.4,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 23.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 60.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 72.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 43.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 51.9,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 58.6,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 0.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 53.6,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 58.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 18.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 17.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 25.4,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 63.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 58.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 42.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 18.8,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 40.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 49.9,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 46.2,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "caudalanteriorcingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    }
+  },
+  "thalamus": {
+    "cerebellum_wm": {
+      "distance_mm": 20.6,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "brainstem": {
+      "distance_mm": 0.1,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "ventral_DC": {
+      "distance_mm": 0.1,
+      "direction": [
+        "inferior"
+      ]
+    },
+    "lateral_ventricle": {
+      "distance_mm": 0.0,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    },
+    "hippocampus": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "caudate": {
+      "distance_mm": 2.5,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "pallidum": {
+      "distance_mm": 4.7,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    },
+    "accumbens": {
+      "distance_mm": 5.9,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "cerebellum_cortex": {
+      "distance_mm": 13.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "amygdala": {
+      "distance_mm": 12.3,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "putamen": {
+      "distance_mm": 6.6,
+      "direction": [
+        "anterior",
+        "lateral"
+      ]
+    }
+  },
+  "caudalanteriorcingulate": {
+    "fusiform": {
+      "distance_mm": 65.4,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "frontalpole": {
+      "distance_mm": 33.3,
+      "direction": [
+        "anterior",
+        "inferior"
+      ]
+    },
+    "parsorbitalis": {
+      "distance_mm": 38.2,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "isthmuscingulate": {
+      "distance_mm": 31.8,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "precentral": {
+      "distance_mm": 21.0,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "medialorbitofrontal": {
+      "distance_mm": 18.3,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "superiorparietal": {
+      "distance_mm": 47.9,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "supramarginal": {
+      "distance_mm": 43.0,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parstriangularis": {
+      "distance_mm": 26.2,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "posteriorcingulate": {
+      "distance_mm": 0.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "paracentral": {
+      "distance_mm": 18.2,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "precuneus": {
+      "distance_mm": 42.0,
+      "direction": [
+        "posterior",
+        "superior"
+      ]
+    },
+    "cuneus": {
+      "distance_mm": 69.0,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "lateraloccipital": {
+      "distance_mm": 82.7,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "superiortemporal": {
+      "distance_mm": 52.4,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "parahippocampal": {
+      "distance_mm": 53.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "bankssts": {
+      "distance_mm": 64.5,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "rostralmiddlefrontal": {
+      "distance_mm": 14.2,
+      "direction": [
+        "lateral",
+        "anterior"
+      ]
+    },
+    "lingual": {
+      "distance_mm": 53.2,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "middletemporal": {
+      "distance_mm": 64.4,
+      "direction": [
+        "lateral",
+        "posterior"
+      ]
+    },
+    "lateralorbitofrontal": {
+      "distance_mm": 26.7,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "postcentral": {
+      "distance_mm": 36.9,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "insula": {
+      "distance_mm": 26.3,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "pericalcarine": {
+      "distance_mm": 70.1,
+      "direction": [
+        "posterior",
+        "inferior"
+      ]
+    },
+    "inferiortemporal": {
+      "distance_mm": 63.4,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "inferiorparietal": {
+      "distance_mm": 56.3,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "parsopercularis": {
+      "distance_mm": 26.7,
+      "direction": [
+        "lateral",
+        "inferior"
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "distance_mm": 15.0,
+      "direction": [
+        "lateral",
+        "superior"
+      ]
+    },
+    "transversetemporal": {
+      "distance_mm": 46.1,
+      "direction": [
+        "posterior",
+        "lateral"
+      ]
+    },
+    "entorhinal": {
+      "distance_mm": 50.3,
+      "direction": [
+        "inferior",
+        "posterior"
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "distance_mm": 0.4,
+      "direction": [
+        "inferior",
+        "anterior"
+      ]
+    },
+    "temporalpole": {
+      "distance_mm": 50.0,
+      "direction": [
+        "inferior",
+        "lateral"
+      ]
+    },
+    "superiorfrontal": {
+      "distance_mm": 0.2,
+      "direction": [
+        "superior",
+        "anterior"
+      ]
+    }
+  }
+}

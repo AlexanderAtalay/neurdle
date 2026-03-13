@@ -1,0 +1,2379 @@
+{
+  "regions": [
+    {
+      "id": "bankssts",
+      "name": "Banks of the Superior Temporal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -42.9,
+        5.0
+      ],
+      "mesh_file": "medium/bankssts_L.glb",
+      "mesh_files": [
+        "medium/bankssts_L.glb",
+        "medium/bankssts_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "caudalanteriorcingulate",
+      "name": "Anterior Cingulate Cortex (Caudal)",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        19.3,
+        27.6
+      ],
+      "mesh_file": "medium/caudalanteriorcingulate_L.glb",
+      "mesh_files": [
+        "medium/caudalanteriorcingulate_L.glb",
+        "medium/caudalanteriorcingulate_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "caudalmiddlefrontal",
+      "name": "Middle Frontal Gyrus (Caudal)",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        11.3,
+        44.2
+      ],
+      "mesh_file": "medium/caudalmiddlefrontal_L.glb",
+      "mesh_files": [
+        "medium/caudalmiddlefrontal_L.glb",
+        "medium/caudalmiddlefrontal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "cuneus",
+      "name": "Cuneus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -79.4,
+        19.1
+      ],
+      "mesh_file": "medium/cuneus_L.glb",
+      "mesh_files": [
+        "medium/cuneus_L.glb",
+        "medium/cuneus_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "entorhinal",
+      "name": "Entorhinal Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -7.1,
+        -32.3
+      ],
+      "mesh_file": "medium/entorhinal_L.glb",
+      "mesh_files": [
+        "medium/entorhinal_L.glb",
+        "medium/entorhinal_R.glb"
+      ],
+      "aliases": [
+        "BA28"
+      ]
+    },
+    {
+      "id": "fusiform",
+      "name": "Fusiform Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -43.4,
+        -21.4
+      ],
+      "mesh_file": "medium/fusiform_L.glb",
+      "mesh_files": [
+        "medium/fusiform_L.glb",
+        "medium/fusiform_R.glb"
+      ],
+      "aliases": [
+        "fusiform face area",
+        "FFA"
+      ]
+    },
+    {
+      "id": "inferiorparietal",
+      "name": "Inferior Parietal Lobule",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -64.5,
+        28.5
+      ],
+      "mesh_file": "medium/inferiorparietal_L.glb",
+      "mesh_files": [
+        "medium/inferiorparietal_L.glb",
+        "medium/inferiorparietal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "inferiortemporal",
+      "name": "Inferior Temporal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -34.0,
+        -24.7
+      ],
+      "mesh_file": "medium/inferiortemporal_L.glb",
+      "mesh_files": [
+        "medium/inferiortemporal_L.glb",
+        "medium/inferiortemporal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "isthmuscingulate",
+      "name": "Isthmus Cingulate Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -45.5,
+        16.6
+      ],
+      "mesh_file": "medium/isthmuscingulate_L.glb",
+      "mesh_files": [
+        "medium/isthmuscingulate_L.glb",
+        "medium/isthmuscingulate_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "lateraloccipital",
+      "name": "Lateral Occipital Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -87.6,
+        -0.5
+      ],
+      "mesh_file": "medium/lateraloccipital_L.glb",
+      "mesh_files": [
+        "medium/lateraloccipital_L.glb",
+        "medium/lateraloccipital_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "lateralorbitofrontal",
+      "name": "Lateral Orbitofrontal Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        28.1,
+        -17.2
+      ],
+      "mesh_file": "medium/lateralorbitofrontal_L.glb",
+      "mesh_files": [
+        "medium/lateralorbitofrontal_L.glb",
+        "medium/lateralorbitofrontal_R.glb"
+      ],
+      "aliases": [
+        "OFC"
+      ]
+    },
+    {
+      "id": "lingual",
+      "name": "Lingual Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -66.2,
+        -4.8
+      ],
+      "mesh_file": "medium/lingual_L.glb",
+      "mesh_files": [
+        "medium/lingual_L.glb",
+        "medium/lingual_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "medialorbitofrontal",
+      "name": "Medial Orbitofrontal Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        35.1,
+        -16.0
+      ],
+      "mesh_file": "medium/medialorbitofrontal_L.glb",
+      "mesh_files": [
+        "medium/medialorbitofrontal_L.glb",
+        "medium/medialorbitofrontal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "middletemporal",
+      "name": "Middle Temporal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -30.2,
+        -12.8
+      ],
+      "mesh_file": "medium/middletemporal_L.glb",
+      "mesh_files": [
+        "medium/middletemporal_L.glb",
+        "medium/middletemporal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "parahippocampal",
+      "name": "Parahippocampal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -31.8,
+        -18.0
+      ],
+      "mesh_file": "medium/parahippocampal_L.glb",
+      "mesh_files": [
+        "medium/parahippocampal_L.glb",
+        "medium/parahippocampal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "paracentral",
+      "name": "Paracentral Lobule",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -28.5,
+        55.5
+      ],
+      "mesh_file": "medium/paracentral_L.glb",
+      "mesh_files": [
+        "medium/paracentral_L.glb",
+        "medium/paracentral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "parsopercularis",
+      "name": "Broca's Area (Pars Opercularis)",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        14.6,
+        13.3
+      ],
+      "mesh_file": "medium/parsopercularis_L.glb",
+      "mesh_files": [
+        "medium/parsopercularis_L.glb",
+        "medium/parsopercularis_R.glb"
+      ],
+      "aliases": [
+        "Broca's area",
+        "BA44"
+      ]
+    },
+    {
+      "id": "parsorbitalis",
+      "name": "Orbitofrontal Cortex (Pars Orbitalis)",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        39.3,
+        -12.4
+      ],
+      "mesh_file": "medium/parsorbitalis_L.glb",
+      "mesh_files": [
+        "medium/parsorbitalis_L.glb",
+        "medium/parsorbitalis_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "parstriangularis",
+      "name": "Broca's Area (Pars Triangularis)",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        29.9,
+        2.9
+      ],
+      "mesh_file": "medium/parstriangularis_L.glb",
+      "mesh_files": [
+        "medium/parstriangularis_L.glb",
+        "medium/parstriangularis_R.glb"
+      ],
+      "aliases": [
+        "Broca's area",
+        "BA45"
+      ]
+    },
+    {
+      "id": "pericalcarine",
+      "name": "Primary Visual Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -80.0,
+        5.9
+      ],
+      "mesh_file": "medium/pericalcarine_L.glb",
+      "mesh_files": [
+        "medium/pericalcarine_L.glb",
+        "medium/pericalcarine_R.glb"
+      ],
+      "aliases": [
+        "primary visual cortex",
+        "V1",
+        "BA17",
+        "striate cortex"
+      ]
+    },
+    {
+      "id": "postcentral",
+      "name": "Primary Somatosensory Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -23.1,
+        44.1
+      ],
+      "mesh_file": "medium/postcentral_L.glb",
+      "mesh_files": [
+        "medium/postcentral_L.glb",
+        "medium/postcentral_R.glb"
+      ],
+      "aliases": [
+        "primary somatosensory cortex",
+        "S1",
+        "BA1",
+        "BA2",
+        "BA3"
+      ]
+    },
+    {
+      "id": "posteriorcingulate",
+      "name": "Posterior Cingulate Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -17.2,
+        37.4
+      ],
+      "mesh_file": "medium/posteriorcingulate_L.glb",
+      "mesh_files": [
+        "medium/posteriorcingulate_L.glb",
+        "medium/posteriorcingulate_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "precentral",
+      "name": "Primary Motor Cortex",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -10.1,
+        43.6
+      ],
+      "mesh_file": "medium/precentral_L.glb",
+      "mesh_files": [
+        "medium/precentral_L.glb",
+        "medium/precentral_R.glb"
+      ],
+      "aliases": [
+        "primary motor cortex",
+        "M1",
+        "BA4"
+      ]
+    },
+    {
+      "id": "precuneus",
+      "name": "Precuneus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -57.4,
+        37.1
+      ],
+      "mesh_file": "medium/precuneus_L.glb",
+      "mesh_files": [
+        "medium/precuneus_L.glb",
+        "medium/precuneus_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "rostralanteriorcingulate",
+      "name": "Anterior Cingulate Cortex (Rostral)",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        35.2,
+        1.5
+      ],
+      "mesh_file": "medium/rostralanteriorcingulate_L.glb",
+      "mesh_files": [
+        "medium/rostralanteriorcingulate_L.glb",
+        "medium/rostralanteriorcingulate_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "rostralmiddlefrontal",
+      "name": "Middle Frontal Gyrus (Rostral)",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        42.6,
+        17.8
+      ],
+      "mesh_file": "medium/rostralmiddlefrontal_L.glb",
+      "mesh_files": [
+        "medium/rostralmiddlefrontal_L.glb",
+        "medium/rostralmiddlefrontal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "superiorfrontal",
+      "name": "Superior Frontal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        24.5,
+        43.3
+      ],
+      "mesh_file": "medium/superiorfrontal_L.glb",
+      "mesh_files": [
+        "medium/superiorfrontal_L.glb",
+        "medium/superiorfrontal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "superiorparietal",
+      "name": "Superior Parietal Lobule",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -61.0,
+        48.4
+      ],
+      "mesh_file": "medium/superiorparietal_L.glb",
+      "mesh_files": [
+        "medium/superiorparietal_L.glb",
+        "medium/superiorparietal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "superiortemporal",
+      "name": "Superior Temporal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -15.0,
+        -4.2
+      ],
+      "mesh_file": "medium/superiortemporal_L.glb",
+      "mesh_files": [
+        "medium/superiortemporal_L.glb",
+        "medium/superiortemporal_R.glb"
+      ],
+      "aliases": [
+        "Wernicke's area",
+        "STG"
+      ]
+    },
+    {
+      "id": "supramarginal",
+      "name": "Supramarginal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -36.2,
+        31.2
+      ],
+      "mesh_file": "medium/supramarginal_L.glb",
+      "mesh_files": [
+        "medium/supramarginal_L.glb",
+        "medium/supramarginal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "frontalpole",
+      "name": "Frontal Pole",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        64.7,
+        -10.4
+      ],
+      "mesh_file": "medium/frontalpole_L.glb",
+      "mesh_files": [
+        "medium/frontalpole_L.glb",
+        "medium/frontalpole_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "temporalpole",
+      "name": "Temporal Pole",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        11.1,
+        -34.2
+      ],
+      "mesh_file": "medium/temporalpole_L.glb",
+      "mesh_files": [
+        "medium/temporalpole_L.glb",
+        "medium/temporalpole_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "transversetemporal",
+      "name": "Heschl's Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -22.2,
+        8.0
+      ],
+      "mesh_file": "medium/transversetemporal_L.glb",
+      "mesh_files": [
+        "medium/transversetemporal_L.glb",
+        "medium/transversetemporal_R.glb"
+      ],
+      "aliases": [
+        "Heschl's gyrus",
+        "primary auditory cortex",
+        "A1"
+      ]
+    },
+    {
+      "id": "insula",
+      "name": "Insula",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "cortical",
+      "lobe": "insula",
+      "centroid_mni": [
+        0.0,
+        -3.6,
+        1.9
+      ],
+      "mesh_file": "medium/insula_L.glb",
+      "mesh_files": [
+        "medium/insula_L.glb",
+        "medium/insula_R.glb"
+      ],
+      "aliases": [
+        "insular cortex"
+      ]
+    },
+    {
+      "id": "ds_G_and_S_frontomargin",
+      "name": "Frontomarginal Gyrus and Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        57.3,
+        -7.3
+      ],
+      "mesh_file": "hard/G_and_S_frontomargin_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_frontomargin_L.glb",
+        "hard/G_and_S_frontomargin_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_and_S_occipital_inf",
+      "name": "Inferior Occipital Gyrus and Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -79.0,
+        -12.3
+      ],
+      "mesh_file": "hard/G_and_S_occipital_inf_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_occipital_inf_L.glb",
+        "hard/G_and_S_occipital_inf_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_and_S_paracentral",
+      "name": "Paracentral Lobule",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -34.0,
+        67.8
+      ],
+      "mesh_file": "hard/G_and_S_paracentral_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_paracentral_L.glb",
+        "hard/G_and_S_paracentral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_and_S_subcentral",
+      "name": "Subcentral Gyrus and Sulci",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -11.3,
+        14.3
+      ],
+      "mesh_file": "hard/G_and_S_subcentral_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_subcentral_L.glb",
+        "hard/G_and_S_subcentral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_and_S_transv_frontopol",
+      "name": "Transverse Frontopolar Gyri and Sulci",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        64.1,
+        1.0
+      ],
+      "mesh_file": "hard/G_and_S_transv_frontopol_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_transv_frontopol_L.glb",
+        "hard/G_and_S_transv_frontopol_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_and_S_cingul-Ant",
+      "name": "Anterior Cingulate Gyrus and Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        39.7,
+        8.3
+      ],
+      "mesh_file": "hard/G_and_S_cingul-Ant_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_cingul-Ant_L.glb",
+        "hard/G_and_S_cingul-Ant_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_and_S_cingul-Mid-Ant",
+      "name": "Middle-Anterior Cingulate Gyrus and Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        15.1,
+        36.8
+      ],
+      "mesh_file": "hard/G_and_S_cingul-Mid-Ant_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_cingul-Mid-Ant_L.glb",
+        "hard/G_and_S_cingul-Mid-Ant_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_and_S_cingul-Mid-Post",
+      "name": "Middle-Posterior Cingulate Gyrus and Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -10.7,
+        42.2
+      ],
+      "mesh_file": "hard/G_and_S_cingul-Mid-Post_L.glb",
+      "mesh_files": [
+        "hard/G_and_S_cingul-Mid-Post_L.glb",
+        "hard/G_and_S_cingul-Mid-Post_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_cingul-Post-dorsal",
+      "name": "Posterior Cingulate Gyrus (Dorsal)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -38.3,
+        31.2
+      ],
+      "mesh_file": "hard/G_cingul-Post-dorsal_L.glb",
+      "mesh_files": [
+        "hard/G_cingul-Post-dorsal_L.glb",
+        "hard/G_cingul-Post-dorsal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_cingul-Post-ventral",
+      "name": "Posterior Cingulate Gyrus (Ventral)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -48.3,
+        4.7
+      ],
+      "mesh_file": "hard/G_cingul-Post-ventral_L.glb",
+      "mesh_files": [
+        "hard/G_cingul-Post-ventral_L.glb",
+        "hard/G_cingul-Post-ventral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_cuneus",
+      "name": "Cuneus Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -81.3,
+        17.8
+      ],
+      "mesh_file": "hard/G_cuneus_L.glb",
+      "mesh_files": [
+        "hard/G_cuneus_L.glb",
+        "hard/G_cuneus_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_front_inf-Opercular",
+      "name": "Inferior Frontal Gyrus (Opercular)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        10.1,
+        7.6
+      ],
+      "mesh_file": "hard/G_front_inf-Opercular_L.glb",
+      "mesh_files": [
+        "hard/G_front_inf-Opercular_L.glb",
+        "hard/G_front_inf-Opercular_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_front_inf-Orbital",
+      "name": "Inferior Frontal Gyrus (Orbital)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        31.3,
+        -9.3
+      ],
+      "mesh_file": "hard/G_front_inf-Orbital_L.glb",
+      "mesh_files": [
+        "hard/G_front_inf-Orbital_L.glb",
+        "hard/G_front_inf-Orbital_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_front_inf-Triangul",
+      "name": "Inferior Frontal Gyrus (Triangular)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        29.6,
+        5.6
+      ],
+      "mesh_file": "hard/G_front_inf-Triangul_L.glb",
+      "mesh_files": [
+        "hard/G_front_inf-Triangul_L.glb",
+        "hard/G_front_inf-Triangul_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_front_middle",
+      "name": "Middle Frontal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        32.5,
+        32.8
+      ],
+      "mesh_file": "hard/G_front_middle_L.glb",
+      "mesh_files": [
+        "hard/G_front_middle_L.glb",
+        "hard/G_front_middle_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_front_sup",
+      "name": "Superior Frontal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        22.6,
+        48.1
+      ],
+      "mesh_file": "hard/G_front_sup_L.glb",
+      "mesh_files": [
+        "hard/G_front_sup_L.glb",
+        "hard/G_front_sup_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_Ins_lg_and_S_cent_ins",
+      "name": "Long Insular Gyrus and Central Insular Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "insula",
+      "centroid_mni": [
+        0.0,
+        -5.4,
+        -2.6
+      ],
+      "mesh_file": "hard/G_Ins_lg_and_S_cent_ins_L.glb",
+      "mesh_files": [
+        "hard/G_Ins_lg_and_S_cent_ins_L.glb",
+        "hard/G_Ins_lg_and_S_cent_ins_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_insular_short",
+      "name": "Short Insular Gyri",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "insula",
+      "centroid_mni": [
+        0.0,
+        9.9,
+        -3.0
+      ],
+      "mesh_file": "hard/G_insular_short_L.glb",
+      "mesh_files": [
+        "hard/G_insular_short_L.glb",
+        "hard/G_insular_short_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_occipital_middle",
+      "name": "Middle Occipital Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -83.1,
+        12.3
+      ],
+      "mesh_file": "hard/G_occipital_middle_L.glb",
+      "mesh_files": [
+        "hard/G_occipital_middle_L.glb",
+        "hard/G_occipital_middle_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_occipital_sup",
+      "name": "Superior Occipital Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -87.7,
+        29.8
+      ],
+      "mesh_file": "hard/G_occipital_sup_L.glb",
+      "mesh_files": [
+        "hard/G_occipital_sup_L.glb",
+        "hard/G_occipital_sup_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_oc-temp_lat-fusifor",
+      "name": "Fusiform Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -53.7,
+        -20.3
+      ],
+      "mesh_file": "hard/G_oc-temp_lat-fusifor_L.glb",
+      "mesh_files": [
+        "hard/G_oc-temp_lat-fusifor_L.glb",
+        "hard/G_oc-temp_lat-fusifor_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_oc-temp_med-Lingual",
+      "name": "Lingual Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -68.9,
+        -5.1
+      ],
+      "mesh_file": "hard/G_oc-temp_med-Lingual_L.glb",
+      "mesh_files": [
+        "hard/G_oc-temp_med-Lingual_L.glb",
+        "hard/G_oc-temp_med-Lingual_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_oc-temp_med-Parahip",
+      "name": "Parahippocampal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -19.0,
+        -25.3
+      ],
+      "mesh_file": "hard/G_oc-temp_med-Parahip_L.glb",
+      "mesh_files": [
+        "hard/G_oc-temp_med-Parahip_L.glb",
+        "hard/G_oc-temp_med-Parahip_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_orbital",
+      "name": "Orbital Gyri",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        32.8,
+        -19.3
+      ],
+      "mesh_file": "hard/G_orbital_L.glb",
+      "mesh_files": [
+        "hard/G_orbital_L.glb",
+        "hard/G_orbital_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_pariet_inf-Angular",
+      "name": "Angular Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -63.4,
+        38.5
+      ],
+      "mesh_file": "hard/G_pariet_inf-Angular_L.glb",
+      "mesh_files": [
+        "hard/G_pariet_inf-Angular_L.glb",
+        "hard/G_pariet_inf-Angular_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_pariet_inf-Supramar",
+      "name": "Supramarginal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -35.0,
+        31.9
+      ],
+      "mesh_file": "hard/G_pariet_inf-Supramar_L.glb",
+      "mesh_files": [
+        "hard/G_pariet_inf-Supramar_L.glb",
+        "hard/G_pariet_inf-Supramar_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_parietal_sup",
+      "name": "Superior Parietal Lobule",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -58.9,
+        59.4
+      ],
+      "mesh_file": "hard/G_parietal_sup_L.glb",
+      "mesh_files": [
+        "hard/G_parietal_sup_L.glb",
+        "hard/G_parietal_sup_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_postcentral",
+      "name": "Postcentral Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -24.1,
+        54.3
+      ],
+      "mesh_file": "hard/G_postcentral_L.glb",
+      "mesh_files": [
+        "hard/G_postcentral_L.glb",
+        "hard/G_postcentral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_precentral",
+      "name": "Precentral Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -8.9,
+        51.8
+      ],
+      "mesh_file": "hard/G_precentral_L.glb",
+      "mesh_files": [
+        "hard/G_precentral_L.glb",
+        "hard/G_precentral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_precuneus",
+      "name": "Precuneus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -59.1,
+        44.7
+      ],
+      "mesh_file": "hard/G_precuneus_L.glb",
+      "mesh_files": [
+        "hard/G_precuneus_L.glb",
+        "hard/G_precuneus_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_rectus",
+      "name": "Gyrus Rectus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        34.7,
+        -22.2
+      ],
+      "mesh_file": "hard/G_rectus_L.glb",
+      "mesh_files": [
+        "hard/G_rectus_L.glb",
+        "hard/G_rectus_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_subcallosal",
+      "name": "Subcallosal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        15.3,
+        -12.2
+      ],
+      "mesh_file": "hard/G_subcallosal_L.glb",
+      "mesh_files": [
+        "hard/G_subcallosal_L.glb",
+        "hard/G_subcallosal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_temp_sup-G_T_transv",
+      "name": "Heschl's Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -18.4,
+        7.1
+      ],
+      "mesh_file": "hard/G_temp_sup-G_T_transv_L.glb",
+      "mesh_files": [
+        "hard/G_temp_sup-G_T_transv_L.glb",
+        "hard/G_temp_sup-G_T_transv_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_temp_sup-Lateral",
+      "name": "Superior Temporal Gyrus (Lateral)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -14.0,
+        -3.5
+      ],
+      "mesh_file": "hard/G_temp_sup-Lateral_L.glb",
+      "mesh_files": [
+        "hard/G_temp_sup-Lateral_L.glb",
+        "hard/G_temp_sup-Lateral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_temp_sup-Plan_polar",
+      "name": "Planum Polare",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        5.7,
+        -19.9
+      ],
+      "mesh_file": "hard/G_temp_sup-Plan_polar_L.glb",
+      "mesh_files": [
+        "hard/G_temp_sup-Plan_polar_L.glb",
+        "hard/G_temp_sup-Plan_polar_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_temp_sup-Plan_tempo",
+      "name": "Planum Temporale",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -34.8,
+        18.0
+      ],
+      "mesh_file": "hard/G_temp_sup-Plan_tempo_L.glb",
+      "mesh_files": [
+        "hard/G_temp_sup-Plan_tempo_L.glb",
+        "hard/G_temp_sup-Plan_tempo_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_temporal_inf",
+      "name": "Inferior Temporal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -36.2,
+        -25.9
+      ],
+      "mesh_file": "hard/G_temporal_inf_L.glb",
+      "mesh_files": [
+        "hard/G_temporal_inf_L.glb",
+        "hard/G_temporal_inf_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_G_temporal_middle",
+      "name": "Middle Temporal Gyrus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -32.8,
+        -11.8
+      ],
+      "mesh_file": "hard/G_temporal_middle_L.glb",
+      "mesh_files": [
+        "hard/G_temporal_middle_L.glb",
+        "hard/G_temporal_middle_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_Lat_Fis-ant-Horizont",
+      "name": "Lateral Fissure (Anterior Horizontal)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        29.2,
+        -1.0
+      ],
+      "mesh_file": "hard/Lat_Fis-ant-Horizont_L.glb",
+      "mesh_files": [
+        "hard/Lat_Fis-ant-Horizont_L.glb",
+        "hard/Lat_Fis-ant-Horizont_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_Lat_Fis-ant-Vertical",
+      "name": "Lateral Fissure (Anterior Vertical)",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        21.0,
+        6.4
+      ],
+      "mesh_file": "hard/Lat_Fis-ant-Vertical_L.glb",
+      "mesh_files": [
+        "hard/Lat_Fis-ant-Vertical_L.glb",
+        "hard/Lat_Fis-ant-Vertical_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_Lat_Fis-post",
+      "name": "Posterior Lateral Fissure",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -30.4,
+        17.1
+      ],
+      "mesh_file": "hard/Lat_Fis-post_L.glb",
+      "mesh_files": [
+        "hard/Lat_Fis-post_L.glb",
+        "hard/Lat_Fis-post_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_Pole_occipital",
+      "name": "Occipital Pole",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -96.9,
+        -3.4
+      ],
+      "mesh_file": "hard/Pole_occipital_L.glb",
+      "mesh_files": [
+        "hard/Pole_occipital_L.glb",
+        "hard/Pole_occipital_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_Pole_temporal",
+      "name": "Temporal Pole",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        5.7,
+        -39.1
+      ],
+      "mesh_file": "hard/Pole_temporal_L.glb",
+      "mesh_files": [
+        "hard/Pole_temporal_L.glb",
+        "hard/Pole_temporal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_calcarine",
+      "name": "Calcarine Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -65.5,
+        4.4
+      ],
+      "mesh_file": "hard/S_calcarine_L.glb",
+      "mesh_files": [
+        "hard/S_calcarine_L.glb",
+        "hard/S_calcarine_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_central",
+      "name": "Central Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -20.4,
+        45.7
+      ],
+      "mesh_file": "hard/S_central_L.glb",
+      "mesh_files": [
+        "hard/S_central_L.glb",
+        "hard/S_central_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_cingul-Marginalis",
+      "name": "Marginal Cingulate Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -36.8,
+        47.4
+      ],
+      "mesh_file": "hard/S_cingul-Marginalis_L.glb",
+      "mesh_files": [
+        "hard/S_cingul-Marginalis_L.glb",
+        "hard/S_cingul-Marginalis_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_circular_insula_ant",
+      "name": "Anterior Circular Sulcus of Insula",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "insula",
+      "centroid_mni": [
+        0.0,
+        21.9,
+        -8.6
+      ],
+      "mesh_file": "hard/S_circular_insula_ant_L.glb",
+      "mesh_files": [
+        "hard/S_circular_insula_ant_L.glb",
+        "hard/S_circular_insula_ant_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_circular_insula_inf",
+      "name": "Inferior Circular Sulcus of Insula",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "insula",
+      "centroid_mni": [
+        0.0,
+        -12.1,
+        -6.8
+      ],
+      "mesh_file": "hard/S_circular_insula_inf_L.glb",
+      "mesh_files": [
+        "hard/S_circular_insula_inf_L.glb",
+        "hard/S_circular_insula_inf_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_circular_insula_sup",
+      "name": "Superior Circular Sulcus of Insula",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "insula",
+      "centroid_mni": [
+        0.0,
+        6.1,
+        10.1
+      ],
+      "mesh_file": "hard/S_circular_insula_sup_L.glb",
+      "mesh_files": [
+        "hard/S_circular_insula_sup_L.glb",
+        "hard/S_circular_insula_sup_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_collat_transv_ant",
+      "name": "Anterior Collateral Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -22.2,
+        -27.3
+      ],
+      "mesh_file": "hard/S_collat_transv_ant_L.glb",
+      "mesh_files": [
+        "hard/S_collat_transv_ant_L.glb",
+        "hard/S_collat_transv_ant_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_collat_transv_post",
+      "name": "Posterior Collateral Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -78.4,
+        -9.6
+      ],
+      "mesh_file": "hard/S_collat_transv_post_L.glb",
+      "mesh_files": [
+        "hard/S_collat_transv_post_L.glb",
+        "hard/S_collat_transv_post_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_front_inf",
+      "name": "Inferior Frontal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        24.2,
+        21.5
+      ],
+      "mesh_file": "hard/S_front_inf_L.glb",
+      "mesh_files": [
+        "hard/S_front_inf_L.glb",
+        "hard/S_front_inf_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_front_middle",
+      "name": "Middle Frontal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        42.9,
+        21.2
+      ],
+      "mesh_file": "hard/S_front_middle_L.glb",
+      "mesh_files": [
+        "hard/S_front_middle_L.glb",
+        "hard/S_front_middle_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_front_sup",
+      "name": "Superior Frontal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        19.2,
+        45.0
+      ],
+      "mesh_file": "hard/S_front_sup_L.glb",
+      "mesh_files": [
+        "hard/S_front_sup_L.glb",
+        "hard/S_front_sup_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_interm_prim-Jensen",
+      "name": "Jensen's Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -49.2,
+        32.4
+      ],
+      "mesh_file": "hard/S_interm_prim-Jensen_L.glb",
+      "mesh_files": [
+        "hard/S_interm_prim-Jensen_L.glb",
+        "hard/S_interm_prim-Jensen_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_intrapariet_and_P_trans",
+      "name": "Intraparietal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -57.0,
+        42.1
+      ],
+      "mesh_file": "hard/S_intrapariet_and_P_trans_L.glb",
+      "mesh_files": [
+        "hard/S_intrapariet_and_P_trans_L.glb",
+        "hard/S_intrapariet_and_P_trans_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_oc_middle_and_Lunatus",
+      "name": "Middle Occipital and Lunate Sulci",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -85.3,
+        5.4
+      ],
+      "mesh_file": "hard/S_oc_middle_and_Lunatus_L.glb",
+      "mesh_files": [
+        "hard/S_oc_middle_and_Lunatus_L.glb",
+        "hard/S_oc_middle_and_Lunatus_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_oc_sup_and_transversal",
+      "name": "Superior Occipital and Transverse Sulci",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -79.8,
+        20.3
+      ],
+      "mesh_file": "hard/S_oc_sup_and_transversal_L.glb",
+      "mesh_files": [
+        "hard/S_oc_sup_and_transversal_L.glb",
+        "hard/S_oc_sup_and_transversal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_occipital_ant",
+      "name": "Anterior Occipital Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -67.5,
+        1.9
+      ],
+      "mesh_file": "hard/S_occipital_ant_L.glb",
+      "mesh_files": [
+        "hard/S_occipital_ant_L.glb",
+        "hard/S_occipital_ant_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_oc-temp_lat",
+      "name": "Lateral Occipito-temporal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -51.2,
+        -15.9
+      ],
+      "mesh_file": "hard/S_oc-temp_lat_L.glb",
+      "mesh_files": [
+        "hard/S_oc-temp_lat_L.glb",
+        "hard/S_oc-temp_lat_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_oc-temp_med_and_Lingual",
+      "name": "Medial Occipito-temporal and Lingual Sulci",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -48.0,
+        -12.5
+      ],
+      "mesh_file": "hard/S_oc-temp_med_and_Lingual_L.glb",
+      "mesh_files": [
+        "hard/S_oc-temp_med_and_Lingual_L.glb",
+        "hard/S_oc-temp_med_and_Lingual_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_orbital_lateral",
+      "name": "Lateral Orbital Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        41.9,
+        -1.9
+      ],
+      "mesh_file": "hard/S_orbital_lateral_L.glb",
+      "mesh_files": [
+        "hard/S_orbital_lateral_L.glb",
+        "hard/S_orbital_lateral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_orbital_med-olfact",
+      "name": "Medial Orbital and Olfactory Sulci",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        23.8,
+        -20.0
+      ],
+      "mesh_file": "hard/S_orbital_med-olfact_L.glb",
+      "mesh_files": [
+        "hard/S_orbital_med-olfact_L.glb",
+        "hard/S_orbital_med-olfact_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_orbital-H_Shaped",
+      "name": "H-Shaped Orbital Sulci",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        35.3,
+        -14.8
+      ],
+      "mesh_file": "hard/S_orbital-H_Shaped_L.glb",
+      "mesh_files": [
+        "hard/S_orbital-H_Shaped_L.glb",
+        "hard/S_orbital-H_Shaped_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_parieto_occipital",
+      "name": "Parieto-occipital Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -67.8,
+        24.0
+      ],
+      "mesh_file": "hard/S_parieto_occipital_L.glb",
+      "mesh_files": [
+        "hard/S_parieto_occipital_L.glb",
+        "hard/S_parieto_occipital_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_pericallosal",
+      "name": "Pericallosal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -7.9,
+        21.4
+      ],
+      "mesh_file": "hard/S_pericallosal_L.glb",
+      "mesh_files": [
+        "hard/S_pericallosal_L.glb",
+        "hard/S_pericallosal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_postcentral",
+      "name": "Postcentral Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -34.6,
+        45.9
+      ],
+      "mesh_file": "hard/S_postcentral_L.glb",
+      "mesh_files": [
+        "hard/S_postcentral_L.glb",
+        "hard/S_postcentral_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_precentral-inf-part",
+      "name": "Inferior Precentral Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        5.4,
+        27.9
+      ],
+      "mesh_file": "hard/S_precentral-inf-part_L.glb",
+      "mesh_files": [
+        "hard/S_precentral-inf-part_L.glb",
+        "hard/S_precentral-inf-part_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_precentral-sup-part",
+      "name": "Superior Precentral Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        -8.1,
+        53.8
+      ],
+      "mesh_file": "hard/S_precentral-sup-part_L.glb",
+      "mesh_files": [
+        "hard/S_precentral-sup-part_L.glb",
+        "hard/S_precentral-sup-part_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_suborbital",
+      "name": "Suborbital Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        39.2,
+        -12.2
+      ],
+      "mesh_file": "hard/S_suborbital_L.glb",
+      "mesh_files": [
+        "hard/S_suborbital_L.glb",
+        "hard/S_suborbital_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_subparietal",
+      "name": "Subparietal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -49.4,
+        36.2
+      ],
+      "mesh_file": "hard/S_subparietal_L.glb",
+      "mesh_files": [
+        "hard/S_subparietal_L.glb",
+        "hard/S_subparietal_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_temporal_inf",
+      "name": "Inferior Temporal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -40.2,
+        -14.9
+      ],
+      "mesh_file": "hard/S_temporal_inf_L.glb",
+      "mesh_files": [
+        "hard/S_temporal_inf_L.glb",
+        "hard/S_temporal_inf_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_temporal_sup",
+      "name": "Superior Temporal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -43.1,
+        6.1
+      ],
+      "mesh_file": "hard/S_temporal_sup_L.glb",
+      "mesh_files": [
+        "hard/S_temporal_sup_L.glb",
+        "hard/S_temporal_sup_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "ds_S_temporal_transverse",
+      "name": "Transverse Temporal Sulcus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -23.5,
+        5.8
+      ],
+      "mesh_file": "hard/S_temporal_transverse_L.glb",
+      "mesh_files": [
+        "hard/S_temporal_transverse_L.glb",
+        "hard/S_temporal_transverse_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "frontal_lobe",
+      "name": "Frontal Lobe",
+      "hemisphere": "bilateral",
+      "difficulty": "easy",
+      "category": "cortical",
+      "lobe": "frontal",
+      "centroid_mni": [
+        0.0,
+        26.0,
+        22.0
+      ],
+      "mesh_file": "easy/frontal_lobe_L.glb",
+      "mesh_files": [
+        "easy/frontal_lobe_L.glb",
+        "easy/frontal_lobe_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "parietal_lobe",
+      "name": "Parietal Lobe",
+      "hemisphere": "bilateral",
+      "difficulty": "easy",
+      "category": "cortical",
+      "lobe": "parietal",
+      "centroid_mni": [
+        0.0,
+        -40.0,
+        52.0
+      ],
+      "mesh_file": "easy/parietal_lobe_L.glb",
+      "mesh_files": [
+        "easy/parietal_lobe_L.glb",
+        "easy/parietal_lobe_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "temporal_lobe",
+      "name": "Temporal Lobe",
+      "hemisphere": "bilateral",
+      "difficulty": "easy",
+      "category": "cortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -14.0,
+        -14.0
+      ],
+      "mesh_file": "easy/temporal_lobe_L.glb",
+      "mesh_files": [
+        "easy/temporal_lobe_L.glb",
+        "easy/temporal_lobe_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "occipital_lobe",
+      "name": "Occipital Lobe",
+      "hemisphere": "bilateral",
+      "difficulty": "easy",
+      "category": "cortical",
+      "lobe": "occipital",
+      "centroid_mni": [
+        0.0,
+        -84.0,
+        8.0
+      ],
+      "mesh_file": "easy/occipital_lobe_L.glb",
+      "mesh_files": [
+        "easy/occipital_lobe_L.glb",
+        "easy/occipital_lobe_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "insula_bilateral",
+      "name": "Insula",
+      "hemisphere": "bilateral",
+      "difficulty": "easy",
+      "category": "cortical",
+      "lobe": "insula",
+      "centroid_mni": [
+        0.0,
+        2.0,
+        2.0
+      ],
+      "mesh_file": "easy/insula_L.glb",
+      "mesh_files": [
+        "easy/insula_L.glb",
+        "easy/insula_R.glb"
+      ],
+      "aliases": [
+        "insular cortex"
+      ]
+    },
+    {
+      "id": "brainstem",
+      "name": "Brainstem",
+      "hemisphere": "bilateral",
+      "difficulty": "easy",
+      "category": "subcortical",
+      "lobe": "brainstem",
+      "centroid_mni": [
+        0.0,
+        -26.0,
+        -30.0
+      ],
+      "mesh_file": "easy/brainstem.glb",
+      "mesh_files": [
+        "easy/brainstem.glb"
+      ],
+      "aliases": [
+        "brain stem"
+      ]
+    },
+    {
+      "id": "cerebellum_cortex",
+      "name": "Cerebellum",
+      "hemisphere": "bilateral",
+      "difficulty": "easy",
+      "category": "subcortical",
+      "lobe": "cerebellum",
+      "centroid_mni": [
+        0.0,
+        -56.0,
+        -30.0
+      ],
+      "mesh_file": "easy/cerebellum_cortex_L.glb",
+      "mesh_files": [
+        "easy/cerebellum_cortex_L.glb",
+        "easy/cerebellum_cortex_R.glb"
+      ],
+      "aliases": [
+        "cerebellar cortex"
+      ]
+    },
+    {
+      "id": "hippocampus",
+      "name": "Hippocampus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -20.0,
+        -12.0
+      ],
+      "mesh_file": "medium/hippocampus_L.glb",
+      "mesh_files": [
+        "medium/hippocampus_L.glb",
+        "medium/hippocampus_R.glb"
+      ],
+      "aliases": [
+        "hippocampal formation",
+        "cornu ammonis"
+      ]
+    },
+    {
+      "id": "amygdala",
+      "name": "Amygdala",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "temporal",
+      "centroid_mni": [
+        0.0,
+        -2.0,
+        -18.0
+      ],
+      "mesh_file": "medium/amygdala_L.glb",
+      "mesh_files": [
+        "medium/amygdala_L.glb",
+        "medium/amygdala_R.glb"
+      ],
+      "aliases": [
+        "amygdaloid body"
+      ]
+    },
+    {
+      "id": "thalamus",
+      "name": "Thalamus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "diencephalon",
+      "centroid_mni": [
+        0.0,
+        -16.0,
+        8.0
+      ],
+      "mesh_file": "medium/thalamus_L.glb",
+      "mesh_files": [
+        "medium/thalamus_L.glb",
+        "medium/thalamus_R.glb"
+      ],
+      "aliases": [
+        "dorsal thalamus"
+      ]
+    },
+    {
+      "id": "caudate",
+      "name": "Caudate Nucleus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "basal_ganglia",
+      "centroid_mni": [
+        0.0,
+        6.0,
+        14.0
+      ],
+      "mesh_file": "medium/caudate_L.glb",
+      "mesh_files": [
+        "medium/caudate_L.glb",
+        "medium/caudate_R.glb"
+      ],
+      "aliases": [
+        "caudate"
+      ]
+    },
+    {
+      "id": "putamen",
+      "name": "Putamen",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "basal_ganglia",
+      "centroid_mni": [
+        0.0,
+        0.0,
+        4.0
+      ],
+      "mesh_file": "medium/putamen_L.glb",
+      "mesh_files": [
+        "medium/putamen_L.glb",
+        "medium/putamen_R.glb"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "pallidum",
+      "name": "Globus Pallidus",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "basal_ganglia",
+      "centroid_mni": [
+        0.0,
+        -4.0,
+        2.0
+      ],
+      "mesh_file": "medium/pallidum_L.glb",
+      "mesh_files": [
+        "medium/pallidum_L.glb",
+        "medium/pallidum_R.glb"
+      ],
+      "aliases": [
+        "GP",
+        "globus pallidus"
+      ]
+    },
+    {
+      "id": "accumbens",
+      "name": "Nucleus Accumbens",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "subcortical",
+      "lobe": "basal_ganglia",
+      "centroid_mni": [
+        0.0,
+        12.0,
+        -6.0
+      ],
+      "mesh_file": "hard/accumbens_L.glb",
+      "mesh_files": [
+        "hard/accumbens_L.glb",
+        "hard/accumbens_R.glb"
+      ],
+      "aliases": [
+        "NAcc",
+        "ventral striatum"
+      ]
+    }
+  ]
+}
