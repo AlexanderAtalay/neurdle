@@ -2,7 +2,7 @@
 
 A daily neuroanatomy guessing game. Identify a 3D brain region — receive feedback on distance, proximity, and anatomical direction after each guess.
 
-**Live:** [neurdle.com](https://github.com/AlexanderAtalay/neurdle) · **Created by** [Alexander Atalay](https://alexanderatalay.com)
+**Live:** [neurdle.com](https://github.com/AlexanderAtalay/neurdle) · **Created by** Alexander Atalay (asatalay@stanford.edu)
 
 ---
 

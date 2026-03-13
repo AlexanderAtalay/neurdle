@@ -14,5 +14,5 @@ export function generateShareText(state: GameState, puzzleNumber: number): strin
   const diffEmoji = { easy: '🔵', medium: '🟡', hard: '🔴' }[state.difficulty];
   const diffName = { easy: 'Easy', medium: 'Medium', hard: 'Hard' }[state.difficulty];
 
-  return `Neurdle #${puzzleNumber} ${diffEmoji} ${diffName} ${result}\n${emoji.join('')}`;
+  return `Neurdle #${puzzleNumber}\n${diffEmoji} ${diffName}\n${result}\n${emoji.join('')}\nneurdle.app`;
 }
