@@ -58,7 +58,7 @@ export default function Home() {
             Score: <span className="text-[#16c79a] font-bold text-sm">{game.trainingScore}</span>
             {game.targetRegion && (
               <span className="ml-3">
-                Ghost brain always visible · Wrong guesses shown in orange
+                Glass brain always visible · Wrong guesses shown in orange
               </span>
             )}
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
             <BrainViewer
               targetRegion={game.targetRegion}
               showGhostBrain={game.showGhostBrain}
-              wrongGuessRegions={isTraining ? game.trainingWrongRegions : []}
+              wrongGuessRegions={isTraining ? game.trainingWrongRegions : game.guesses.filter(g => !g.isCorrect).map(g => g.region)}
             />
           ) : (
             <div className="w-full h-full rounded-xl bg-[#0d0d1a] flex items-center justify-center">

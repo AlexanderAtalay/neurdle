@@ -20,13 +20,13 @@ export default function HelpModal({ onClose }: Props) {
 
           <div className="border-t border-white/10 pt-3 space-y-1">
             <p className="font-medium text-white">Progressive hint:</p>
-            <p>Guess 3+: a ghost brain outline appears for spatial context</p>
+            <p>Guess 3+: a glass brain outline appears for spatial context</p>
           </div>
 
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Modes:</p>
             <p><span className="text-white">📅 Daily</span> — one puzzle per difficulty per day</p>
-            <p><span className="text-white">🧪 Training</span> — unlimited play; ghost brain always visible; wrong guesses shown at low opacity; advances automatically on correct guess</p>
+            <p><span className="text-white">🧪 Training</span> — unlimited play; glass brain always visible; wrong guesses shown at low opacity; advances automatically on correct guess</p>
           </div>
 
           <div className="border-t border-white/10 pt-3">
