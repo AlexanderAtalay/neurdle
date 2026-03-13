@@ -5,8 +5,8 @@ const DIR_CONFIG: Record<string, { arrow: string; abbr: string; label: string; c
   posterior: { arrow: '↓', abbr: 'P',  label: 'Posterior', color: 'text-orange-300 bg-orange-300/10 border-orange-300/30' },
   superior:  { arrow: '↑', abbr: 'S',  label: 'Superior',  color: 'text-purple-300 bg-purple-300/10 border-purple-300/30' },
   inferior:  { arrow: '↓', abbr: 'I',  label: 'Inferior',  color: 'text-green-300  bg-green-300/10  border-green-300/30'  },
-  lateral:   { arrow: '«',  abbr: 'L',  label: 'Lateral',   color: 'text-yellow-300 bg-yellow-300/10 border-yellow-300/30' },
-  medial:    { arrow: '»',  abbr: 'M',  label: 'Medial',    color: 'text-pink-300   bg-pink-300/10   border-pink-300/30'   },
+  lateral:   { arrow: '←→', abbr: 'L',  label: 'Lateral',   color: 'text-yellow-300 bg-yellow-300/10 border-yellow-300/30' },
+  medial:    { arrow: '→←', abbr: 'M',  label: 'Medial',    color: 'text-pink-300   bg-pink-300/10   border-pink-300/30'   },
 };
 
 interface Props {

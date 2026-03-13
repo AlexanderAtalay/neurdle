@@ -84,12 +84,20 @@ export function useGame() {
       const result = getGuessResult(region, store.trainingTarget, distanceData.current);
       store.addTrainingGuess(result);
 
-      // Advance to next region after correct guess
+      const wrongCount = result.isCorrect ? store.trainingWrongRegions.length : store.trainingWrongRegions.length + 1;
+
       if (result.isCorrect) {
+        // Advance to next region after correct guess
         setTimeout(() => {
           const next = getRandomRegion(allRegions.current, store.difficulty, store.trainingTarget?.id);
           store.setTrainingTarget(next);
         }, 1500);
+      } else if (wrongCount >= 8) {
+        // Reveal answer then advance after a longer delay
+        setTimeout(() => {
+          const next = getRandomRegion(allRegions.current, store.difficulty, store.trainingTarget?.id);
+          store.setTrainingTarget(next);
+        }, 4000);
       }
     }
   }, [store, currentDailyState]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -108,6 +116,11 @@ export function useGame() {
     ? true
     : currentDailyState.showGhostBrain;
 
+  const trainingRevealed =
+    store.mode === 'training' &&
+    store.trainingWrongRegions.length >= 8 &&
+    !store.trainingGuesses.some(g => g.isCorrect);
+
   return {
     difficulty: store.difficulty,
     mode: store.mode,
@@ -120,6 +133,7 @@ export function useGame() {
     trainingScore: store.trainingScore,
     trainingGuesses: store.trainingGuesses,
     trainingWrongRegions: store.trainingWrongRegions,
+    trainingRevealed,
     allRegions: allRegions.current,
     submitGuess,
   };

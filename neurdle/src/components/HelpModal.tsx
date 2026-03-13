@@ -47,19 +47,20 @@ export default function HelpModal({ onClose }: Props) {
           </p>
           <p>HEAVILY Inspired by <a href="https://www.nytimes.com/games/wordle" target="_blank" rel="noopener noreferrer" className="text-[#e94560] hover:underline">Wordle</a> and <a href="https://worldle.teuteuf.fr" target="_blank" rel="noopener noreferrer" className="text-[#e94560] hover:underline">Worldle</a>.</p>
           <p>
-            Created by{' '}
-            <a href="https://alexanderatalay.com" target="_blank" rel="noopener noreferrer"
-               className="text-[#e94560] hover:underline">
-              Alexander Atalay
-            </a>
-          </p>
-          <p>
             Project source code on{' '}
             <a href="https://github.com/AlexanderAtalay/neurdle" target="_blank" rel="noopener noreferrer"
                className="text-[#e94560] hover:underline">
               GitHub ↗
             </a>
           </p>
+          <p>
+            Created by{' '}
+            <a href="https://alexanderatalay.com" target="_blank" rel="noopener noreferrer"
+               className="text-[#e94560] hover:underline">
+              Alexander Atalay
+            </a>
+          </p>
+          <p>Conceived of by Alexander Atalay, Grant Mannino, Gracy Grimsrud, and Lucy Anderson</p>
         </div>
 
         <button

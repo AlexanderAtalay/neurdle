@@ -98,7 +98,7 @@ export default function BrainViewer({ targetRegion, showGhostBrain, wrongGuessRe
           <Suspense fallback={null}>
             <Center>
               {targetRegion && (
-                <RegionGroup region={targetRegion} color="#e94560" />
+                <RegionGroup key={targetRegion.id} region={targetRegion} color="#e94560" />
               )}
               {showGhostBrain && <GhostBrain />}
               {wrongGuessRegions.map(r => (
