@@ -216,6 +216,18 @@ def get_bilateral_centroid(coords_l, labels_l, coords_r, labels_r, idx):
     return [round(float(v), 1) for v in avg]
 
 
+def get_lateral_extent(coords_l, labels_l, coords_r, labels_r, idx):
+    """Mean absolute x position across hemispheres — how lateral the region is."""
+    abs_x = []
+    mask_l = labels_l == idx
+    if mask_l.sum() > 0:
+        abs_x.append(abs(float(coords_l[mask_l, 0].mean())))
+    mask_r = labels_r == idx
+    if mask_r.sum() > 0:
+        abs_x.append(abs(float(coords_r[mask_r, 0].mean())))
+    return round(float(np.mean(abs_x)), 1) if abs_x else 0.0
+
+
 def build_regions():
     regions = []
 
@@ -236,6 +248,8 @@ def build_regions():
             continue
         centroid = get_bilateral_centroid(
             coords['lh'], labels_dk['lh'], coords['rh'], labels_dk['rh'], i)
+        lat_ext = get_lateral_extent(
+            coords['lh'], labels_dk['lh'], coords['rh'], labels_dk['rh'], i)
         regions.append({
             'id': name,
             'name': DK_NAMES.get(name, name.replace('_', ' ').title()),
@@ -244,6 +258,7 @@ def build_regions():
             'category': 'cortical',
             'lobe': DK_LOBE.get(name, 'unknown'),
             'centroid_mni': centroid,
+            'lateral_extent_mm': lat_ext,
             'mesh_file': f'medium/{name}_L.glb',
             'mesh_files': [f'medium/{name}_L.glb', f'medium/{name}_R.glb'],
             'aliases': DK_ALIASES.get(name, []),
@@ -270,6 +285,8 @@ def build_regions():
 
         centroid = get_bilateral_centroid(
             coords['lh'], labels_ds['lh'], coords['rh'], labels_ds['rh'], i)
+        lat_ext = get_lateral_extent(
+            coords['lh'], labels_ds['lh'], coords['rh'], labels_ds['rh'], i)
         regions.append({
             'id': f'ds_{name}',
             'name': DESTRIEUX_NAMES.get(name, name.replace('_', ' ')),
@@ -278,6 +295,7 @@ def build_regions():
             'category': 'cortical',
             'lobe': DESTRIEUX_LOBE.get(name, 'unknown'),
             'centroid_mni': centroid,
+            'lateral_extent_mm': lat_ext,
             'mesh_file': f'hard/{name}_L.glb',
             'mesh_files': [f'hard/{name}_L.glb', f'hard/{name}_R.glb'],
             'aliases': [],
@@ -285,17 +303,19 @@ def build_regions():
 
     # --- EASY: Lobe-level bilateral ---
     easy = [
-        ('frontal_lobe', 'Frontal Lobe', 'frontal', [0.0, 26.0, 22.0]),
-        ('parietal_lobe', 'Parietal Lobe', 'parietal', [0.0, -40.0, 52.0]),
-        ('temporal_lobe', 'Temporal Lobe', 'temporal', [0.0, -14.0, -14.0]),
-        ('occipital_lobe', 'Occipital Lobe', 'occipital', [0.0, -84.0, 8.0]),
-        ('insula_bilateral', 'Insula', 'insula', [0.0, 2.0, 2.0]),
+        #  id                  name              lobe        centroid               lat_ext
+        ('frontal_lobe',    'Frontal Lobe',    'frontal',  [0.0,  26.0,  22.0],   32.0),
+        ('parietal_lobe',   'Parietal Lobe',   'parietal', [0.0, -40.0,  52.0],   30.0),
+        ('temporal_lobe',   'Temporal Lobe',   'temporal', [0.0, -14.0, -14.0],   46.0),
+        ('occipital_lobe',  'Occipital Lobe',  'occipital',[0.0, -84.0,   8.0],   22.0),
+        ('insula_bilateral','Insula',          'insula',   [0.0,   2.0,   2.0],   36.0),
     ]
-    for sid, sname, lobe, centroid in easy:
+    for sid, sname, lobe, centroid, lat_ext in easy:
         regions.append({
             'id': sid, 'name': sname, 'hemisphere': 'bilateral',
             'difficulty': 'easy', 'category': 'cortical', 'lobe': lobe,
             'centroid_mni': centroid,
+            'lateral_extent_mm': lat_ext,
             'mesh_file': f'easy/{sid.replace("_bilateral","")}_L.glb',
             'mesh_files': [f'easy/{sid.replace("_bilateral","")}_L.glb',
                            f'easy/{sid.replace("_bilateral","")}_R.glb'],
@@ -303,40 +323,104 @@ def build_regions():
         })
 
     # --- EASY/MEDIUM/HARD: Subcortical bilateral ---
+    # lat_ext = mean absolute x of the structure in MNI space
     subcortical = [
-        ('brainstem', 'Brainstem', 'easy', 'brainstem',
-         [0.0, -26.0, -30.0], ['brain stem'],
+        #  id                   name                diff      lobe            centroid               lat_ext  aliases                                    files
+        ('brainstem',         'Brainstem',         'easy',   'brainstem',    [0.0, -26.0, -30.0],    3.0,  ['brain stem'],
          ['easy/brainstem.glb']),
-        ('cerebellum_cortex', 'Cerebellum', 'easy', 'cerebellum',
-         [0.0, -56.0, -30.0], ['cerebellar cortex'],
+        ('cerebellum_cortex', 'Cerebellum',        'easy',   'cerebellum',   [0.0, -56.0, -30.0],   26.0,  ['cerebellar cortex'],
          ['easy/cerebellum_cortex_L.glb', 'easy/cerebellum_cortex_R.glb']),
-        ('hippocampus', 'Hippocampus', 'medium', 'temporal',
-         [0.0, -20.0, -12.0], ['hippocampal formation', 'cornu ammonis'],
+        ('hippocampus',       'Hippocampus',       'medium', 'temporal',     [0.0, -20.0, -12.0],   28.0,  ['hippocampal formation', 'cornu ammonis'],
          ['medium/hippocampus_L.glb', 'medium/hippocampus_R.glb']),
-        ('amygdala', 'Amygdala', 'medium', 'temporal',
-         [0.0, -2.0, -18.0], ['amygdaloid body'],
+        ('amygdala',          'Amygdala',          'medium', 'temporal',     [0.0,  -2.0, -18.0],   24.0,  ['amygdaloid body'],
          ['medium/amygdala_L.glb', 'medium/amygdala_R.glb']),
-        ('thalamus', 'Thalamus', 'medium', 'diencephalon',
-         [0.0, -16.0, 8.0], ['dorsal thalamus'],
+        ('thalamus',          'Thalamus',          'medium', 'diencephalon', [0.0, -16.0,   8.0],   12.0,  ['dorsal thalamus'],
          ['medium/thalamus_L.glb', 'medium/thalamus_R.glb']),
-        ('caudate', 'Caudate Nucleus', 'medium', 'basal_ganglia',
-         [0.0, 6.0, 14.0], ['caudate'],
+        ('caudate',           'Caudate Nucleus',   'medium', 'basal_ganglia',[0.0,   6.0,  14.0],   15.0,  ['caudate'],
          ['medium/caudate_L.glb', 'medium/caudate_R.glb']),
-        ('putamen', 'Putamen', 'medium', 'basal_ganglia',
-         [0.0, 0.0, 4.0], [],
+        ('putamen',           'Putamen',           'medium', 'basal_ganglia',[0.0,   0.0,   4.0],   26.0,  [],
          ['medium/putamen_L.glb', 'medium/putamen_R.glb']),
-        ('pallidum', 'Globus Pallidus', 'medium', 'basal_ganglia',
-         [0.0, -4.0, 2.0], ['GP', 'globus pallidus'],
+        ('pallidum',          'Globus Pallidus',   'medium', 'basal_ganglia',[0.0,  -4.0,   2.0],   20.0,  ['GP', 'globus pallidus'],
          ['medium/pallidum_L.glb', 'medium/pallidum_R.glb']),
-        ('accumbens', 'Nucleus Accumbens', 'hard', 'basal_ganglia',
-         [0.0, 12.0, -6.0], ['NAcc', 'ventral striatum'],
+        ('accumbens',         'Nucleus Accumbens', 'hard',   'basal_ganglia',[0.0,  12.0,  -6.0],    9.0,  ['NAcc', 'ventral striatum'],
          ['hard/accumbens_L.glb', 'hard/accumbens_R.glb']),
     ]
-    for sid, sname, diff, lobe, centroid, aliases, files in subcortical:
+
+    # --- MEDIUM: Brainstem subfields ---
+    brainstem_subfields = [
+        ('midbrain', 'Midbrain', 'medium', 'brainstem',
+         [0.0, -24.0, -14.0], ['mesencephalon', 'mesencephalon'],
+         ['medium/midbrain.glb']),
+        ('pons',     'Pons',     'medium', 'brainstem',
+         [0.0, -30.0, -32.0], ['pons Varolii'],
+         ['medium/pons.glb']),
+        ('medulla',  'Medulla Oblongata', 'medium', 'brainstem',
+         [0.0, -36.0, -50.0], ['medulla', 'myelencephalon'],
+         ['medium/medulla.glb']),
+    ]
+    for sid, sname, diff, lobe, centroid, aliases, files in brainstem_subfields:
+        glb = f'data/meshes/{diff}/{sid}.glb'
+        if not os.path.exists(glb):
+            print(f'  Skipping {sname} — {glb} not found (run extract_subfield_meshes.py first)')
+            continue
         regions.append({
             'id': sid, 'name': sname, 'hemisphere': 'bilateral',
             'difficulty': diff, 'category': 'subcortical', 'lobe': lobe,
             'centroid_mni': centroid,
+            'mesh_file': files[0], 'mesh_files': files, 'aliases': aliases,
+        })
+
+    # --- HARD: Thalamic nuclei ---
+    thalamic_nuclei = [
+        ('thal_lgn',   'Lateral Geniculate Nucleus',  'thalamus',
+         [0.0, -26.0, 2.0],  ['LGN', 'lateral geniculate body']),
+        ('thal_mgn',   'Medial Geniculate Nucleus',   'thalamus',
+         [0.0, -28.0, 0.0],  ['MGN', 'medial geniculate body']),
+        ('thal_pul_l', 'Pulvinar (Lateral)',           'thalamus',
+         [0.0, -28.0, 8.0],  ['pulvinar']),
+        ('thal_pul_m', 'Pulvinar (Medial)',            'thalamus',
+         [0.0, -26.0, 10.0], ['pulvinar']),
+        ('thal_pul_i', 'Pulvinar (Inferior)',          'thalamus',
+         [0.0, -30.0, 2.0],  ['pulvinar']),
+        ('thal_cm',    'Centromedian Nucleus',         'thalamus',
+         [0.0, -18.0, 4.0],  ['CM nucleus', 'centromedian-parafascicular']),
+        ('thal_mdl',   'Mediodorsal Nucleus (Lateral)','thalamus',
+         [0.0, -14.0, 10.0], ['MD nucleus', 'dorsomedial nucleus']),
+        ('thal_mdm',   'Mediodorsal Nucleus (Medial)', 'thalamus',
+         [0.0, -12.0, 10.0], ['MD nucleus', 'dorsomedial nucleus']),
+        ('thal_va',    'Ventral Anterior Nucleus',     'thalamus',
+         [0.0, -8.0, 10.0],  ['VA nucleus']),
+        ('thal_vla',   'Ventral Lateral Nucleus (Anterior)', 'thalamus',
+         [0.0, -12.0, 8.0],  ['VLa', 'ventral lateral anterior']),
+        ('thal_vlp',   'Ventral Lateral Nucleus (Posterior)', 'thalamus',
+         [0.0, -16.0, 8.0],  ['VLp', 'ventral lateral posterior']),
+        ('thal_vpla',  'Ventral Posterior Lateral (Anterior)', 'thalamus',
+         [0.0, -20.0, 6.0],  ['VPLa', 'ventral posterior lateral']),
+        ('thal_vplp',  'Ventral Posterior Lateral (Posterior)', 'thalamus',
+         [0.0, -22.0, 6.0],  ['VPLp', 'ventral posterior lateral']),
+        ('thal_vpm',   'Ventral Posterior Medial Nucleus', 'thalamus',
+         [0.0, -20.0, 4.0],  ['VPM', 'ventral posterior medial']),
+        ('thal_ld',    'Lateral Dorsal Nucleus',       'thalamus',
+         [0.0, -14.0, 14.0], ['LD nucleus']),
+    ]
+    for sid, sname, lobe, centroid, aliases in thalamic_nuclei:
+        glb = f'data/meshes/hard/{sid}.glb'
+        if not os.path.exists(glb):
+            print(f'  Skipping {sname} — {glb} not found (run extract_subfield_meshes.py first)')
+            continue
+        regions.append({
+            'id': sid, 'name': sname, 'hemisphere': 'bilateral',
+            'difficulty': 'hard', 'category': 'subcortical', 'lobe': lobe,
+            'centroid_mni': centroid,
+            'mesh_file': f'hard/{sid}.glb', 'mesh_files': [f'hard/{sid}.glb'],
+            'aliases': aliases,
+        })
+    for sid, sname, diff, lobe, centroid, lat_ext, aliases, files in subcortical:
+        regions.append({
+            'id': sid, 'name': sname, 'hemisphere': 'bilateral',
+            'difficulty': diff, 'category': 'subcortical', 'lobe': lobe,
+            'centroid_mni': centroid,
+            'lateral_extent_mm': lat_ext,
             'mesh_file': files[0],
             'mesh_files': files,
             'aliases': aliases,

@@ -6,6 +6,7 @@ export interface Region {
   category: 'cortical' | 'subcortical';
   lobe: string;
   centroid_mni: [number, number, number];
+  lateral_extent_mm?: number;  // mean absolute x of hemisphere centroids; used for L/M direction
   mesh_file: string;
   mesh_files?: string[];  // for bilateral regions, lists all hemisphere meshes
   brodmann?: string;

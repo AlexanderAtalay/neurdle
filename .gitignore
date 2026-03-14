@@ -13,7 +13,6 @@ data/distances_subcortical.json
 # Python
 pipeline/__pycache__/
 pipeline/*.pyc
-pipeline/neurdle-plan.md
 .DS_Store
 **/.DS_Store
 

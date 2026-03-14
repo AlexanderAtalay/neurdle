@@ -12,7 +12,7 @@ export function getDailyRegion(
 }
 
 export function getPuzzleNumber(): number {
-  const epoch = new Date('2025-01-01').getTime();
+  const epoch = new Date('2026-03-12').getTime();
   const now = new Date().getTime();
   return Math.floor((now - epoch) / (1000 * 60 * 60 * 24));
 }

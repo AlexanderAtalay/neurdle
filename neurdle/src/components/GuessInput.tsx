@@ -4,7 +4,6 @@ import type { Region } from '@/types';
 
 interface Props {
   regions: Region[];
-  difficulty: 'easy' | 'medium' | 'hard';
   usedIds: Set<string>;
   disabled: boolean;
   onGuess: (region: Region) => void;
@@ -19,7 +18,7 @@ function matchesQuery(r: Region, q: string): boolean {
   return false;
 }
 
-export default function GuessInput({ regions, difficulty, usedIds, disabled, onGuess }: Props) {
+export default function GuessInput({ regions, usedIds, disabled, onGuess }: Props) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [highlighted, setHighlighted] = useState(0);
@@ -27,12 +26,12 @@ export default function GuessInput({ regions, difficulty, usedIds, disabled, onG
   const listRef = useRef<HTMLDivElement>(null);
 
   const filtered = regions
-    .filter(r => r.difficulty === difficulty && !usedIds.has(r.id))
+    .filter(r => !usedIds.has(r.id))
     .filter(r => matchesQuery(r, query))
     .sort((a, b) => a.name.localeCompare(b.name));
 
   // Reset highlight when results change
-  useEffect(() => { setHighlighted(0); }, [query, difficulty]);
+  useEffect(() => { setHighlighted(0); }, [query]);
 
   // Scroll highlighted item into view
   useEffect(() => {

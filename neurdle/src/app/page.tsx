@@ -18,7 +18,7 @@ export default function Home() {
 
   useEffect(() => {
     if (game.gameOver && mode === 'daily') {
-      const timer = setTimeout(() => setShowWinModal(true), 1500);
+      const timer = setTimeout(() => setShowWinModal(true), 400);
       return () => clearTimeout(timer);
     }
   }, [game.gameOver, mode]);
@@ -26,6 +26,10 @@ export default function Home() {
   const usedIds = new Set(game.guesses.map(g => g.region.id));
   const isTraining = mode === 'training';
   const trainingRevealed = isTraining && game.trainingRevealed;
+  const trainingCorrect =
+    isTraining &&
+    game.trainingGuesses.length > 0 &&
+    game.trainingGuesses[game.trainingGuesses.length - 1].isCorrect;
 
   return (
     <div className="flex flex-col h-screen overflow-hidden">
@@ -58,14 +62,14 @@ export default function Home() {
             Score: <span className="text-[#16c79a] font-bold text-sm">{game.trainingScore}</span>
             {game.targetRegion && (
               <span className="ml-3">
-                Glass brain always visible · Wrong guesses shown in orange
+                Glass brain always visible
               </span>
             )}
           </div>
         )}
 
         {/* 3D Viewer */}
-        <div className="h-72 sm:h-80 lg:h-96 flex-shrink-0">
+        <div className="h-72 sm:h-80 lg:h-[28rem] flex-shrink-0">
           {game.targetRegion ? (
             <BrainViewer
               targetRegion={game.targetRegion}
@@ -95,6 +99,16 @@ export default function Home() {
           </div>
         )}
 
+        {/* Training correct banner */}
+        {trainingCorrect && game.targetRegion && (
+          <div className="flex-shrink-0 text-center px-3 py-3 rounded-lg bg-[#16c79a]/20 border border-[#16c79a]/50 animate-pulse">
+            <span className="text-2xl">Correct: </span>
+            <span className="font-bold text-[#16c79a] text-base ml-2">
+              {game.targetRegion.name}!
+            </span>
+          </div>
+        )}
+
         {/* Training reveal banner */}
         {trainingRevealed && game.targetRegion && (
           <div className="flex-shrink-0 text-center px-3 py-2 rounded-lg bg-[#e94560]/20 border border-[#e94560]/40 text-sm">
@@ -108,9 +122,8 @@ export default function Home() {
         <div className="flex-shrink-0">
           <GuessInput
             regions={game.allRegions}
-            difficulty={game.difficulty}
             usedIds={isTraining ? new Set(game.trainingGuesses.map(g => g.region.id)) : usedIds}
-            disabled={(!isTraining && game.gameOver) || trainingRevealed}
+            disabled={(!isTraining && game.gameOver) || trainingRevealed || trainingCorrect}
             onGuess={game.submitGuess}
           />
         </div>

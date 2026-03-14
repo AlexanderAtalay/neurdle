@@ -45,6 +45,21 @@ if os.path.isdir('meshes_raw/brodmann'):
         if f.endswith('.obj'):
             convert(f'meshes_raw/brodmann/{f}', f'data/meshes/hard/{f.replace(".obj",".glb")}')
 
+# Brainstem subfields + thalamic nuclei → hard (or medium for pons/medulla)
+SUBFIELD_DIFF = {
+    'midbrain': 'medium',
+    'pons':     'medium',
+    'medulla':  'medium',
+}
+if os.path.isdir('meshes_raw/subfields'):
+    os.makedirs('data/meshes/medium', exist_ok=True)
+    os.makedirs('data/meshes/hard', exist_ok=True)
+    for f in sorted(os.listdir('meshes_raw/subfields')):
+        if f.endswith('.obj'):
+            name = f.replace('.obj', '')
+            diff = SUBFIELD_DIFF.get(name, 'hard')
+            convert(f'meshes_raw/subfields/{f}', f'data/meshes/{diff}/{f.replace(".obj",".glb")}')
+
 # Lobe (easy) — already written as GLB by generate_lobe_meshes.py
 # Whole brain ghost
 for hemi in ['L', 'R']:

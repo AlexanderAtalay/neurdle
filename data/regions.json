@@ -12,6 +12,7 @@
         -42.9,
         5.0
       ],
+      "lateral_extent_mm": 53.6,
       "mesh_file": "medium/bankssts_L.glb",
       "mesh_files": [
         "medium/bankssts_L.glb",
@@ -31,6 +32,7 @@
         19.3,
         27.6
       ],
+      "lateral_extent_mm": 4.4,
       "mesh_file": "medium/caudalanteriorcingulate_L.glb",
       "mesh_files": [
         "medium/caudalanteriorcingulate_L.glb",
@@ -50,6 +52,7 @@
         11.3,
         44.2
       ],
+      "lateral_extent_mm": 35.6,
       "mesh_file": "medium/caudalmiddlefrontal_L.glb",
       "mesh_files": [
         "medium/caudalmiddlefrontal_L.glb",
@@ -69,6 +72,7 @@
         -79.4,
         19.1
       ],
+      "lateral_extent_mm": 7.3,
       "mesh_file": "medium/cuneus_L.glb",
       "mesh_files": [
         "medium/cuneus_L.glb",
@@ -88,6 +92,7 @@
         -7.1,
         -32.3
       ],
+      "lateral_extent_mm": 23.4,
       "mesh_file": "medium/entorhinal_L.glb",
       "mesh_files": [
         "medium/entorhinal_L.glb",
@@ -109,6 +114,7 @@
         -43.4,
         -21.4
       ],
+      "lateral_extent_mm": 35.3,
       "mesh_file": "medium/fusiform_L.glb",
       "mesh_files": [
         "medium/fusiform_L.glb",
@@ -131,6 +137,7 @@
         -64.5,
         28.5
       ],
+      "lateral_extent_mm": 42.4,
       "mesh_file": "medium/inferiorparietal_L.glb",
       "mesh_files": [
         "medium/inferiorparietal_L.glb",
@@ -150,6 +157,7 @@
         -34.0,
         -24.7
       ],
+      "lateral_extent_mm": 50.0,
       "mesh_file": "medium/inferiortemporal_L.glb",
       "mesh_files": [
         "medium/inferiortemporal_L.glb",
@@ -169,6 +177,7 @@
         -45.5,
         16.6
       ],
+      "lateral_extent_mm": 6.8,
       "mesh_file": "medium/isthmuscingulate_L.glb",
       "mesh_files": [
         "medium/isthmuscingulate_L.glb",
@@ -188,6 +197,7 @@
         -87.6,
         -0.5
       ],
+      "lateral_extent_mm": 30.9,
       "mesh_file": "medium/lateraloccipital_L.glb",
       "mesh_files": [
         "medium/lateraloccipital_L.glb",
@@ -207,6 +217,7 @@
         28.1,
         -17.2
       ],
+      "lateral_extent_mm": 24.5,
       "mesh_file": "medium/lateralorbitofrontal_L.glb",
       "mesh_files": [
         "medium/lateralorbitofrontal_L.glb",
@@ -228,6 +239,7 @@
         -66.2,
         -4.8
       ],
+      "lateral_extent_mm": 15.4,
       "mesh_file": "medium/lingual_L.glb",
       "mesh_files": [
         "medium/lingual_L.glb",
@@ -247,6 +259,7 @@
         35.1,
         -16.0
       ],
+      "lateral_extent_mm": 6.1,
       "mesh_file": "medium/medialorbitofrontal_L.glb",
       "mesh_files": [
         "medium/medialorbitofrontal_L.glb",
@@ -266,6 +279,7 @@
         -30.2,
         -12.8
       ],
+      "lateral_extent_mm": 57.9,
       "mesh_file": "medium/middletemporal_L.glb",
       "mesh_files": [
         "medium/middletemporal_L.glb",
@@ -285,6 +299,7 @@
         -31.8,
         -18.0
       ],
+      "lateral_extent_mm": 24.3,
       "mesh_file": "medium/parahippocampal_L.glb",
       "mesh_files": [
         "medium/parahippocampal_L.glb",
@@ -304,6 +319,7 @@
         -28.5,
         55.5
       ],
+      "lateral_extent_mm": 8.0,
       "mesh_file": "medium/paracentral_L.glb",
       "mesh_files": [
         "medium/paracentral_L.glb",
@@ -323,6 +339,7 @@
         14.6,
         13.3
       ],
+      "lateral_extent_mm": 45.7,
       "mesh_file": "medium/parsopercularis_L.glb",
       "mesh_files": [
         "medium/parsopercularis_L.glb",
@@ -345,6 +362,7 @@
         39.3,
         -12.4
       ],
+      "lateral_extent_mm": 43.3,
       "mesh_file": "medium/parsorbitalis_L.glb",
       "mesh_files": [
         "medium/parsorbitalis_L.glb",
@@ -364,6 +382,7 @@
         29.9,
         2.9
       ],
+      "lateral_extent_mm": 44.9,
       "mesh_file": "medium/parstriangularis_L.glb",
       "mesh_files": [
         "medium/parstriangularis_L.glb",
@@ -386,6 +405,7 @@
         -80.0,
         5.9
       ],
+      "lateral_extent_mm": 12.7,
       "mesh_file": "medium/pericalcarine_L.glb",
       "mesh_files": [
         "medium/pericalcarine_L.glb",
@@ -410,6 +430,7 @@
         -23.1,
         44.1
       ],
+      "lateral_extent_mm": 42.6,
       "mesh_file": "medium/postcentral_L.glb",
       "mesh_files": [
         "medium/postcentral_L.glb",
@@ -435,6 +456,7 @@
         -17.2,
         37.4
       ],
+      "lateral_extent_mm": 5.4,
       "mesh_file": "medium/posteriorcingulate_L.glb",
       "mesh_files": [
         "medium/posteriorcingulate_L.glb",
@@ -454,6 +476,7 @@
         -10.1,
         43.6
       ],
+      "lateral_extent_mm": 38.3,
       "mesh_file": "medium/precentral_L.glb",
       "mesh_files": [
         "medium/precentral_L.glb",
@@ -477,6 +500,7 @@
         -57.4,
         37.1
       ],
+      "lateral_extent_mm": 9.9,
       "mesh_file": "medium/precuneus_L.glb",
       "mesh_files": [
         "medium/precuneus_L.glb",
@@ -496,6 +520,7 @@
         35.2,
         1.5
       ],
+      "lateral_extent_mm": 4.5,
       "mesh_file": "medium/rostralanteriorcingulate_L.glb",
       "mesh_files": [
         "medium/rostralanteriorcingulate_L.glb",
@@ -515,6 +540,7 @@
         42.6,
         17.8
       ],
+      "lateral_extent_mm": 33.2,
       "mesh_file": "medium/rostralmiddlefrontal_L.glb",
       "mesh_files": [
         "medium/rostralmiddlefrontal_L.glb",
@@ -534,6 +560,7 @@
         24.5,
         43.3
       ],
+      "lateral_extent_mm": 12.0,
       "mesh_file": "medium/superiorfrontal_L.glb",
       "mesh_files": [
         "medium/superiorfrontal_L.glb",
@@ -553,6 +580,7 @@
         -61.0,
         48.4
       ],
+      "lateral_extent_mm": 23.3,
       "mesh_file": "medium/superiorparietal_L.glb",
       "mesh_files": [
         "medium/superiorparietal_L.glb",
@@ -572,6 +600,7 @@
         -15.0,
         -4.2
       ],
+      "lateral_extent_mm": 53.6,
       "mesh_file": "medium/superiortemporal_L.glb",
       "mesh_files": [
         "medium/superiortemporal_L.glb",
@@ -594,6 +623,7 @@
         -36.2,
         31.2
       ],
+      "lateral_extent_mm": 51.7,
       "mesh_file": "medium/supramarginal_L.glb",
       "mesh_files": [
         "medium/supramarginal_L.glb",
@@ -613,6 +643,7 @@
         64.7,
         -10.4
       ],
+      "lateral_extent_mm": 8.2,
       "mesh_file": "medium/frontalpole_L.glb",
       "mesh_files": [
         "medium/frontalpole_L.glb",
@@ -632,6 +663,7 @@
         11.1,
         -34.2
       ],
+      "lateral_extent_mm": 31.3,
       "mesh_file": "medium/temporalpole_L.glb",
       "mesh_files": [
         "medium/temporalpole_L.glb",
@@ -651,6 +683,7 @@
         -22.2,
         8.0
       ],
+      "lateral_extent_mm": 44.3,
       "mesh_file": "medium/transversetemporal_L.glb",
       "mesh_files": [
         "medium/transversetemporal_L.glb",
@@ -674,6 +707,7 @@
         -3.6,
         1.9
       ],
+      "lateral_extent_mm": 37.4,
       "mesh_file": "medium/insula_L.glb",
       "mesh_files": [
         "medium/insula_L.glb",
@@ -695,6 +729,7 @@
         57.3,
         -7.3
       ],
+      "lateral_extent_mm": 23.8,
       "mesh_file": "hard/G_and_S_frontomargin_L.glb",
       "mesh_files": [
         "hard/G_and_S_frontomargin_L.glb",
@@ -714,6 +749,7 @@
         -79.0,
         -12.3
       ],
+      "lateral_extent_mm": 40.4,
       "mesh_file": "hard/G_and_S_occipital_inf_L.glb",
       "mesh_files": [
         "hard/G_and_S_occipital_inf_L.glb",
@@ -733,6 +769,7 @@
         -34.0,
         67.8
       ],
+      "lateral_extent_mm": 7.1,
       "mesh_file": "hard/G_and_S_paracentral_L.glb",
       "mesh_files": [
         "hard/G_and_S_paracentral_L.glb",
@@ -752,6 +789,7 @@
         -11.3,
         14.3
       ],
+      "lateral_extent_mm": 56.3,
       "mesh_file": "hard/G_and_S_subcentral_L.glb",
       "mesh_files": [
         "hard/G_and_S_subcentral_L.glb",
@@ -771,6 +809,7 @@
         64.1,
         1.0
       ],
+      "lateral_extent_mm": 16.5,
       "mesh_file": "hard/G_and_S_transv_frontopol_L.glb",
       "mesh_files": [
         "hard/G_and_S_transv_frontopol_L.glb",
@@ -790,6 +829,7 @@
         39.7,
         8.3
       ],
+      "lateral_extent_mm": 8.0,
       "mesh_file": "hard/G_and_S_cingul-Ant_L.glb",
       "mesh_files": [
         "hard/G_and_S_cingul-Ant_L.glb",
@@ -809,6 +849,7 @@
         15.1,
         36.8
       ],
+      "lateral_extent_mm": 7.4,
       "mesh_file": "hard/G_and_S_cingul-Mid-Ant_L.glb",
       "mesh_files": [
         "hard/G_and_S_cingul-Mid-Ant_L.glb",
@@ -828,6 +869,7 @@
         -10.7,
         42.2
       ],
+      "lateral_extent_mm": 7.3,
       "mesh_file": "hard/G_and_S_cingul-Mid-Post_L.glb",
       "mesh_files": [
         "hard/G_and_S_cingul-Mid-Post_L.glb",
@@ -847,6 +889,7 @@
         -38.3,
         31.2
       ],
+      "lateral_extent_mm": 2.4,
       "mesh_file": "hard/G_cingul-Post-dorsal_L.glb",
       "mesh_files": [
         "hard/G_cingul-Post-dorsal_L.glb",
@@ -866,6 +909,7 @@
         -48.3,
         4.7
       ],
+      "lateral_extent_mm": 7.4,
       "mesh_file": "hard/G_cingul-Post-ventral_L.glb",
       "mesh_files": [
         "hard/G_cingul-Post-ventral_L.glb",
@@ -885,6 +929,7 @@
         -81.3,
         17.8
       ],
+      "lateral_extent_mm": 5.0,
       "mesh_file": "hard/G_cuneus_L.glb",
       "mesh_files": [
         "hard/G_cuneus_L.glb",
@@ -904,6 +949,7 @@
         10.1,
         7.6
       ],
+      "lateral_extent_mm": 50.7,
       "mesh_file": "hard/G_front_inf-Opercular_L.glb",
       "mesh_files": [
         "hard/G_front_inf-Opercular_L.glb",
@@ -923,6 +969,7 @@
         31.3,
         -9.3
       ],
+      "lateral_extent_mm": 47.2,
       "mesh_file": "hard/G_front_inf-Orbital_L.glb",
       "mesh_files": [
         "hard/G_front_inf-Orbital_L.glb",
@@ -942,6 +989,7 @@
         29.6,
         5.6
       ],
+      "lateral_extent_mm": 51.7,
       "mesh_file": "hard/G_front_inf-Triangul_L.glb",
       "mesh_files": [
         "hard/G_front_inf-Triangul_L.glb",
@@ -961,6 +1009,7 @@
         32.5,
         32.8
       ],
+      "lateral_extent_mm": 37.9,
       "mesh_file": "hard/G_front_middle_L.glb",
       "mesh_files": [
         "hard/G_front_middle_L.glb",
@@ -980,6 +1029,7 @@
         22.6,
         48.1
       ],
+      "lateral_extent_mm": 9.6,
       "mesh_file": "hard/G_front_sup_L.glb",
       "mesh_files": [
         "hard/G_front_sup_L.glb",
@@ -999,6 +1049,7 @@
         -5.4,
         -2.6
       ],
+      "lateral_extent_mm": 40.5,
       "mesh_file": "hard/G_Ins_lg_and_S_cent_ins_L.glb",
       "mesh_files": [
         "hard/G_Ins_lg_and_S_cent_ins_L.glb",
@@ -1018,6 +1069,7 @@
         9.9,
         -3.0
       ],
+      "lateral_extent_mm": 39.7,
       "mesh_file": "hard/G_insular_short_L.glb",
       "mesh_files": [
         "hard/G_insular_short_L.glb",
@@ -1037,6 +1089,7 @@
         -83.1,
         12.3
       ],
+      "lateral_extent_mm": 40.5,
       "mesh_file": "hard/G_occipital_middle_L.glb",
       "mesh_files": [
         "hard/G_occipital_middle_L.glb",
@@ -1056,6 +1109,7 @@
         -87.7,
         29.8
       ],
+      "lateral_extent_mm": 16.6,
       "mesh_file": "hard/G_occipital_sup_L.glb",
       "mesh_files": [
         "hard/G_occipital_sup_L.glb",
@@ -1075,6 +1129,7 @@
         -53.7,
         -20.3
       ],
+      "lateral_extent_mm": 34.3,
       "mesh_file": "hard/G_oc-temp_lat-fusifor_L.glb",
       "mesh_files": [
         "hard/G_oc-temp_lat-fusifor_L.glb",
@@ -1094,6 +1149,7 @@
         -68.9,
         -5.1
       ],
+      "lateral_extent_mm": 10.4,
       "mesh_file": "hard/G_oc-temp_med-Lingual_L.glb",
       "mesh_files": [
         "hard/G_oc-temp_med-Lingual_L.glb",
@@ -1113,6 +1169,7 @@
         -19.0,
         -25.3
       ],
+      "lateral_extent_mm": 23.4,
       "mesh_file": "hard/G_oc-temp_med-Parahip_L.glb",
       "mesh_files": [
         "hard/G_oc-temp_med-Parahip_L.glb",
@@ -1132,6 +1189,7 @@
         32.8,
         -19.3
       ],
+      "lateral_extent_mm": 28.5,
       "mesh_file": "hard/G_orbital_L.glb",
       "mesh_files": [
         "hard/G_orbital_L.glb",
@@ -1151,6 +1209,7 @@
         -63.4,
         38.5
       ],
+      "lateral_extent_mm": 45.3,
       "mesh_file": "hard/G_pariet_inf-Angular_L.glb",
       "mesh_files": [
         "hard/G_pariet_inf-Angular_L.glb",
@@ -1170,6 +1229,7 @@
         -35.0,
         31.9
       ],
+      "lateral_extent_mm": 57.1,
       "mesh_file": "hard/G_pariet_inf-Supramar_L.glb",
       "mesh_files": [
         "hard/G_pariet_inf-Supramar_L.glb",
@@ -1189,6 +1249,7 @@
         -58.9,
         59.4
       ],
+      "lateral_extent_mm": 21.2,
       "mesh_file": "hard/G_parietal_sup_L.glb",
       "mesh_files": [
         "hard/G_parietal_sup_L.glb",
@@ -1208,6 +1269,7 @@
         -24.1,
         54.3
       ],
+      "lateral_extent_mm": 44.6,
       "mesh_file": "hard/G_postcentral_L.glb",
       "mesh_files": [
         "hard/G_postcentral_L.glb",
@@ -1227,6 +1289,7 @@
         -8.9,
         51.8
       ],
+      "lateral_extent_mm": 41.7,
       "mesh_file": "hard/G_precentral_L.glb",
       "mesh_files": [
         "hard/G_precentral_L.glb",
@@ -1246,6 +1309,7 @@
         -59.1,
         44.7
       ],
+      "lateral_extent_mm": 5.6,
       "mesh_file": "hard/G_precuneus_L.glb",
       "mesh_files": [
         "hard/G_precuneus_L.glb",
@@ -1265,6 +1329,7 @@
         34.7,
         -22.2
       ],
+      "lateral_extent_mm": 4.1,
       "mesh_file": "hard/G_rectus_L.glb",
       "mesh_files": [
         "hard/G_rectus_L.glb",
@@ -1284,6 +1349,7 @@
         15.3,
         -12.2
       ],
+      "lateral_extent_mm": 3.6,
       "mesh_file": "hard/G_subcallosal_L.glb",
       "mesh_files": [
         "hard/G_subcallosal_L.glb",
@@ -1303,6 +1369,7 @@
         -18.4,
         7.1
       ],
+      "lateral_extent_mm": 47.6,
       "mesh_file": "hard/G_temp_sup-G_T_transv_L.glb",
       "mesh_files": [
         "hard/G_temp_sup-G_T_transv_L.glb",
@@ -1322,6 +1389,7 @@
         -14.0,
         -3.5
       ],
+      "lateral_extent_mm": 61.0,
       "mesh_file": "hard/G_temp_sup-Lateral_L.glb",
       "mesh_files": [
         "hard/G_temp_sup-Lateral_L.glb",
@@ -1341,6 +1409,7 @@
         5.7,
         -19.9
       ],
+      "lateral_extent_mm": 39.5,
       "mesh_file": "hard/G_temp_sup-Plan_polar_L.glb",
       "mesh_files": [
         "hard/G_temp_sup-Plan_polar_L.glb",
@@ -1360,6 +1429,7 @@
         -34.8,
         18.0
       ],
+      "lateral_extent_mm": 58.5,
       "mesh_file": "hard/G_temp_sup-Plan_tempo_L.glb",
       "mesh_files": [
         "hard/G_temp_sup-Plan_tempo_L.glb",
@@ -1379,6 +1449,7 @@
         -36.2,
         -25.9
       ],
+      "lateral_extent_mm": 52.8,
       "mesh_file": "hard/G_temporal_inf_L.glb",
       "mesh_files": [
         "hard/G_temporal_inf_L.glb",
@@ -1398,6 +1469,7 @@
         -32.8,
         -11.8
       ],
+      "lateral_extent_mm": 61.4,
       "mesh_file": "hard/G_temporal_middle_L.glb",
       "mesh_files": [
         "hard/G_temporal_middle_L.glb",
@@ -1417,6 +1489,7 @@
         29.2,
         -1.0
       ],
+      "lateral_extent_mm": 40.2,
       "mesh_file": "hard/Lat_Fis-ant-Horizont_L.glb",
       "mesh_files": [
         "hard/Lat_Fis-ant-Horizont_L.glb",
@@ -1436,6 +1509,7 @@
         21.0,
         6.4
       ],
+      "lateral_extent_mm": 44.5,
       "mesh_file": "hard/Lat_Fis-ant-Vertical_L.glb",
       "mesh_files": [
         "hard/Lat_Fis-ant-Vertical_L.glb",
@@ -1455,6 +1529,7 @@
         -30.4,
         17.1
       ],
+      "lateral_extent_mm": 40.8,
       "mesh_file": "hard/Lat_Fis-post_L.glb",
       "mesh_files": [
         "hard/Lat_Fis-post_L.glb",
@@ -1474,6 +1549,7 @@
         -96.9,
         -3.4
       ],
+      "lateral_extent_mm": 17.8,
       "mesh_file": "hard/Pole_occipital_L.glb",
       "mesh_files": [
         "hard/Pole_occipital_L.glb",
@@ -1493,6 +1569,7 @@
         5.7,
         -39.1
       ],
+      "lateral_extent_mm": 36.1,
       "mesh_file": "hard/Pole_temporal_L.glb",
       "mesh_files": [
         "hard/Pole_temporal_L.glb",
@@ -1512,6 +1589,7 @@
         -65.5,
         4.4
       ],
+      "lateral_extent_mm": 17.1,
       "mesh_file": "hard/S_calcarine_L.glb",
       "mesh_files": [
         "hard/S_calcarine_L.glb",
@@ -1531,6 +1609,7 @@
         -20.4,
         45.7
       ],
+      "lateral_extent_mm": 35.8,
       "mesh_file": "hard/S_central_L.glb",
       "mesh_files": [
         "hard/S_central_L.glb",
@@ -1550,6 +1629,7 @@
         -36.8,
         47.4
       ],
+      "lateral_extent_mm": 13.1,
       "mesh_file": "hard/S_cingul-Marginalis_L.glb",
       "mesh_files": [
         "hard/S_cingul-Marginalis_L.glb",
@@ -1569,6 +1649,7 @@
         21.9,
         -8.6
       ],
+      "lateral_extent_mm": 31.7,
       "mesh_file": "hard/S_circular_insula_ant_L.glb",
       "mesh_files": [
         "hard/S_circular_insula_ant_L.glb",
@@ -1588,6 +1669,7 @@
         -12.1,
         -6.8
       ],
+      "lateral_extent_mm": 41.8,
       "mesh_file": "hard/S_circular_insula_inf_L.glb",
       "mesh_files": [
         "hard/S_circular_insula_inf_L.glb",
@@ -1607,6 +1689,7 @@
         6.1,
         10.1
       ],
+      "lateral_extent_mm": 36.4,
       "mesh_file": "hard/S_circular_insula_sup_L.glb",
       "mesh_files": [
         "hard/S_circular_insula_sup_L.glb",
@@ -1626,6 +1709,7 @@
         -22.2,
         -27.3
       ],
+      "lateral_extent_mm": 41.3,
       "mesh_file": "hard/S_collat_transv_ant_L.glb",
       "mesh_files": [
         "hard/S_collat_transv_ant_L.glb",
@@ -1645,6 +1729,7 @@
         -78.4,
         -9.6
       ],
+      "lateral_extent_mm": 25.2,
       "mesh_file": "hard/S_collat_transv_post_L.glb",
       "mesh_files": [
         "hard/S_collat_transv_post_L.glb",
@@ -1664,6 +1749,7 @@
         24.2,
         21.5
       ],
+      "lateral_extent_mm": 40.1,
       "mesh_file": "hard/S_front_inf_L.glb",
       "mesh_files": [
         "hard/S_front_inf_L.glb",
@@ -1683,6 +1769,7 @@
         42.9,
         21.2
       ],
+      "lateral_extent_mm": 28.7,
       "mesh_file": "hard/S_front_middle_L.glb",
       "mesh_files": [
         "hard/S_front_middle_L.glb",
@@ -1702,6 +1789,7 @@
         19.2,
         45.0
       ],
+      "lateral_extent_mm": 24.5,
       "mesh_file": "hard/S_front_sup_L.glb",
       "mesh_files": [
         "hard/S_front_sup_L.glb",
@@ -1721,6 +1809,7 @@
         -49.2,
         32.4
       ],
+      "lateral_extent_mm": 50.4,
       "mesh_file": "hard/S_interm_prim-Jensen_L.glb",
       "mesh_files": [
         "hard/S_interm_prim-Jensen_L.glb",
@@ -1740,6 +1829,7 @@
         -57.0,
         42.1
       ],
+      "lateral_extent_mm": 30.2,
       "mesh_file": "hard/S_intrapariet_and_P_trans_L.glb",
       "mesh_files": [
         "hard/S_intrapariet_and_P_trans_L.glb",
@@ -1759,6 +1849,7 @@
         -85.3,
         5.4
       ],
+      "lateral_extent_mm": 33.2,
       "mesh_file": "hard/S_oc_middle_and_Lunatus_L.glb",
       "mesh_files": [
         "hard/S_oc_middle_and_Lunatus_L.glb",
@@ -1778,6 +1869,7 @@
         -79.8,
         20.3
       ],
+      "lateral_extent_mm": 27.7,
       "mesh_file": "hard/S_oc_sup_and_transversal_L.glb",
       "mesh_files": [
         "hard/S_oc_sup_and_transversal_L.glb",
@@ -1797,6 +1889,7 @@
         -67.5,
         1.9
       ],
+      "lateral_extent_mm": 44.2,
       "mesh_file": "hard/S_occipital_ant_L.glb",
       "mesh_files": [
         "hard/S_occipital_ant_L.glb",
@@ -1816,6 +1909,7 @@
         -51.2,
         -15.9
       ],
+      "lateral_extent_mm": 43.9,
       "mesh_file": "hard/S_oc-temp_lat_L.glb",
       "mesh_files": [
         "hard/S_oc-temp_lat_L.glb",
@@ -1835,6 +1929,7 @@
         -48.0,
         -12.5
       ],
+      "lateral_extent_mm": 29.4,
       "mesh_file": "hard/S_oc-temp_med_and_Lingual_L.glb",
       "mesh_files": [
         "hard/S_oc-temp_med_and_Lingual_L.glb",
@@ -1854,6 +1949,7 @@
         41.9,
         -1.9
       ],
+      "lateral_extent_mm": 42.9,
       "mesh_file": "hard/S_orbital_lateral_L.glb",
       "mesh_files": [
         "hard/S_orbital_lateral_L.glb",
@@ -1873,6 +1969,7 @@
         23.8,
         -20.0
       ],
+      "lateral_extent_mm": 12.7,
       "mesh_file": "hard/S_orbital_med-olfact_L.glb",
       "mesh_files": [
         "hard/S_orbital_med-olfact_L.glb",
@@ -1892,6 +1989,7 @@
         35.3,
         -14.8
       ],
+      "lateral_extent_mm": 26.5,
       "mesh_file": "hard/S_orbital-H_Shaped_L.glb",
       "mesh_files": [
         "hard/S_orbital-H_Shaped_L.glb",
@@ -1911,6 +2009,7 @@
         -67.8,
         24.0
       ],
+      "lateral_extent_mm": 16.1,
       "mesh_file": "hard/S_parieto_occipital_L.glb",
       "mesh_files": [
         "hard/S_parieto_occipital_L.glb",
@@ -1930,6 +2029,7 @@
         -7.9,
         21.4
       ],
+      "lateral_extent_mm": 3.7,
       "mesh_file": "hard/S_pericallosal_L.glb",
       "mesh_files": [
         "hard/S_pericallosal_L.glb",
@@ -1949,6 +2049,7 @@
         -34.6,
         45.9
       ],
+      "lateral_extent_mm": 37.7,
       "mesh_file": "hard/S_postcentral_L.glb",
       "mesh_files": [
         "hard/S_postcentral_L.glb",
@@ -1968,6 +2069,7 @@
         5.4,
         27.9
       ],
+      "lateral_extent_mm": 43.9,
       "mesh_file": "hard/S_precentral-inf-part_L.glb",
       "mesh_files": [
         "hard/S_precentral-inf-part_L.glb",
@@ -1987,6 +2089,7 @@
         -8.1,
         53.8
       ],
+      "lateral_extent_mm": 27.6,
       "mesh_file": "hard/S_precentral-sup-part_L.glb",
       "mesh_files": [
         "hard/S_precentral-sup-part_L.glb",
@@ -2006,6 +2109,7 @@
         39.2,
         -12.2
       ],
+      "lateral_extent_mm": 5.8,
       "mesh_file": "hard/S_suborbital_L.glb",
       "mesh_files": [
         "hard/S_suborbital_L.glb",
@@ -2025,6 +2129,7 @@
         -49.4,
         36.2
       ],
+      "lateral_extent_mm": 8.9,
       "mesh_file": "hard/S_subparietal_L.glb",
       "mesh_files": [
         "hard/S_subparietal_L.glb",
@@ -2044,6 +2149,7 @@
         -40.2,
         -14.9
       ],
+      "lateral_extent_mm": 53.0,
       "mesh_file": "hard/S_temporal_inf_L.glb",
       "mesh_files": [
         "hard/S_temporal_inf_L.glb",
@@ -2063,6 +2169,7 @@
         -43.1,
         6.1
       ],
+      "lateral_extent_mm": 49.4,
       "mesh_file": "hard/S_temporal_sup_L.glb",
       "mesh_files": [
         "hard/S_temporal_sup_L.glb",
@@ -2082,6 +2189,7 @@
         -23.5,
         5.8
       ],
+      "lateral_extent_mm": 51.8,
       "mesh_file": "hard/S_temporal_transverse_L.glb",
       "mesh_files": [
         "hard/S_temporal_transverse_L.glb",
@@ -2101,6 +2209,7 @@
         26.0,
         22.0
       ],
+      "lateral_extent_mm": 32.0,
       "mesh_file": "easy/frontal_lobe_L.glb",
       "mesh_files": [
         "easy/frontal_lobe_L.glb",
@@ -2120,6 +2229,7 @@
         -40.0,
         52.0
       ],
+      "lateral_extent_mm": 30.0,
       "mesh_file": "easy/parietal_lobe_L.glb",
       "mesh_files": [
         "easy/parietal_lobe_L.glb",
@@ -2139,6 +2249,7 @@
         -14.0,
         -14.0
       ],
+      "lateral_extent_mm": 46.0,
       "mesh_file": "easy/temporal_lobe_L.glb",
       "mesh_files": [
         "easy/temporal_lobe_L.glb",
@@ -2158,6 +2269,7 @@
         -84.0,
         8.0
       ],
+      "lateral_extent_mm": 22.0,
       "mesh_file": "easy/occipital_lobe_L.glb",
       "mesh_files": [
         "easy/occipital_lobe_L.glb",
@@ -2177,6 +2289,7 @@
         2.0,
         2.0
       ],
+      "lateral_extent_mm": 36.0,
       "mesh_file": "easy/insula_L.glb",
       "mesh_files": [
         "easy/insula_L.glb",
@@ -2198,6 +2311,7 @@
         -26.0,
         -30.0
       ],
+      "lateral_extent_mm": 3.0,
       "mesh_file": "easy/brainstem.glb",
       "mesh_files": [
         "easy/brainstem.glb"
@@ -2218,6 +2332,7 @@
         -56.0,
         -30.0
       ],
+      "lateral_extent_mm": 26.0,
       "mesh_file": "easy/cerebellum_cortex_L.glb",
       "mesh_files": [
         "easy/cerebellum_cortex_L.glb",
@@ -2239,6 +2354,7 @@
         -20.0,
         -12.0
       ],
+      "lateral_extent_mm": 28.0,
       "mesh_file": "medium/hippocampus_L.glb",
       "mesh_files": [
         "medium/hippocampus_L.glb",
@@ -2261,6 +2377,7 @@
         -2.0,
         -18.0
       ],
+      "lateral_extent_mm": 24.0,
       "mesh_file": "medium/amygdala_L.glb",
       "mesh_files": [
         "medium/amygdala_L.glb",
@@ -2282,6 +2399,7 @@
         -16.0,
         8.0
       ],
+      "lateral_extent_mm": 12.0,
       "mesh_file": "medium/thalamus_L.glb",
       "mesh_files": [
         "medium/thalamus_L.glb",
@@ -2303,6 +2421,7 @@
         6.0,
         14.0
       ],
+      "lateral_extent_mm": 15.0,
       "mesh_file": "medium/caudate_L.glb",
       "mesh_files": [
         "medium/caudate_L.glb",
@@ -2324,6 +2443,7 @@
         0.0,
         4.0
       ],
+      "lateral_extent_mm": 26.0,
       "mesh_file": "medium/putamen_L.glb",
       "mesh_files": [
         "medium/putamen_L.glb",
@@ -2343,6 +2463,7 @@
         -4.0,
         2.0
       ],
+      "lateral_extent_mm": 20.0,
       "mesh_file": "medium/pallidum_L.glb",
       "mesh_files": [
         "medium/pallidum_L.glb",
@@ -2365,6 +2486,7 @@
         12.0,
         -6.0
       ],
+      "lateral_extent_mm": 9.0,
       "mesh_file": "hard/accumbens_L.glb",
       "mesh_files": [
         "hard/accumbens_L.glb",
