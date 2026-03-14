@@ -32,7 +32,7 @@ export default function HelpModal({ onClose }: Props) {
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Difficulty tiers:</p>
             <p>Easy: brain lobes, cerebellum, brainstem</p>
-            <p>Medium: 34 Desikan-Killiany cortical regions + major subcortical structures</p>
+            <p>Medium: 34 Desikan-Killiany cortical regions + major subcortical structures + brainstem subregions (midbrain, pons, medulla)</p>
             <p>Hard: 74 Destrieux atlas regions (fine gyri and sulci)</p>
           </div>
         </div>

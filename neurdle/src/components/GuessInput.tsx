@@ -4,6 +4,7 @@ import type { Region } from '@/types';
 
 interface Props {
   regions: Region[];
+  difficulty: 'easy' | 'medium' | 'hard';
   usedIds: Set<string>;
   disabled: boolean;
   onGuess: (region: Region) => void;
@@ -18,17 +19,28 @@ function matchesQuery(r: Region, q: string): boolean {
   return false;
 }
 
-export default function GuessInput({ regions, usedIds, disabled, onGuess }: Props) {
+export default function GuessInput({ regions, difficulty, usedIds, disabled, onGuess }: Props) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [highlighted, setHighlighted] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
 
+  // Deduplicate by name: prefer the region matching the current difficulty,
+  // then easier difficulties, so each name appears exactly once.
+  const DIFF_RANK: Record<string, number> = { easy: 0, medium: 1, hard: 2 };
+  const diffDist = (d: string) => Math.abs(DIFF_RANK[d] - DIFF_RANK[difficulty]);
+
   const filtered = regions
     .filter(r => !usedIds.has(r.id))
     .filter(r => matchesQuery(r, query))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      // Sort by name first, then by proximity to current difficulty
+      const nameOrder = a.name.localeCompare(b.name);
+      if (nameOrder !== 0) return nameOrder;
+      return diffDist(a.difficulty) - diffDist(b.difficulty);
+    })
+    .filter((r, i, arr) => i === 0 || arr[i - 1].name !== r.name);
 
   // Reset highlight when results change
   useEffect(() => { setHighlighted(0); }, [query]);

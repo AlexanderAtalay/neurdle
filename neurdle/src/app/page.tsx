@@ -122,6 +122,7 @@ export default function Home() {
         <div className="flex-shrink-0">
           <GuessInput
             regions={game.allRegions}
+            difficulty={game.difficulty}
             usedIds={isTraining ? new Set(game.trainingGuesses.map(g => g.region.id)) : usedIds}
             disabled={(!isTraining && game.gameOver) || trainingRevealed || trainingCorrect}
             onGuess={game.submitGuess}

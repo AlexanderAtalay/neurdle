@@ -303,17 +303,17 @@ def build_regions():
 
     # --- EASY: Lobe-level bilateral ---
     easy = [
-        #  id                  name              lobe        centroid               lat_ext
-        ('frontal_lobe',    'Frontal Lobe',    'frontal',  [0.0,  26.0,  22.0],   32.0),
-        ('parietal_lobe',   'Parietal Lobe',   'parietal', [0.0, -40.0,  52.0],   30.0),
-        ('temporal_lobe',   'Temporal Lobe',   'temporal', [0.0, -14.0, -14.0],   46.0),
-        ('occipital_lobe',  'Occipital Lobe',  'occipital',[0.0, -84.0,   8.0],   22.0),
-        ('insula_bilateral','Insula',          'insula',   [0.0,   2.0,   2.0],   36.0),
+        #  id                  name              lobe        centroid               lat_ext   diff
+        ('frontal_lobe',    'Frontal Lobe',    'frontal',  [0.0,  26.0,  22.0],   32.0,  'easy'),
+        ('parietal_lobe',   'Parietal Lobe',   'parietal', [0.0, -40.0,  52.0],   30.0,  'easy'),
+        ('temporal_lobe',   'Temporal Lobe',   'temporal', [0.0, -14.0, -14.0],   46.0,  'easy'),
+        ('occipital_lobe',  'Occipital Lobe',  'occipital',[0.0, -84.0,   8.0],   22.0,  'easy'),
+        ('insula_bilateral','Insula',          'insula',   [0.0,   2.0,   2.0],   36.0,  'medium'),
     ]
-    for sid, sname, lobe, centroid, lat_ext in easy:
+    for sid, sname, lobe, centroid, lat_ext, diff in easy:
         regions.append({
             'id': sid, 'name': sname, 'hemisphere': 'bilateral',
-            'difficulty': 'easy', 'category': 'cortical', 'lobe': lobe,
+            'difficulty': diff, 'category': 'cortical', 'lobe': lobe,
             'centroid_mni': centroid,
             'lateral_extent_mm': lat_ext,
             'mesh_file': f'easy/{sid.replace("_bilateral","")}_L.glb',
@@ -348,25 +348,24 @@ def build_regions():
 
     # --- MEDIUM: Brainstem subfields ---
     brainstem_subfields = [
-        ('midbrain', 'Midbrain', 'medium', 'brainstem',
-         [0.0, -24.0, -14.0], ['mesencephalon', 'mesencephalon'],
+        #  id         name                diff      lobe        centroid                lat_ext  aliases                     files
+        ('midbrain', 'Midbrain',          'medium', 'brainstem', [0.0, -21.2, -11.6], 3.0, ['mesencephalon'],
          ['medium/midbrain.glb']),
-        ('pons',     'Pons',     'medium', 'brainstem',
-         [0.0, -30.0, -32.0], ['pons Varolii'],
+        ('pons',     'Pons',              'medium', 'brainstem', [0.0, -30.3, -31.0], 3.0, ['pons Varolii'],
          ['medium/pons.glb']),
-        ('medulla',  'Medulla Oblongata', 'medium', 'brainstem',
-         [0.0, -36.0, -50.0], ['medulla', 'myelencephalon'],
+        ('medulla',  'Medulla Oblongata', 'medium', 'brainstem', [0.0, -43.4, -49.6], 3.0, ['medulla', 'myelencephalon'],
          ['medium/medulla.glb']),
     ]
-    for sid, sname, diff, lobe, centroid, aliases, files in brainstem_subfields:
+    for sid, sname, diff, lobe, centroid, lat_ext, aliases, files in brainstem_subfields:
         glb = f'data/meshes/{diff}/{sid}.glb'
         if not os.path.exists(glb):
-            print(f'  Skipping {sname}, {glb} not found (run extract_subfield_meshes.py first)')
+            print(f'  Skipping {sname}, {glb} not found (run extract_brainstem_atlas.py first)')
             continue
         regions.append({
             'id': sid, 'name': sname, 'hemisphere': 'bilateral',
             'difficulty': diff, 'category': 'subcortical', 'lobe': lobe,
             'centroid_mni': centroid,
+            'lateral_extent_mm': lat_ext,
             'mesh_file': files[0], 'mesh_files': files, 'aliases': aliases,
         })
 

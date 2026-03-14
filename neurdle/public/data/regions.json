@@ -2281,7 +2281,7 @@
       "id": "insula_bilateral",
       "name": "Insula",
       "hemisphere": "bilateral",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "cortical",
       "lobe": "insula",
       "centroid_mni": [
@@ -2297,6 +2297,70 @@
       ],
       "aliases": [
         "insular cortex"
+      ]
+    },
+    {
+      "id": "midbrain",
+      "name": "Midbrain",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "brainstem",
+      "centroid_mni": [
+        0.0,
+        -21.2,
+        -11.6
+      ],
+      "lateral_extent_mm": 3.0,
+      "mesh_file": "medium/midbrain.glb",
+      "mesh_files": [
+        "medium/midbrain.glb"
+      ],
+      "aliases": [
+        "mesencephalon"
+      ]
+    },
+    {
+      "id": "pons",
+      "name": "Pons",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "brainstem",
+      "centroid_mni": [
+        0.0,
+        -30.3,
+        -31.0
+      ],
+      "lateral_extent_mm": 3.0,
+      "mesh_file": "medium/pons.glb",
+      "mesh_files": [
+        "medium/pons.glb"
+      ],
+      "aliases": [
+        "pons Varolii"
+      ]
+    },
+    {
+      "id": "medulla",
+      "name": "Medulla Oblongata",
+      "hemisphere": "bilateral",
+      "difficulty": "medium",
+      "category": "subcortical",
+      "lobe": "brainstem",
+      "centroid_mni": [
+        0.0,
+        -43.4,
+        -49.6
+      ],
+      "lateral_extent_mm": 3.0,
+      "mesh_file": "medium/medulla.glb",
+      "mesh_files": [
+        "medium/medulla.glb"
+      ],
+      "aliases": [
+        "medulla",
+        "myelencephalon"
       ]
     },
     {
