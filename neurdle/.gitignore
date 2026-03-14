@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+/tractography_tmp
 
 # next.js
 /.next/

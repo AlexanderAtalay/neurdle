@@ -10,7 +10,13 @@ export default function Header() {
   return (
     <>
       <header className="flex items-center justify-between px-4 py-3 border-b border-gray-700">
-        <button onClick={() => setShowHelp(true)} className="text-gray-400 hover:text-white text-xl w-8">?</button>
+        <button onClick={() => setShowHelp(true)} className="text-gray-400 hover:text-white w-8 flex items-center justify-center" aria-label="How to play">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10" cy="10" r="9" stroke="currentColor" strokeWidth="1.5"/>
+            <rect x="9" y="9" width="2" height="6" rx="1" fill="currentColor"/>
+            <circle cx="10" cy="6" r="1" fill="currentColor"/>
+          </svg>
+        </button>
         <h1 className="text-2xl font-bold tracking-wide text-white">
           Neur<span className="text-[#e94560]">dle</span>
         </h1>

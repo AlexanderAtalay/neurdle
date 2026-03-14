@@ -44,7 +44,7 @@ function RegionGroup({ region, color, opacity }: {
   );
 }
 
-function GhostHemi({ path }: { path: string }) {
+function GlassHemi({ path }: { path: string }) {
   const { scene } = useGLTF(path);
   const cloned = useMemo(() => {
     const c = scene.clone(true);
@@ -62,22 +62,22 @@ function GhostHemi({ path }: { path: string }) {
   return <primitive object={cloned} />;
 }
 
-function GhostBrain() {
+function GlassBrain() {
   return (
     <>
-      <GhostHemi path="/meshes/whole_brain_ghost_L.glb" />
-      <GhostHemi path="/meshes/whole_brain_ghost_R.glb" />
+      <GlassHemi path="/meshes/whole_brain_ghost_L.glb" />
+      <GlassHemi path="/meshes/whole_brain_ghost_R.glb" />
     </>
   );
 }
 
 interface Props {
   targetRegion: Region | null;
-  showGhostBrain: boolean;
+  showGlassBrain: boolean;
   wrongGuessRegions?: Region[];  // shown at low opacity (training mode)
 }
 
-export default function BrainViewer({ targetRegion, showGhostBrain, wrongGuessRegions = [] }: Props) {
+export default function BrainViewer({ targetRegion, showGlassBrain, wrongGuessRegions = [] }: Props) {
   return (
     <div className="w-full h-full rounded-xl overflow-hidden bg-[#0d0d1a]">
       <Canvas
@@ -101,7 +101,7 @@ export default function BrainViewer({ targetRegion, showGhostBrain, wrongGuessRe
               {targetRegion && (
                 <RegionGroup key={targetRegion.id} region={targetRegion} color="#e94560" />
               )}
-              {showGhostBrain && <GhostBrain />}
+              {showGlassBrain && <GlassBrain />}
               {wrongGuessRegions.map(r => (
                 <RegionGroup key={r.id} region={r} color="#ff8c42" opacity={0.35} />
               ))}

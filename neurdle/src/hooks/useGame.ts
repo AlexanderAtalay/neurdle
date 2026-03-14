@@ -27,7 +27,7 @@ export function useGame() {
 
   const currentDailyState = store.dailyStates[store.difficulty] ?? {
     targetRegion: null, guesses: [], gameOver: false, won: false,
-    showGhostBrain: false, lastPlayedDate: '',
+    showGlassBrain: false, lastPlayedDate: '',
   };
 
   useEffect(() => {
@@ -112,9 +112,7 @@ export function useGame() {
 
   const gameOver = store.mode === 'daily' ? currentDailyState.gameOver : false;
   const won = store.mode === 'daily' ? currentDailyState.won : false;
-  const showGhostBrain = store.mode === 'training'
-    ? true
-    : currentDailyState.showGhostBrain;
+  const showGlassBrain = true;
 
   const trainingRevealed =
     store.mode === 'training' &&
@@ -128,7 +126,7 @@ export function useGame() {
     guesses,
     gameOver,
     won,
-    showGhostBrain,
+    showGlassBrain,
     stats: store.stats,
     trainingScore: store.trainingScore,
     trainingGuesses: store.trainingGuesses,

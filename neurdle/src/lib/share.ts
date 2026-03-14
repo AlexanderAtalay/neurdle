@@ -11,8 +11,8 @@ export function generateShareText(state: GameState, puzzleNumber: number): strin
   });
 
   const result = state.won ? `${state.guesses.length}/6` : 'X/6';
-  const diffEmoji = { easy: '🔵', medium: '🟡', hard: '🔴' }[state.difficulty];
-  const diffName = { easy: 'Easy', medium: 'Medium', hard: 'Hard' }[state.difficulty];
+  const diffEmoji = { easy: '🔵', normal: '🟡', hard: '🔴' }[state.difficulty];
+  const diffName = { easy: 'Easy', normal: 'Normal', hard: 'Hard' }[state.difficulty];
 
   return `Neurdle #${puzzleNumber}\n${diffEmoji} ${diffName}\n${result}${emoji.join('')}\nhttps://neurdle.app`;
 }

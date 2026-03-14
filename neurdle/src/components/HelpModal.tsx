@@ -3,7 +3,7 @@ interface Props { onClose: () => void; }
 export default function HelpModal({ onClose }: Props) {
   return (
     <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
-      <div className="bg-[#1a1a2e] rounded-2xl p-6 max-w-sm w-full border border-white/20 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div className="bg-[#1a1a2e] rounded-2xl p-6 max-w-md w-full border border-white/20 shadow-2xl max-h-[90vh] overflow-y-auto">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold text-white">How to Play</h2>
           <button onClick={onClose} className="text-gray-400 hover:text-white text-2xl leading-none">&times;</button>
@@ -18,22 +18,17 @@ export default function HelpModal({ onClose }: Props) {
             <li><strong className="text-white">Direction</strong>: Which way to go (anterior, superior, etc.)</li>
           </ul>
 
-          <div className="border-t border-white/10 pt-3 space-y-1">
-            <p className="font-medium text-white">Progressive hint:</p>
-            <p>Guess 3+: a glass brain outline appears for spatial context</p>
-          </div>
-
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Modes:</p>
             <p><span className="text-white">📅 Daily</span>: One puzzle per difficulty per day</p>
-            <p><span className="text-white">🧪 Training</span>: Unlimited play; glass brain always visible</p>
+            <p><span className="text-white">📚 Training</span>: Unlimited play, track your score</p>
           </div>
 
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Difficulty tiers:</p>
-            <p>Easy: brain lobes, cerebellum, brainstem</p>
-            <p>Medium: 34 Desikan-Killiany cortical regions + major subcortical structures + brainstem subregions (midbrain, pons, medulla)</p>
-            <p>Hard: 74 Destrieux atlas regions (fine gyri and sulci)</p>
+            <p><span className="text-white">Easy</span>: brain lobes, cerebellum, brainstem</p>
+            <p><span className="text-white">Normal</span>: 34 Desikan-Killiany cortical regions + major subcortical + brainstem subregions + major white matter tracts</p>
+            <p><span className="text-white">Hard</span>: 74 Destrieux atlas regions (fine gyri and sulci)</p>
           </div>
         </div>
 

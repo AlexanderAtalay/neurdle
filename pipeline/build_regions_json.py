@@ -254,7 +254,7 @@ def build_regions():
             'id': name,
             'name': DK_NAMES.get(name, name.replace('_', ' ').title()),
             'hemisphere': 'bilateral',
-            'difficulty': 'medium',
+            'difficulty': 'normal',
             'category': 'cortical',
             'lobe': DK_LOBE.get(name, 'unknown'),
             'centroid_mni': centroid,
@@ -308,7 +308,7 @@ def build_regions():
         ('parietal_lobe',   'Parietal Lobe',   'parietal', [0.0, -40.0,  52.0],   30.0,  'easy'),
         ('temporal_lobe',   'Temporal Lobe',   'temporal', [0.0, -14.0, -14.0],   46.0,  'easy'),
         ('occipital_lobe',  'Occipital Lobe',  'occipital',[0.0, -84.0,   8.0],   22.0,  'easy'),
-        ('insula_bilateral','Insula',          'insula',   [0.0,   2.0,   2.0],   36.0,  'medium'),
+        ('insula_bilateral','Insula',          'insula',   [0.0,   2.0,   2.0],   36.0,  'normal'),
     ]
     for sid, sname, lobe, centroid, lat_ext, diff in easy:
         regions.append({
@@ -330,30 +330,30 @@ def build_regions():
          ['easy/brainstem.glb']),
         ('cerebellum_cortex', 'Cerebellum',        'easy',   'cerebellum',   [0.0, -56.0, -30.0],   26.0,  ['cerebellar cortex'],
          ['easy/cerebellum_cortex_L.glb', 'easy/cerebellum_cortex_R.glb']),
-        ('hippocampus',       'Hippocampus',       'medium', 'temporal',     [0.0, -20.0, -12.0],   28.0,  ['hippocampal formation', 'cornu ammonis'],
+        ('hippocampus',       'Hippocampus',       'normal', 'temporal',     [0.0, -20.0, -12.0],   28.0,  ['hippocampal formation', 'cornu ammonis'],
          ['medium/hippocampus_L.glb', 'medium/hippocampus_R.glb']),
-        ('amygdala',          'Amygdala',          'medium', 'temporal',     [0.0,  -2.0, -18.0],   24.0,  ['amygdaloid body'],
+        ('amygdala',          'Amygdala',          'normal', 'temporal',     [0.0,  -2.0, -18.0],   24.0,  ['amygdaloid body'],
          ['medium/amygdala_L.glb', 'medium/amygdala_R.glb']),
-        ('thalamus',          'Thalamus',          'medium', 'diencephalon', [0.0, -16.0,   8.0],   12.0,  ['dorsal thalamus'],
+        ('thalamus',          'Thalamus',          'normal', 'diencephalon', [0.0, -16.0,   8.0],   12.0,  ['dorsal thalamus'],
          ['medium/thalamus_L.glb', 'medium/thalamus_R.glb']),
-        ('caudate',           'Caudate Nucleus',   'medium', 'basal_ganglia',[0.0,   6.0,  14.0],   15.0,  ['caudate'],
+        ('caudate',           'Caudate Nucleus',   'normal', 'basal_ganglia',[0.0,   6.0,  14.0],   15.0,  ['caudate'],
          ['medium/caudate_L.glb', 'medium/caudate_R.glb']),
-        ('putamen',           'Putamen',           'medium', 'basal_ganglia',[0.0,   0.0,   4.0],   26.0,  [],
+        ('putamen',           'Putamen',           'normal', 'basal_ganglia',[0.0,   0.0,   4.0],   26.0,  [],
          ['medium/putamen_L.glb', 'medium/putamen_R.glb']),
-        ('pallidum',          'Globus Pallidus',   'medium', 'basal_ganglia',[0.0,  -4.0,   2.0],   20.0,  ['GP', 'globus pallidus'],
+        ('pallidum',          'Globus Pallidus',   'normal', 'basal_ganglia',[0.0,  -4.0,   2.0],   20.0,  ['GP', 'globus pallidus'],
          ['medium/pallidum_L.glb', 'medium/pallidum_R.glb']),
-        ('accumbens',         'Nucleus Accumbens', 'medium', 'basal_ganglia',[0.0,  12.0,  -6.0],    9.0,  ['NAcc', 'ventral striatum'],
+        ('accumbens',         'Nucleus Accumbens', 'normal', 'basal_ganglia',[0.0,  12.0,  -6.0],    9.0,  ['NAcc', 'ventral striatum'],
          ['medium/accumbens_L.glb', 'medium/accumbens_R.glb']),
     ]
 
     # --- MEDIUM: Brainstem subfields ---
     brainstem_subfields = [
         #  id         name                diff      lobe        centroid                lat_ext  aliases                     files
-        ('midbrain', 'Midbrain',          'medium', 'brainstem', [0.0, -21.2, -11.6], 3.0, ['mesencephalon'],
+        ('midbrain', 'Midbrain',          'normal', 'brainstem', [0.0, -21.2, -11.6], 3.0, ['mesencephalon'],
          ['medium/midbrain.glb']),
-        ('pons',     'Pons',              'medium', 'brainstem', [0.0, -30.3, -31.0], 3.0, ['pons Varolii'],
+        ('pons',     'Pons',              'normal', 'brainstem', [0.0, -30.3, -31.0], 3.0, ['pons Varolii'],
          ['medium/pons.glb']),
-        ('medulla',  'Medulla Oblongata', 'medium', 'brainstem', [0.0, -43.4, -49.6], 3.0, ['medulla', 'myelencephalon'],
+        ('medulla',  'Medulla Oblongata', 'normal', 'brainstem', [0.0, -43.4, -49.6], 3.0, ['medulla', 'myelencephalon'],
          ['medium/medulla.glb']),
     ]
     for sid, sname, diff, lobe, centroid, lat_ext, aliases, files in brainstem_subfields:

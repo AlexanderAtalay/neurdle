@@ -7,7 +7,7 @@ type DifficultyState = {
   guesses: GuessResult[];
   gameOver: boolean;
   won: boolean;
-  showGhostBrain: boolean;
+  showGlassBrain: boolean;
   lastPlayedDate: string;
 };
 
@@ -16,7 +16,7 @@ const defaultDiffState = (): DifficultyState => ({
   guesses: [],
   gameOver: false,
   won: false,
-  showGhostBrain: false,
+  showGlassBrain: false,
   lastPlayedDate: '',
 });
 
@@ -29,7 +29,7 @@ const defaultStats: PlayerStats = {
 export type GameMode = 'daily' | 'training';
 
 interface GameStore {
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: 'easy' | 'normal' | 'hard';
   mode: GameMode;
   dailyStates: Record<string, DifficultyState>;
   stats: PlayerStats;
@@ -41,7 +41,7 @@ interface GameStore {
   trainingScore: number;
 
   // Daily game actions
-  setDifficulty: (d: 'easy' | 'medium' | 'hard') => void;
+  setDifficulty: (d: 'easy' | 'normal' | 'hard') => void;
   setMode: (m: GameMode) => void;
   setTargetRegion: (r: Region) => void;
   addGuess: (g: GuessResult) => void;
@@ -57,11 +57,11 @@ interface GameStore {
 export const useGameStore = create<GameStore>()(
   persist(
     (set, get) => ({
-      difficulty: 'medium',
+      difficulty: 'normal',
       mode: 'daily',
       dailyStates: {
         easy: defaultDiffState(),
-        medium: defaultDiffState(),
+        normal: defaultDiffState(),
         hard: defaultDiffState(),
       },
       stats: defaultStats,
@@ -92,11 +92,11 @@ export const useGameStore = create<GameStore>()(
         const newGuesses = [...prev.guesses, guess];
         const won = guess.isCorrect;
         const gameOver = won || newGuesses.length >= 6;
-        const showGhostBrain = newGuesses.length >= 3;
+        const showGlassBrain = newGuesses.length >= 3;
         set({
           dailyStates: {
             ...dailyStates,
-            [difficulty]: { ...prev, guesses: newGuesses, won, gameOver, showGhostBrain },
+            [difficulty]: { ...prev, guesses: newGuesses, won, gameOver, showGlassBrain },
           },
         });
       },

@@ -4,7 +4,7 @@
       "id": "bankssts",
       "name": "Banks of the Superior Temporal Sulcus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -24,7 +24,7 @@
       "id": "caudalanteriorcingulate",
       "name": "Anterior Cingulate Cortex (Caudal)",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -44,7 +44,7 @@
       "id": "caudalmiddlefrontal",
       "name": "Middle Frontal Gyrus (Caudal)",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -64,7 +64,7 @@
       "id": "cuneus",
       "name": "Cuneus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "occipital",
       "centroid_mni": [
@@ -84,7 +84,7 @@
       "id": "entorhinal",
       "name": "Entorhinal Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -106,7 +106,7 @@
       "id": "fusiform",
       "name": "Fusiform Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -129,7 +129,7 @@
       "id": "inferiorparietal",
       "name": "Inferior Parietal Lobule",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "parietal",
       "centroid_mni": [
@@ -149,7 +149,7 @@
       "id": "inferiortemporal",
       "name": "Inferior Temporal Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -169,7 +169,7 @@
       "id": "isthmuscingulate",
       "name": "Isthmus Cingulate Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "parietal",
       "centroid_mni": [
@@ -189,7 +189,7 @@
       "id": "lateraloccipital",
       "name": "Lateral Occipital Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "occipital",
       "centroid_mni": [
@@ -209,7 +209,7 @@
       "id": "lateralorbitofrontal",
       "name": "Lateral Orbitofrontal Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -231,7 +231,7 @@
       "id": "lingual",
       "name": "Lingual Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "occipital",
       "centroid_mni": [
@@ -251,7 +251,7 @@
       "id": "medialorbitofrontal",
       "name": "Medial Orbitofrontal Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -271,7 +271,7 @@
       "id": "middletemporal",
       "name": "Middle Temporal Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -291,7 +291,7 @@
       "id": "parahippocampal",
       "name": "Parahippocampal Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -311,7 +311,7 @@
       "id": "paracentral",
       "name": "Paracentral Lobule",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -331,7 +331,7 @@
       "id": "parsopercularis",
       "name": "Broca's Area (Pars Opercularis)",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -354,7 +354,7 @@
       "id": "parsorbitalis",
       "name": "Orbitofrontal Cortex (Pars Orbitalis)",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -374,7 +374,7 @@
       "id": "parstriangularis",
       "name": "Broca's Area (Pars Triangularis)",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -397,7 +397,7 @@
       "id": "pericalcarine",
       "name": "Primary Visual Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "occipital",
       "centroid_mni": [
@@ -422,7 +422,7 @@
       "id": "postcentral",
       "name": "Primary Somatosensory Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "parietal",
       "centroid_mni": [
@@ -448,7 +448,7 @@
       "id": "posteriorcingulate",
       "name": "Posterior Cingulate Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "parietal",
       "centroid_mni": [
@@ -468,7 +468,7 @@
       "id": "precentral",
       "name": "Primary Motor Cortex",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -492,7 +492,7 @@
       "id": "precuneus",
       "name": "Precuneus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "parietal",
       "centroid_mni": [
@@ -512,7 +512,7 @@
       "id": "rostralanteriorcingulate",
       "name": "Anterior Cingulate Cortex (Rostral)",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -532,7 +532,7 @@
       "id": "rostralmiddlefrontal",
       "name": "Middle Frontal Gyrus (Rostral)",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -552,7 +552,7 @@
       "id": "superiorfrontal",
       "name": "Superior Frontal Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -572,7 +572,7 @@
       "id": "superiorparietal",
       "name": "Superior Parietal Lobule",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "parietal",
       "centroid_mni": [
@@ -592,7 +592,7 @@
       "id": "superiortemporal",
       "name": "Superior Temporal Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -615,7 +615,7 @@
       "id": "supramarginal",
       "name": "Supramarginal Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "parietal",
       "centroid_mni": [
@@ -635,7 +635,7 @@
       "id": "frontalpole",
       "name": "Frontal Pole",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "frontal",
       "centroid_mni": [
@@ -655,7 +655,7 @@
       "id": "temporalpole",
       "name": "Temporal Pole",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -675,7 +675,7 @@
       "id": "transversetemporal",
       "name": "Heschl's Gyrus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -699,7 +699,7 @@
       "id": "insula",
       "name": "Insula",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "insula",
       "centroid_mni": [
@@ -2281,7 +2281,7 @@
       "id": "insula_bilateral",
       "name": "Insula",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "cortical",
       "lobe": "insula",
       "centroid_mni": [
@@ -2303,7 +2303,7 @@
       "id": "midbrain",
       "name": "Midbrain",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "brainstem",
       "centroid_mni": [
@@ -2324,7 +2324,7 @@
       "id": "pons",
       "name": "Pons",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "brainstem",
       "centroid_mni": [
@@ -2345,7 +2345,7 @@
       "id": "medulla",
       "name": "Medulla Oblongata",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "brainstem",
       "centroid_mni": [
@@ -2410,7 +2410,7 @@
       "id": "hippocampus",
       "name": "Hippocampus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -2433,7 +2433,7 @@
       "id": "amygdala",
       "name": "Amygdala",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "temporal",
       "centroid_mni": [
@@ -2455,7 +2455,7 @@
       "id": "thalamus",
       "name": "Thalamus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "diencephalon",
       "centroid_mni": [
@@ -2477,7 +2477,7 @@
       "id": "caudate",
       "name": "Caudate Nucleus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "basal_ganglia",
       "centroid_mni": [
@@ -2499,7 +2499,7 @@
       "id": "putamen",
       "name": "Putamen",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "basal_ganglia",
       "centroid_mni": [
@@ -2519,7 +2519,7 @@
       "id": "pallidum",
       "name": "Globus Pallidus",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "basal_ganglia",
       "centroid_mni": [
@@ -2542,7 +2542,7 @@
       "id": "accumbens",
       "name": "Nucleus Accumbens",
       "hemisphere": "bilateral",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "category": "subcortical",
       "lobe": "basal_ganglia",
       "centroid_mni": [
@@ -2560,6 +2560,254 @@
         "NAcc",
         "ventral striatum"
       ]
+    },
+    {
+      "id": "corpus_callosum",
+      "name": "Corpus Callosum",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "tract",
+      "lobe": "commissural",
+      "centroid_mni": [
+        0.0,
+        -28.3,
+        19.2
+      ],
+      "lateral_extent_mm": 22.7,
+      "mesh_file": "tracts/corpus_callosum.glb",
+      "mesh_files": [
+        "tracts/corpus_callosum.glb"
+      ],
+      "aliases": [
+        "CC",
+        "callosum"
+      ],
+      "description": "The largest white matter commissure, connecting homologous regions across both cerebral hemispheres.",
+      "fun_fact": "The corpus callosum contains ~200 million axons \u2014 more than any other white matter tract."
+    },
+    {
+      "id": "anterior_commissure",
+      "name": "Anterior Commissure",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "tract",
+      "lobe": "commissural",
+      "centroid_mni": [
+        0.0,
+        -36.2,
+        -4.0
+      ],
+      "lateral_extent_mm": 27.2,
+      "mesh_file": "tracts/anterior_commissure.glb",
+      "mesh_files": [
+        "tracts/anterior_commissure.glb"
+      ],
+      "aliases": [
+        "AC"
+      ],
+      "description": "A small commissure crossing the midline, connecting the olfactory regions and anterior temporal lobes.",
+      "fun_fact": "The anterior commissure is phylogenetically ancient and present in all mammalian brains."
+    },
+    {
+      "id": "arcuate_fasciculus",
+      "name": "Arcuate Fasciculus",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "tract",
+      "lobe": "association",
+      "centroid_mni": [
+        0.0,
+        -20.5,
+        17.1
+      ],
+      "lateral_extent_mm": 41.2,
+      "mesh_file": "tracts/AF_L.glb",
+      "mesh_files": [
+        "tracts/AF_L.glb",
+        "tracts/AF_R.glb"
+      ],
+      "aliases": [
+        "AF",
+        "superior longitudinal fasciculus (language)"
+      ],
+      "description": "Connects Broca's area in the frontal lobe to Wernicke's area in the temporal lobe, forming the core language circuit.",
+      "fun_fact": "Damage to the arcuate fasciculus causes conduction aphasia \u2014 the inability to repeat words despite intact comprehension and production."
+    },
+    {
+      "id": "slf",
+      "name": "Superior Longitudinal Fasciculus",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "tract",
+      "lobe": "association",
+      "centroid_mni": [
+        0.0,
+        -6.6,
+        35.2
+      ],
+      "lateral_extent_mm": 33.6,
+      "mesh_file": "tracts/SLF2_L.glb",
+      "mesh_files": [
+        "tracts/SLF2_L.glb",
+        "tracts/SLF2_R.glb"
+      ],
+      "aliases": [
+        "SLF",
+        "SLF II",
+        "SLF2"
+      ],
+      "description": "Connects parietal and frontal lobes, running along the dorsolateral convexity. Key for spatial attention and working memory.",
+      "fun_fact": "There are three distinct SLF branches (I, II, III) that connect different parietal and frontal regions."
+    },
+    {
+      "id": "ifof",
+      "name": "Inferior Fronto-Occipital Fasciculus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "tract",
+      "lobe": "association",
+      "centroid_mni": [
+        0.0,
+        -19.7,
+        -1.0
+      ],
+      "lateral_extent_mm": 29.7,
+      "mesh_file": "tracts/IFOF_L.glb",
+      "mesh_files": [
+        "tracts/IFOF_L.glb",
+        "tracts/IFOF_R.glb"
+      ],
+      "aliases": [
+        "IFOF",
+        "fronto-occipital fasciculus"
+      ],
+      "description": "A long tract running beneath the insula, connecting frontal lobe to occipital and temporal regions.",
+      "fun_fact": "The IFOF is thought to be involved in semantic processing and visual attention."
+    },
+    {
+      "id": "ilf",
+      "name": "Inferior Longitudinal Fasciculus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "tract",
+      "lobe": "association",
+      "centroid_mni": [
+        0.0,
+        -48.1,
+        -0.2
+      ],
+      "lateral_extent_mm": 34.6,
+      "mesh_file": "tracts/ILF_L.glb",
+      "mesh_files": [
+        "tracts/ILF_L.glb",
+        "tracts/ILF_R.glb"
+      ],
+      "aliases": [
+        "ILF"
+      ],
+      "description": "Connects temporal pole to occipital cortex along the ventral stream, supporting visual recognition and memory.",
+      "fun_fact": "The ILF is a key tract for face recognition \u2014 damage causes prosopagnosia."
+    },
+    {
+      "id": "uncinate_fasciculus",
+      "name": "Uncinate Fasciculus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "tract",
+      "lobe": "association",
+      "centroid_mni": [
+        0.0,
+        18.8,
+        -15.4
+      ],
+      "lateral_extent_mm": 26.4,
+      "mesh_file": "tracts/UF_L.glb",
+      "mesh_files": [
+        "tracts/UF_L.glb",
+        "tracts/UF_R.glb"
+      ],
+      "aliases": [
+        "UF",
+        "uncinate"
+      ],
+      "description": "Hooks around the Sylvian fissure, connecting orbitofrontal cortex to anterior temporal lobe.",
+      "fun_fact": "The uncinate fasciculus is one of the last tracts to mature \u2014 development continues into the third decade of life."
+    },
+    {
+      "id": "vof",
+      "name": "Vertical Occipital Fasciculus",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "tract",
+      "lobe": "association",
+      "centroid_mni": [
+        0.0,
+        -81.1,
+        10.5
+      ],
+      "lateral_extent_mm": 27.3,
+      "mesh_file": "tracts/VOF_L.glb",
+      "mesh_files": [
+        "tracts/VOF_L.glb",
+        "tracts/VOF_R.glb"
+      ],
+      "aliases": [
+        "VOF",
+        "Wernicke's perpendicular fasciculus"
+      ],
+      "description": "A short vertical tract in the posterior brain connecting dorsal and ventral occipital cortex.",
+      "fun_fact": "First described by Wernicke in 1881, the VOF was largely forgotten for over a century before being rediscovered by diffusion MRI."
+    },
+    {
+      "id": "corticospinal_tract",
+      "name": "Corticospinal Tract",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "tract",
+      "lobe": "projection",
+      "centroid_mni": [
+        0.0,
+        -16.7,
+        8.4
+      ],
+      "lateral_extent_mm": 18.6,
+      "mesh_file": "tracts/CST_L.glb",
+      "mesh_files": [
+        "tracts/CST_L.glb",
+        "tracts/CST_R.glb"
+      ],
+      "aliases": [
+        "CST",
+        "pyramidal tract"
+      ],
+      "description": "Descends from motor cortex through the internal capsule and brainstem to the spinal cord, carrying voluntary motor commands.",
+      "fun_fact": "The CST decussates (crosses) in the medullary pyramids \u2014 the left motor cortex controls the right side of the body."
+    },
+    {
+      "id": "optic_radiation",
+      "name": "Optic Radiation",
+      "hemisphere": "bilateral",
+      "difficulty": "hard",
+      "category": "tract",
+      "lobe": "projection",
+      "centroid_mni": [
+        0.0,
+        -56.5,
+        4.0
+      ],
+      "lateral_extent_mm": 25.5,
+      "mesh_file": "tracts/OR_L.glb",
+      "mesh_files": [
+        "tracts/OR_L.glb",
+        "tracts/OR_R.glb"
+      ],
+      "aliases": [
+        "OR",
+        "optic radiations",
+        "geniculocalcarine tract"
+      ],
+      "description": "Carries visual signals from the lateral geniculate nucleus of the thalamus to primary visual cortex.",
+      "fun_fact": "Meyer's loop \u2014 the anterior bend of the optic radiation \u2014 sweeps through the temporal lobe. Temporal lobe surgery can cause a 'pie-in-the-sky' visual field defect."
     }
   ]
 }

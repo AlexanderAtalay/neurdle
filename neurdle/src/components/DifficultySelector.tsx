@@ -3,14 +3,14 @@ import { useGameStore } from '@/store/gameStore';
 
 const DIFFICULTIES = [
   { value: 'easy', label: 'Easy', color: 'text-blue-400' },
-  { value: 'medium', label: 'Medium', color: 'text-yellow-400' },
+  { value: 'normal', label: 'Normal', color: 'text-yellow-400' },
   { value: 'hard', label: 'Hard', color: 'text-red-400' },
 ] as const;
 
 export default function DifficultySelector() {
   const { difficulty, setDifficulty } = useGameStore();
 
-  function handleChange(d: 'easy' | 'medium' | 'hard') {
+  function handleChange(d: 'easy' | 'normal' | 'hard') {
     if (d === difficulty) return;
     setDifficulty(d);
     // Game state per-difficulty is preserved automatically in the store

@@ -2,7 +2,7 @@ import type { Region } from '@/types';
 
 export function getDailyRegion(
   regions: Region[],
-  difficulty: 'easy' | 'medium' | 'hard'
+  difficulty: 'easy' | 'normal' | 'hard'
 ): Region {
   const today = new Date();
   const dateStr = `${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;

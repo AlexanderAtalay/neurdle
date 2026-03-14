@@ -2,7 +2,7 @@ export interface Region {
   id: string;
   name: string;
   hemisphere: 'left' | 'right' | 'bilateral';
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: 'easy' | 'normal' | 'hard';
   category: 'cortical' | 'subcortical';
   lobe: string;
   centroid_mni: [number, number, number];
@@ -24,12 +24,12 @@ export interface GuessResult {
 }
 
 export interface GameState {
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: 'easy' | 'normal' | 'hard';
   targetRegion: Region | null;
   guesses: GuessResult[];
   gameOver: boolean;
   won: boolean;
-  showGhostBrain: boolean;
+  showGlassBrain: boolean;
   maxGuesses: 6;
 }
 

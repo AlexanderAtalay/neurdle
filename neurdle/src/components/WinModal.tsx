@@ -10,7 +10,7 @@ export default function WinModal({ onClose }: Props) {
   const puzzleNum = getPuzzleNumber();
 
   const dailyState = store.dailyStates[store.difficulty];
-  const { targetRegion, guesses, gameOver, won, showGhostBrain } = dailyState ?? {};
+  const { targetRegion, guesses, gameOver, won, showGlassBrain } = dailyState ?? {};
 
   function handleShare() {
     const text = generateShareText(
@@ -20,7 +20,7 @@ export default function WinModal({ onClose }: Props) {
         guesses: guesses ?? [],
         gameOver: gameOver ?? false,
         won: won ?? false,
-        showGhostBrain: showGhostBrain ?? false,
+        showGlassBrain: showGlassBrain ?? false,
         maxGuesses: 6,
       },
       puzzleNum

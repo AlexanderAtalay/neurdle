@@ -4,7 +4,7 @@ import type { Region } from '@/types';
 
 interface Props {
   regions: Region[];
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: 'easy' | 'normal' | 'hard';
   usedIds: Set<string>;
   disabled: boolean;
   onGuess: (region: Region) => void;
@@ -28,7 +28,7 @@ export default function GuessInput({ regions, difficulty, usedIds, disabled, onG
 
   // Deduplicate by name: prefer the region matching the current difficulty,
   // then easier difficulties, so each name appears exactly once.
-  const DIFF_RANK: Record<string, number> = { easy: 0, medium: 1, hard: 2 };
+  const DIFF_RANK: Record<string, number> = { easy: 0, normal: 1, hard: 2 };
   const diffDist = (d: string) => Math.abs(DIFF_RANK[d] - DIFF_RANK[difficulty]);
 
   const filtered = regions

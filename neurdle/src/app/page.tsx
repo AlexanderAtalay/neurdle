@@ -49,7 +49,7 @@ export default function Home() {
                     : 'border-gray-600 text-gray-400 hover:border-gray-400'
                 }`}
               >
-                {m === 'training' ? '🧪 Training' : '📅 Daily'}
+                {m === 'training' ? '📚 Training' : '📅 Daily'}
               </button>
             ))}
           </div>
@@ -60,12 +60,7 @@ export default function Home() {
         {isTraining && (
           <div className="text-center text-xs text-gray-400">
             Score: <span className="text-[#16c79a] font-bold text-sm">{game.trainingScore}</span>
-            {game.targetRegion && (
-              <span className="ml-3">
-                Glass brain always visible
-              </span>
-            )}
-          </div>
+            </div>
         )}
 
         {/* 3D Viewer */}
@@ -73,7 +68,7 @@ export default function Home() {
           {game.targetRegion ? (
             <BrainViewer
               targetRegion={game.targetRegion}
-              showGhostBrain={game.showGhostBrain}
+              showGlassBrain={game.showGlassBrain}
               wrongGuessRegions={isTraining ? game.trainingWrongRegions : game.guesses.filter(g => !g.isCorrect).map(g => g.region)}
             />
           ) : (
