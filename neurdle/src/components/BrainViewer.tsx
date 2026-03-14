@@ -81,7 +81,7 @@ export default function BrainViewer({ targetRegion, showGhostBrain, wrongGuessRe
   return (
     <div className="w-full h-full rounded-xl overflow-hidden bg-[#0d0d1a]">
       <Canvas
-        camera={{ position: [0, 0, 120], fov: 45 }}
+        camera={{ position: [-107, 20, -160], fov: 45 }}
         gl={{ antialias: true }}
       >
         <ambientLight intensity={0.6} />
@@ -91,6 +91,7 @@ export default function BrainViewer({ targetRegion, showGhostBrain, wrongGuessRe
 
         <OrbitControls
           enablePan enableZoom enableRotate
+          autoRotate autoRotateSpeed={0.3}
           minDistance={20} maxDistance={300}
         />
 
