@@ -28,7 +28,7 @@ SUBCORICAL_DIFF = {
     'pallidum_L': 'medium', 'pallidum_R': 'medium',
     'hippocampus_L': 'medium', 'hippocampus_R': 'medium',
     'amygdala_L': 'medium', 'amygdala_R': 'medium',
-    'accumbens_L': 'hard', 'accumbens_R': 'hard',
+    'accumbens_L': 'medium', 'accumbens_R': 'medium',
     'ventral_DC_L': 'hard', 'ventral_DC_R': 'hard',
     'lateral_ventricle_L': 'medium', 'lateral_ventricle_R': 'medium',
 }
@@ -60,7 +60,7 @@ if os.path.isdir('meshes_raw/subfields'):
             diff = SUBFIELD_DIFF.get(name, 'hard')
             convert(f'meshes_raw/subfields/{f}', f'data/meshes/{diff}/{f.replace(".obj",".glb")}')
 
-# Lobe (easy) — already written as GLB by generate_lobe_meshes.py
+# Lobe (easy) already written as GLB by generate_lobe_meshes.py
 # Whole brain ghost
 for hemi in ['L', 'R']:
     src = f'meshes_raw/whole_brain_{hemi}.obj'

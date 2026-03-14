@@ -77,10 +77,11 @@ export const useGameStore = create<GameStore>()(
 
       setTargetRegion: (targetRegion) => {
         const { difficulty, dailyStates } = get();
+        // Full reset for new day, preserves only the new target
         set({
           dailyStates: {
             ...dailyStates,
-            [difficulty]: { ...dailyStates[difficulty], targetRegion },
+            [difficulty]: { ...defaultDiffState(), targetRegion },
           },
         });
       },

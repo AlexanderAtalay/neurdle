@@ -2478,7 +2478,7 @@
       "id": "accumbens",
       "name": "Nucleus Accumbens",
       "hemisphere": "bilateral",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "category": "subcortical",
       "lobe": "basal_ganglia",
       "centroid_mni": [
@@ -2487,10 +2487,10 @@
         -6.0
       ],
       "lateral_extent_mm": 9.0,
-      "mesh_file": "hard/accumbens_L.glb",
+      "mesh_file": "medium/accumbens_L.glb",
       "mesh_files": [
-        "hard/accumbens_L.glb",
-        "hard/accumbens_R.glb"
+        "medium/accumbens_L.glb",
+        "medium/accumbens_R.glb"
       ],
       "aliases": [
         "NAcc",

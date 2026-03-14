@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Neurdle',
-  description: 'Daily neuroanatomy guessing game — identify brain regions in 3D',
+  description: 'Daily neuroanatomy guessing game; Identify brain regions in 3D',
 };
 
 export const viewport: Viewport = {

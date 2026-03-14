@@ -11,13 +11,13 @@ A daily neuroanatomy guessing game. Identify a 3D brain region using feedback on
 - A 3D brain region is shown. Rotate it freely with your mouse or finger.
 - Guess which region it is from the autocomplete list.
 - After each wrong guess: **distance (mm)**, **proximity %**, and **directional arrows** (↑A/↓P · ↑S/↓I · →L/←M) tell you how close you are.
-- After guess 3: a ghost brain outline appears for spatial context.
+- After guess 3: a glass brain appears for spatial context.
 - Win in 6 guesses or fewer.
 - **Three difficulty tiers:**
-  - 🔵 **Easy** — brain lobes, cerebellum, brainstem
-  - 🟡 **Medium** — 34 Desikan-Killiany cortical regions + major subcortical structures
-  - 🔴 **Hard** — 74 Destrieux atlas regions (fine gyri and sulci)
-- **Training mode** — unlimited play with ghost brain always visible and wrong guesses shown at low opacity.
+  - 🔵 **Easy**: brain lobes, cerebellum, brainstem
+  - 🟡 **Medium**: 34 Desikan-Killiany cortical regions + major subcortical structures
+  - 🔴 **Hard**: 74 Destrieux atlas regions (fine gyri and sulci)
+- **Training mode**: unlimited play with glass brain always visible.
 
 ---
 
@@ -63,26 +63,6 @@ neurdle/
 | 3D rendering | Three.js · `@react-three/fiber` · `@react-three/drei` |
 | Styling | Tailwind CSS |
 | State | Zustand (persisted to localStorage) |
-| Hosting | Netlify |
-
----
-
-## Deployment (Netlify)
-
-The app is configured for automatic deployment from this repo.
-
-1. Connect this repo to Netlify.
-2. Netlify reads `netlify.toml` — build runs from `neurdle/`, publishes `out/`.
-3. No environment variables required.
-
-For manual deployment:
-```bash
-cd neurdle
-npm install
-npm run build   # outputs to neurdle/out/
-```
-
----
 
 ## Data Pipeline (for contributors / regenerating meshes)
 
@@ -104,7 +84,7 @@ pip install nibabel trimesh fast-simplification scikit-image scipy numpy
 ```bash
 python pipeline/extract_cortical_meshes.py      # Desikan-Killiany + Destrieux OBJs
 python pipeline/extract_subcortical_meshes.py   # aseg subcortical OBJs
-python pipeline/extract_whole_brain.py          # ghost brain OBJs
+python pipeline/extract_whole_brain.py          # glass brain OBJs
 python pipeline/generate_lobe_meshes.py         # merged lobe GLBs (easy mode)
 python pipeline/convert_to_glb_python.py        # all OBJ → GLB
 python pipeline/build_regions_json.py           # master regions.json

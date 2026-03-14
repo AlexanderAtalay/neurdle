@@ -28,7 +28,7 @@ BRAINSTEM_LABELS = {
     173: 'midbrain',
     174: 'pons',
     175: 'medulla',
-    176: 'scp',          # Superior Cerebellar Peduncle — skip if mesh too small
+    176: 'scp',          # Superior Cerebellar Peduncle, skip if mesh too small
 }
 
 # Brainstem structures to actually include (scp tends to be very small)
@@ -72,14 +72,14 @@ def _extract_mesh(vol_data, affine, label_id, name, output_dir,
                   sigma=0.5, max_faces=3000):
     mask = (vol_data == label_id).astype(np.float32)
     if mask.sum() == 0:
-        print(f'  Warning: label {label_id} ({name}) not found — skipping')
+        print(f'  Warning: label {label_id} ({name}) not found. Skipping')
         return False
 
     mask = ndimage.gaussian_filter(mask, sigma=sigma)
     try:
         verts, faces, _, _ = measure.marching_cubes(mask, level=0.5, spacing=(1, 1, 1))
     except ValueError:
-        print(f'  Warning: marching cubes failed for {name} — skipping')
+        print(f'  Warning: marching cubes failed for {name}. Skipping')
         return False
 
     # Voxel → MNI
@@ -131,14 +131,14 @@ def extract_thalamic_nuclei(output_dir='meshes_raw/subfields'):
         label_r = label_l + 100
         mask = ((data == label_l) | (data == label_r)).astype(np.float32)
         if mask.sum() == 0:
-            print(f'  Warning: {name} (L:{label_l} R:{label_r}) not found — skipping')
+            print(f'  Warning: {name} (L:{label_l} R:{label_r}) not found. Skipping')
             continue
 
         mask = ndimage.gaussian_filter(mask, sigma=0.5)
         try:
             verts, faces, _, _ = measure.marching_cubes(mask, level=0.5, spacing=(1, 1, 1))
         except ValueError:
-            print(f'  Warning: marching cubes failed for {name} — skipping')
+            print(f'  Warning: marching cubes failed for {name}. Skipping')
             continue
 
         verts_h = np.column_stack([verts, np.ones(len(verts))])

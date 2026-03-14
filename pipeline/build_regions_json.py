@@ -342,8 +342,8 @@ def build_regions():
          ['medium/putamen_L.glb', 'medium/putamen_R.glb']),
         ('pallidum',          'Globus Pallidus',   'medium', 'basal_ganglia',[0.0,  -4.0,   2.0],   20.0,  ['GP', 'globus pallidus'],
          ['medium/pallidum_L.glb', 'medium/pallidum_R.glb']),
-        ('accumbens',         'Nucleus Accumbens', 'hard',   'basal_ganglia',[0.0,  12.0,  -6.0],    9.0,  ['NAcc', 'ventral striatum'],
-         ['hard/accumbens_L.glb', 'hard/accumbens_R.glb']),
+        ('accumbens',         'Nucleus Accumbens', 'medium', 'basal_ganglia',[0.0,  12.0,  -6.0],    9.0,  ['NAcc', 'ventral striatum'],
+         ['medium/accumbens_L.glb', 'medium/accumbens_R.glb']),
     ]
 
     # --- MEDIUM: Brainstem subfields ---
@@ -361,7 +361,7 @@ def build_regions():
     for sid, sname, diff, lobe, centroid, aliases, files in brainstem_subfields:
         glb = f'data/meshes/{diff}/{sid}.glb'
         if not os.path.exists(glb):
-            print(f'  Skipping {sname} — {glb} not found (run extract_subfield_meshes.py first)')
+            print(f'  Skipping {sname}, {glb} not found (run extract_subfield_meshes.py first)')
             continue
         regions.append({
             'id': sid, 'name': sname, 'hemisphere': 'bilateral',
@@ -406,7 +406,7 @@ def build_regions():
     for sid, sname, lobe, centroid, aliases in thalamic_nuclei:
         glb = f'data/meshes/hard/{sid}.glb'
         if not os.path.exists(glb):
-            print(f'  Skipping {sname} — {glb} not found (run extract_subfield_meshes.py first)')
+            print(f'  Skipping {sname}, {glb} not found (run extract_subfield_meshes.py first)')
             continue
         regions.append({
             'id': sid, 'name': sname, 'hemisphere': 'bilateral',

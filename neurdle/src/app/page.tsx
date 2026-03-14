@@ -114,7 +114,7 @@ export default function Home() {
           <div className="flex-shrink-0 text-center px-3 py-2 rounded-lg bg-[#e94560]/20 border border-[#e94560]/40 text-sm">
             <span className="text-gray-400">The answer was </span>
             <span className="font-bold text-[#e94560]">{game.targetRegion.name}</span>
-            <span className="text-gray-400"> — next region loading…</span>
+            <span className="text-gray-400"> - next region loading…</span>
           </div>
         )}
 

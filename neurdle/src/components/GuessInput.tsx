@@ -87,7 +87,7 @@ export default function GuessInput({ regions, usedIds, disabled, onGuess }: Prop
         <div className="absolute z-20 w-full mt-1 bg-[#1a1a2e] border border-white/20 rounded-lg shadow-2xl overflow-hidden flex flex-col max-h-64">
           {query === '' && (
             <div className="px-3 py-1.5 text-xs text-gray-500 border-b border-white/10 flex-shrink-0">
-              {filtered.length} regions — scroll or type to filter
+              {filtered.length} regions: scroll or type to filter
             </div>
           )}
           <div ref={listRef} className="overflow-y-auto">

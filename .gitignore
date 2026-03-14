@@ -5,7 +5,7 @@ neurdle/node_modules/
 neurdle/.next/
 neurdle/out/
 
-# Raw pipeline outputs (large binary/generated files — not needed to deploy)
+# Raw pipeline outputs (large binary/generated files, not needed to deploy)
 meshes_raw/
 data/distances_medium.json
 data/distances_subcortical.json

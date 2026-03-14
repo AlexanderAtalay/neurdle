@@ -13,9 +13,9 @@ export default function HelpModal({ onClose }: Props) {
           <p>Identify the 3D brain region shown. You have <strong className="text-white">6 guesses</strong>.</p>
           <p>After each wrong guess you get feedback:</p>
           <ul className="list-disc list-inside space-y-1.5 ml-2">
-            <li><strong className="text-white">Distance</strong> — how far your guess is from the target (mm)</li>
-            <li><strong className="text-white">Proximity %</strong> — 100% = correct, 0% = opposite end of brain</li>
-            <li><strong className="text-white">Direction</strong> — which way to go (anterior, superior, etc.)</li>
+            <li><strong className="text-white">Distance</strong>: How far your guess is from the target (mm)</li>
+            <li><strong className="text-white">Proximity %</strong>: 100% = correct, 0% = opposite end of brain</li>
+            <li><strong className="text-white">Direction</strong>: Which way to go (anterior, superior, etc.)</li>
           </ul>
 
           <div className="border-t border-white/10 pt-3 space-y-1">
@@ -25,15 +25,15 @@ export default function HelpModal({ onClose }: Props) {
 
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Modes:</p>
-            <p><span className="text-white">📅 Daily</span> — one puzzle per difficulty per day</p>
-            <p><span className="text-white">🧪 Training</span> — unlimited play; glass brain always visible; wrong guesses shown at low opacity; advances automatically on correct guess</p>
+            <p><span className="text-white">📅 Daily</span>: One puzzle per difficulty per day</p>
+            <p><span className="text-white">🧪 Training</span>: Unlimited play; glass brain always visible</p>
           </div>
 
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Difficulty tiers:</p>
-            <p>🔵 Easy — brain lobes, cerebellum, brainstem</p>
-            <p>🟡 Medium — 34 Desikan-Killiany cortical regions + major subcortical structures</p>
-            <p>🔴 Hard — 74 Destrieux atlas regions (fine gyri and sulci) + nucleus accumbens</p>
+            <p>Easy: brain lobes, cerebellum, brainstem</p>
+            <p>Medium: 34 Desikan-Killiany cortical regions + major subcortical structures</p>
+            <p>Hard: 74 Destrieux atlas regions (fine gyri and sulci)</p>
           </div>
         </div>
 
@@ -43,7 +43,7 @@ export default function HelpModal({ onClose }: Props) {
             Brain atlas data from{' '}
             <a href="https://surfer.nmr.mgh.harvard.edu" target="_blank" rel="noopener noreferrer"
                className="text-[#e94560] hover:underline">FreeSurfer</a>{' '}
-            fsaverage — Desikan-Killiany and Destrieux parcellations.
+            fsaverage: Desikan-Killiany and Destrieux parcellations.
           </p>
           <p>HEAVILY Inspired by <a href="https://www.nytimes.com/games/wordle" target="_blank" rel="noopener noreferrer" className="text-[#e94560] hover:underline">Wordle</a> and <a href="https://worldle.teuteuf.fr" target="_blank" rel="noopener noreferrer" className="text-[#e94560] hover:underline">Worldle</a>.</p>
           <p>
