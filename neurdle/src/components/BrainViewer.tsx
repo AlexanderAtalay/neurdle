@@ -103,7 +103,7 @@ export default function BrainViewer({ targetRegion, showGlassBrain, wrongGuessRe
               )}
               {showGlassBrain && <GlassBrain />}
               {wrongGuessRegions.map(r => (
-                <RegionGroup key={r.id} region={r} color="#ff8c42" opacity={0.35} />
+                <RegionGroup key={r.id} region={r} color="#ff8c42" opacity={r.category === 'tract' ? 0.12 : 0.35} />
               ))}
             </Center>
           </Suspense>

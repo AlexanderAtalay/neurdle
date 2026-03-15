@@ -2562,30 +2562,6 @@
       ]
     },
     {
-      "id": "corpus_callosum",
-      "name": "Corpus Callosum",
-      "hemisphere": "bilateral",
-      "difficulty": "normal",
-      "category": "tract",
-      "lobe": "commissural",
-      "centroid_mni": [
-        0.0,
-        -28.3,
-        19.2
-      ],
-      "lateral_extent_mm": 22.7,
-      "mesh_file": "tracts/corpus_callosum.glb",
-      "mesh_files": [
-        "tracts/corpus_callosum.glb"
-      ],
-      "aliases": [
-        "CC",
-        "callosum"
-      ],
-      "description": "The largest white matter commissure, connecting homologous regions across both cerebral hemispheres.",
-      "fun_fact": "The corpus callosum contains ~200 million axons \u2014 more than any other white matter tract."
-    },
-    {
       "id": "anterior_commissure",
       "name": "Anterior Commissure",
       "hemisphere": "bilateral",

@@ -3,7 +3,7 @@ export interface Region {
   name: string;
   hemisphere: 'left' | 'right' | 'bilateral';
   difficulty: 'easy' | 'normal' | 'hard';
-  category: 'cortical' | 'subcortical';
+  category: 'cortical' | 'subcortical' | 'tract';
   lobe: string;
   centroid_mni: [number, number, number];
   lateral_extent_mm?: number;  // mean absolute x of hemisphere centroids; used for L/M direction
