@@ -27,7 +27,7 @@ export default function HelpModal({ onClose }: Props) {
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Difficulty tiers:</p>
             <p><span className="text-white">Easy</span>: brain lobes, cerebellum, brainstem</p>
-            <p><span className="text-white">Normal</span>: 34 Desikan-Killiany cortical regions + major subcortical + brainstem subregions + major white matter tracts</p>
+            <p><span className="text-white">Normal</span>: 34 Desikan-Killiany cortical regions + major subcortical + brainstem subregions + ventricular system + corpus callosum + major white matter tracts</p>
             <p><span className="text-white">Hard</span>: 74 Destrieux atlas regions (fine gyri and sulci)</p>
           </div>
         </div>
@@ -35,10 +35,22 @@ export default function HelpModal({ onClose }: Props) {
         <div className="border-t border-white/10 mt-4 pt-4 space-y-2 text-xs text-gray-400">
           <p className="font-medium text-gray-300">Credits</p>
           <p>
-            Brain atlas data from{' '}
+            Cortical atlas data from{' '}
             <a href="https://surfer.nmr.mgh.harvard.edu" target="_blank" rel="noopener noreferrer"
                className="text-[#e94560] hover:underline">FreeSurfer</a>{' '}
             fsaverage: Desikan-Killiany and Destrieux parcellations.
+          </p>
+          <p>
+            Brainstem subregions from the{' '}
+            <a href="https://freesurfer.net/fswiki/BrainstemSubstructures" target="_blank" rel="noopener noreferrer"
+               className="text-[#e94560] hover:underline">FreeSurfer Brainstem Probabilistic Atlas</a>{' '}
+            (Iglesias et al., 2015), registered to fsaverage space.
+          </p>
+          <p>
+            White matter tracts from the{' '}
+            <a href="https://brain.labsolver.org/hcp_template.html" target="_blank" rel="noopener noreferrer"
+               className="text-[#e94560] hover:underline">HCP1065 population-averaged tractography</a>{' '}
+            (Yeh et al., 2022), Human Connectome Project.
           </p>
           <p>HEAVILY Inspired by <a href="https://www.nytimes.com/games/wordle" target="_blank" rel="noopener noreferrer" className="text-[#e94560] hover:underline">Wordle</a> and <a href="https://worldle.teuteuf.fr" target="_blank" rel="noopener noreferrer" className="text-[#e94560] hover:underline">Worldle</a>.</p>
           <p>
@@ -55,7 +67,7 @@ export default function HelpModal({ onClose }: Props) {
               Alexander Atalay
             </a>
           </p>
-          <p>Conceived of by Alexander Atalay, Grant Mannino, Gracie Grimsrud, and Lucy Anderson</p>
+          <p>Conceived of in collaboration with Grant Mannino, Gracie Grimsrud, and Lucy Anderson</p>
         </div>
 
         <button

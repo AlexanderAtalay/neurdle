@@ -369,6 +369,32 @@ def build_regions():
             'mesh_file': files[0], 'mesh_files': files, 'aliases': aliases,
         })
 
+    # --- NORMAL: Corpus callosum + ventricular system ---
+    # Centroid estimates; update with printed values after running extract_extra_structures.py
+    extra_structures = [
+        #  id                    name                      diff      lobe              centroid               lat_ext  aliases                                    files
+        ('corpus_callosum',    'Corpus Callosum',         'normal', 'commissural',    [0.0,  -5.2,  17.5],    4.0,  ['CC', 'callosum'],
+         ['medium/corpus_callosum.glb']),
+        ('lateral_ventricle',  'Lateral Ventricles',      'normal', 'ventricular',    [0.0, -14.5,  12.0],   20.0,  ['lateral ventricle', 'LV'],
+         ['medium/lateral_ventricle_L.glb', 'medium/lateral_ventricle_R.glb']),
+        ('third_ventricle',    '3rd Ventricle',           'normal', 'ventricular',    [0.0, -11.6,  -4.0],    2.0,  ['third ventricle', '3V'],
+         ['medium/third_ventricle.glb']),
+        ('fourth_ventricle',   '4th Ventricle',           'normal', 'ventricular',    [0.0, -48.2, -33.9],    4.0,  ['fourth ventricle', '4V'],
+         ['medium/fourth_ventricle.glb']),
+    ]
+    for sid, sname, diff, lobe, centroid, lat_ext, aliases, files in extra_structures:
+        glb = f'neurdle/public/meshes/{files[0]}'
+        if not os.path.exists(glb):
+            print(f'  Skipping {sname}, {glb} not found (run extract_extra_structures.py first)')
+            continue
+        regions.append({
+            'id': sid, 'name': sname, 'hemisphere': 'bilateral',
+            'difficulty': diff, 'category': 'subcortical', 'lobe': lobe,
+            'centroid_mni': centroid,
+            'lateral_extent_mm': lat_ext,
+            'mesh_file': files[0], 'mesh_files': files, 'aliases': aliases,
+        })
+
     # --- HARD: Thalamic nuclei ---
     thalamic_nuclei = [
         ('thal_lgn',   'Lateral Geniculate Nucleus',  'thalamus',

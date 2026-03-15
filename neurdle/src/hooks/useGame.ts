@@ -38,10 +38,12 @@ export function useGame() {
       allRegions.current = regions;
       distanceData.current = distances;
 
-      // Daily puzzle: only set if not already set for today
+      // Daily puzzle: only initialize if we haven't started today's puzzle yet.
+      // Check startedDate (set on init) not lastPlayedDate (set only on game-over),
+      // so switching difficulties mid-game doesn't wipe in-progress guesses.
       const today = new Date().toDateString();
       if (store.mode === 'daily') {
-        if (!currentDailyState.targetRegion || currentDailyState.lastPlayedDate !== today) {
+        if (currentDailyState.startedDate !== today) {
           const target = getDailyRegion(regions, store.difficulty);
           store.setTargetRegion(target);
         }

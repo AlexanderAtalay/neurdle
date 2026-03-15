@@ -2300,67 +2300,92 @@
       ]
     },
     {
-      "id": "midbrain",
-      "name": "Midbrain",
+      "id": "corpus_callosum",
+      "name": "Corpus Callosum",
       "hemisphere": "bilateral",
       "difficulty": "normal",
       "category": "subcortical",
-      "lobe": "brainstem",
+      "lobe": "commissural",
       "centroid_mni": [
         0.0,
-        -21.2,
-        -11.6
+        -5.2,
+        17.5
       ],
-      "lateral_extent_mm": 3.0,
-      "mesh_file": "medium/midbrain.glb",
+      "lateral_extent_mm": 4.0,
+      "mesh_file": "medium/corpus_callosum.glb",
       "mesh_files": [
-        "medium/midbrain.glb"
+        "medium/corpus_callosum.glb"
       ],
       "aliases": [
-        "mesencephalon"
+        "CC",
+        "callosum"
       ]
     },
     {
-      "id": "pons",
-      "name": "Pons",
+      "id": "lateral_ventricle",
+      "name": "Lateral Ventricles",
       "hemisphere": "bilateral",
       "difficulty": "normal",
       "category": "subcortical",
-      "lobe": "brainstem",
+      "lobe": "ventricular",
       "centroid_mni": [
         0.0,
-        -30.3,
-        -31.0
+        -14.5,
+        12.0
       ],
-      "lateral_extent_mm": 3.0,
-      "mesh_file": "medium/pons.glb",
+      "lateral_extent_mm": 20.0,
+      "mesh_file": "medium/lateral_ventricle_L.glb",
       "mesh_files": [
-        "medium/pons.glb"
+        "medium/lateral_ventricle_L.glb",
+        "medium/lateral_ventricle_R.glb"
       ],
       "aliases": [
-        "pons Varolii"
+        "lateral ventricle",
+        "LV"
       ]
     },
     {
-      "id": "medulla",
-      "name": "Medulla Oblongata",
+      "id": "third_ventricle",
+      "name": "3rd Ventricle",
       "hemisphere": "bilateral",
       "difficulty": "normal",
       "category": "subcortical",
-      "lobe": "brainstem",
+      "lobe": "ventricular",
       "centroid_mni": [
         0.0,
-        -43.4,
-        -49.6
+        -11.6,
+        -4.0
       ],
-      "lateral_extent_mm": 3.0,
-      "mesh_file": "medium/medulla.glb",
+      "lateral_extent_mm": 2.0,
+      "mesh_file": "medium/third_ventricle.glb",
       "mesh_files": [
-        "medium/medulla.glb"
+        "medium/third_ventricle.glb"
       ],
       "aliases": [
-        "medulla",
-        "myelencephalon"
+        "third ventricle",
+        "3V"
+      ]
+    },
+    {
+      "id": "fourth_ventricle",
+      "name": "4th Ventricle",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "subcortical",
+      "lobe": "ventricular",
+      "centroid_mni": [
+        0.0,
+        -48.2,
+        -33.9
+      ],
+      "lateral_extent_mm": 4.0,
+      "mesh_file": "medium/fourth_ventricle.glb",
+      "mesh_files": [
+        "medium/fourth_ventricle.glb"
+      ],
+      "aliases": [
+        "fourth ventricle",
+        "4V"
       ]
     },
     {
@@ -2560,230 +2585,6 @@
         "NAcc",
         "ventral striatum"
       ]
-    },
-    {
-      "id": "anterior_commissure",
-      "name": "Anterior Commissure",
-      "hemisphere": "bilateral",
-      "difficulty": "hard",
-      "category": "tract",
-      "lobe": "commissural",
-      "centroid_mni": [
-        0.0,
-        -36.2,
-        -4.0
-      ],
-      "lateral_extent_mm": 27.2,
-      "mesh_file": "tracts/anterior_commissure.glb",
-      "mesh_files": [
-        "tracts/anterior_commissure.glb"
-      ],
-      "aliases": [
-        "AC"
-      ],
-      "description": "A small commissure crossing the midline, connecting the olfactory regions and anterior temporal lobes.",
-      "fun_fact": "The anterior commissure is phylogenetically ancient and present in all mammalian brains."
-    },
-    {
-      "id": "arcuate_fasciculus",
-      "name": "Arcuate Fasciculus",
-      "hemisphere": "bilateral",
-      "difficulty": "normal",
-      "category": "tract",
-      "lobe": "association",
-      "centroid_mni": [
-        0.0,
-        -20.5,
-        17.1
-      ],
-      "lateral_extent_mm": 41.2,
-      "mesh_file": "tracts/AF_L.glb",
-      "mesh_files": [
-        "tracts/AF_L.glb",
-        "tracts/AF_R.glb"
-      ],
-      "aliases": [
-        "AF",
-        "superior longitudinal fasciculus (language)"
-      ],
-      "description": "Connects Broca's area in the frontal lobe to Wernicke's area in the temporal lobe, forming the core language circuit.",
-      "fun_fact": "Damage to the arcuate fasciculus causes conduction aphasia \u2014 the inability to repeat words despite intact comprehension and production."
-    },
-    {
-      "id": "slf",
-      "name": "Superior Longitudinal Fasciculus",
-      "hemisphere": "bilateral",
-      "difficulty": "normal",
-      "category": "tract",
-      "lobe": "association",
-      "centroid_mni": [
-        0.0,
-        -6.6,
-        35.2
-      ],
-      "lateral_extent_mm": 33.6,
-      "mesh_file": "tracts/SLF2_L.glb",
-      "mesh_files": [
-        "tracts/SLF2_L.glb",
-        "tracts/SLF2_R.glb"
-      ],
-      "aliases": [
-        "SLF",
-        "SLF II",
-        "SLF2"
-      ],
-      "description": "Connects parietal and frontal lobes, running along the dorsolateral convexity. Key for spatial attention and working memory.",
-      "fun_fact": "There are three distinct SLF branches (I, II, III) that connect different parietal and frontal regions."
-    },
-    {
-      "id": "ifof",
-      "name": "Inferior Fronto-Occipital Fasciculus",
-      "hemisphere": "bilateral",
-      "difficulty": "hard",
-      "category": "tract",
-      "lobe": "association",
-      "centroid_mni": [
-        0.0,
-        -19.7,
-        -1.0
-      ],
-      "lateral_extent_mm": 29.7,
-      "mesh_file": "tracts/IFOF_L.glb",
-      "mesh_files": [
-        "tracts/IFOF_L.glb",
-        "tracts/IFOF_R.glb"
-      ],
-      "aliases": [
-        "IFOF",
-        "fronto-occipital fasciculus"
-      ],
-      "description": "A long tract running beneath the insula, connecting frontal lobe to occipital and temporal regions.",
-      "fun_fact": "The IFOF is thought to be involved in semantic processing and visual attention."
-    },
-    {
-      "id": "ilf",
-      "name": "Inferior Longitudinal Fasciculus",
-      "hemisphere": "bilateral",
-      "difficulty": "hard",
-      "category": "tract",
-      "lobe": "association",
-      "centroid_mni": [
-        0.0,
-        -48.1,
-        -0.2
-      ],
-      "lateral_extent_mm": 34.6,
-      "mesh_file": "tracts/ILF_L.glb",
-      "mesh_files": [
-        "tracts/ILF_L.glb",
-        "tracts/ILF_R.glb"
-      ],
-      "aliases": [
-        "ILF"
-      ],
-      "description": "Connects temporal pole to occipital cortex along the ventral stream, supporting visual recognition and memory.",
-      "fun_fact": "The ILF is a key tract for face recognition \u2014 damage causes prosopagnosia."
-    },
-    {
-      "id": "uncinate_fasciculus",
-      "name": "Uncinate Fasciculus",
-      "hemisphere": "bilateral",
-      "difficulty": "hard",
-      "category": "tract",
-      "lobe": "association",
-      "centroid_mni": [
-        0.0,
-        18.8,
-        -15.4
-      ],
-      "lateral_extent_mm": 26.4,
-      "mesh_file": "tracts/UF_L.glb",
-      "mesh_files": [
-        "tracts/UF_L.glb",
-        "tracts/UF_R.glb"
-      ],
-      "aliases": [
-        "UF",
-        "uncinate"
-      ],
-      "description": "Hooks around the Sylvian fissure, connecting orbitofrontal cortex to anterior temporal lobe.",
-      "fun_fact": "The uncinate fasciculus is one of the last tracts to mature \u2014 development continues into the third decade of life."
-    },
-    {
-      "id": "vof",
-      "name": "Vertical Occipital Fasciculus",
-      "hemisphere": "bilateral",
-      "difficulty": "hard",
-      "category": "tract",
-      "lobe": "association",
-      "centroid_mni": [
-        0.0,
-        -81.1,
-        10.5
-      ],
-      "lateral_extent_mm": 27.3,
-      "mesh_file": "tracts/VOF_L.glb",
-      "mesh_files": [
-        "tracts/VOF_L.glb",
-        "tracts/VOF_R.glb"
-      ],
-      "aliases": [
-        "VOF",
-        "Wernicke's perpendicular fasciculus"
-      ],
-      "description": "A short vertical tract in the posterior brain connecting dorsal and ventral occipital cortex.",
-      "fun_fact": "First described by Wernicke in 1881, the VOF was largely forgotten for over a century before being rediscovered by diffusion MRI."
-    },
-    {
-      "id": "corticospinal_tract",
-      "name": "Corticospinal Tract",
-      "hemisphere": "bilateral",
-      "difficulty": "normal",
-      "category": "tract",
-      "lobe": "projection",
-      "centroid_mni": [
-        0.0,
-        -16.7,
-        8.4
-      ],
-      "lateral_extent_mm": 18.6,
-      "mesh_file": "tracts/CST_L.glb",
-      "mesh_files": [
-        "tracts/CST_L.glb",
-        "tracts/CST_R.glb"
-      ],
-      "aliases": [
-        "CST",
-        "pyramidal tract"
-      ],
-      "description": "Descends from motor cortex through the internal capsule and brainstem to the spinal cord, carrying voluntary motor commands.",
-      "fun_fact": "The CST decussates (crosses) in the medullary pyramids \u2014 the left motor cortex controls the right side of the body."
-    },
-    {
-      "id": "optic_radiation",
-      "name": "Optic Radiation",
-      "hemisphere": "bilateral",
-      "difficulty": "hard",
-      "category": "tract",
-      "lobe": "projection",
-      "centroid_mni": [
-        0.0,
-        -56.5,
-        4.0
-      ],
-      "lateral_extent_mm": 25.5,
-      "mesh_file": "tracts/OR_L.glb",
-      "mesh_files": [
-        "tracts/OR_L.glb",
-        "tracts/OR_R.glb"
-      ],
-      "aliases": [
-        "OR",
-        "optic radiations",
-        "geniculocalcarine tract"
-      ],
-      "description": "Carries visual signals from the lateral geniculate nucleus of the thalamus to primary visual cortex.",
-      "fun_fact": "Meyer's loop \u2014 the anterior bend of the optic radiation \u2014 sweeps through the temporal lobe. Temporal lobe surgery can cause a 'pie-in-the-sky' visual field defect."
     }
   ]
 }

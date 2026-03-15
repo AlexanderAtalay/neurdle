@@ -8,6 +8,7 @@ type DifficultyState = {
   gameOver: boolean;
   won: boolean;
   showGlassBrain: boolean;
+  startedDate: string;   // set when target is first picked for the day
   lastPlayedDate: string;
 };
 
@@ -17,6 +18,7 @@ const defaultDiffState = (): DifficultyState => ({
   gameOver: false,
   won: false,
   showGlassBrain: false,
+  startedDate: '',
   lastPlayedDate: '',
 });
 
@@ -77,11 +79,12 @@ export const useGameStore = create<GameStore>()(
 
       setTargetRegion: (targetRegion) => {
         const { difficulty, dailyStates } = get();
+        const today = new Date().toDateString();
         // Full reset for new day, preserves only the new target
         set({
           dailyStates: {
             ...dailyStates,
-            [difficulty]: { ...defaultDiffState(), targetRegion },
+            [difficulty]: { ...defaultDiffState(), targetRegion, startedDate: today },
           },
         });
       },

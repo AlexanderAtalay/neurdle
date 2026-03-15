@@ -2784,6 +2784,95 @@
       ],
       "description": "Carries visual signals from the lateral geniculate nucleus of the thalamus to primary visual cortex.",
       "fun_fact": "Meyer's loop \u2014 the anterior bend of the optic radiation \u2014 sweeps through the temporal lobe. Temporal lobe surgery can cause a 'pie-in-the-sky' visual field defect."
+    },
+    {
+      "id": "corpus_callosum",
+      "name": "Corpus Callosum",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "subcortical",
+      "lobe": "commissural",
+      "centroid_mni": [
+        0.0,
+        -5.2,
+        17.5
+      ],
+      "lateral_extent_mm": 4.0,
+      "mesh_file": "medium/corpus_callosum.glb",
+      "mesh_files": [
+        "medium/corpus_callosum.glb"
+      ],
+      "aliases": [
+        "CC",
+        "callosum"
+      ]
+    },
+    {
+      "id": "lateral_ventricle",
+      "name": "Lateral Ventricles",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "subcortical",
+      "lobe": "ventricular",
+      "centroid_mni": [
+        0.0,
+        -14.5,
+        12.0
+      ],
+      "lateral_extent_mm": 20.0,
+      "mesh_file": "medium/lateral_ventricle_L.glb",
+      "mesh_files": [
+        "medium/lateral_ventricle_L.glb",
+        "medium/lateral_ventricle_R.glb"
+      ],
+      "aliases": [
+        "lateral ventricle",
+        "LV"
+      ]
+    },
+    {
+      "id": "third_ventricle",
+      "name": "3rd Ventricle",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "subcortical",
+      "lobe": "ventricular",
+      "centroid_mni": [
+        0.0,
+        -11.6,
+        -4.0
+      ],
+      "lateral_extent_mm": 2.0,
+      "mesh_file": "medium/third_ventricle.glb",
+      "mesh_files": [
+        "medium/third_ventricle.glb"
+      ],
+      "aliases": [
+        "third ventricle",
+        "3V"
+      ]
+    },
+    {
+      "id": "fourth_ventricle",
+      "name": "4th Ventricle",
+      "hemisphere": "bilateral",
+      "difficulty": "normal",
+      "category": "subcortical",
+      "lobe": "ventricular",
+      "centroid_mni": [
+        0.0,
+        -48.2,
+        -33.9
+      ],
+      "lateral_extent_mm": 4.0,
+      "mesh_file": "medium/fourth_ventricle.glb",
+      "mesh_files": [
+        "medium/fourth_ventricle.glb"
+      ],
+      "aliases": [
+        "fourth ventricle",
+        "4V"
+      ]
     }
   ]
 }
