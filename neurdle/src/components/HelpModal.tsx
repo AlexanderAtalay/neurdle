@@ -20,8 +20,8 @@ export default function HelpModal({ onClose }: Props) {
 
           <div className="border-t border-white/10 pt-3">
             <p className="font-medium text-white mb-1.5">Modes:</p>
-            <p><span className="text-white">📅 Daily</span>: One puzzle per difficulty per day</p>
-            <p><span className="text-white">📚 Training</span>: Unlimited play, track your score</p>
+            <p><span className="text-white">Daily</span>: One puzzle per difficulty per day</p>
+            <p><span className="text-white">Practice</span>: Unlimited play, track your score</p>
           </div>
 
           <div className="border-t border-white/10 pt-3">

@@ -49,7 +49,7 @@ export default function Home() {
                     : 'border-gray-600 text-gray-400 hover:border-gray-400'
                 }`}
               >
-                {m === 'training' ? '📚 Training' : '📅 Daily'}
+                {m === 'training' ? 'Practice' : 'Daily'}
               </button>
             ))}
           </div>
