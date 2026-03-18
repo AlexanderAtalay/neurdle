@@ -8,50 +8,15 @@ A daily neuroanatomy guessing game. Identify a 3D brain region using feedback on
 
 ## Gameplay
 
-- A 3D brain region is shown. Rotate it freely with your mouse or finger.
-- Guess which region it is from the autocomplete list.
-- After each wrong guess: **distance (mm)**, **proximity %**, and **directional arrows** (↑A/↓P · ↑S/↓I · →L/←M) tell you how close you are.
-- After guess 3: a glass brain appears for spatial context.
+- A 3D brain region is shown in the context of a glass brain.
+- Try to guess which region it is.
+- After each wrong guess: **distance (mm)**, **proximity %**, and **directional arrows** (↑A/↓P · ↑S/↓I · →←M/←→L) tell you how close you are.
 - Win in 6 guesses or fewer.
 - **Three difficulty tiers:**
-  - 🔵 **Easy**: brain lobes, cerebellum, brainstem
-  - 🟡 **Medium**: 34 Desikan-Killiany cortical regions + major subcortical structures + brainstem subregions (midbrain, pons, medulla)
-  - 🔴 **Hard**: 74 Destrieux atlas regions (fine gyri and sulci)
-- **Training mode**: unlimited play with glass brain always visible.
-
----
-
-## Project Structure
-
-```
-neurdle/
-├── neurdle/              # Next.js web app (deployed to Netlify)
-│   ├── public/
-│   │   ├── meshes/       # 3D brain region meshes (.glb)
-│   │   └── data/         # regions.json + distance maps
-│   └── src/
-│       ├── app/          # Next.js App Router pages
-│       ├── components/   # React components
-│       ├── hooks/        # Game logic hooks
-│       ├── lib/          # Utility functions
-│       ├── store/        # Zustand state
-│       └── types/        # TypeScript types
-├── pipeline/             # Mesh generation scripts (not deployed)
-│   ├── extract_cortical_meshes.py
-│   ├── extract_subcortical_meshes.py
-│   ├── extract_whole_brain.py
-│   ├── extract_brodmann_areas.py
-│   ├── generate_lobe_meshes.py
-│   ├── extract_brainstem_atlas.py
-│   ├── convert_to_glb_python.py
-│   ├── compute_distances.py
-│   ├── build_regions_json.py
-│   └── merge_bilateral_distances.py
-├── data/                 # Generated data files (gitignored raw outputs)
-│   └── distances_bilateral.json  # ← committed, used by the app
-├── netlify.toml
-└── README.md
-```
+  - **Easy**: brain lobes, cerebellum, brainstem
+  - **Medium**: 34 Desikan-Killiany cortical regions + major subcortical structures + brainstem subregions + ventricular system + corpus callosum + major white matter tracts
+  - **Hard**: 74 Destrieux atlas regions (fine gyri and sulci)
+- **Practice mode**: unlimited puzzles.
 
 ---
 
@@ -68,43 +33,13 @@ neurdle/
 
 Brain region meshes are derived from [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)'s `fsaverage` subject using the Desikan-Killiany and Destrieux parcellation atlases.
 
-### Prerequisites
-
-```bash
-# FreeSurfer (macOS/Linux)
-export FREESURFER_HOME=/path/to/freesurfer
-source $FREESURFER_HOME/SetUpFreeSurfer.sh
-
-# Python packages
-pip install nibabel trimesh fast-simplification scikit-image scipy numpy
-```
-
-### Run order (from repo root)
-
-```bash
-python pipeline/extract_cortical_meshes.py      # Desikan-Killiany + Destrieux OBJs
-python pipeline/extract_subcortical_meshes.py   # aseg subcortical OBJs
-python pipeline/extract_whole_brain.py          # glass brain OBJs
-python pipeline/generate_lobe_meshes.py         # seamless lobe GLBs (easy mode)
-python pipeline/extract_brainstem_atlas.py      # brainstem subregion GLBs (medium mode)
-python pipeline/convert_to_glb_python.py        # all OBJ → GLB
-python pipeline/build_regions_json.py           # master regions.json
-python pipeline/compute_distances.py            # pairwise distance maps
-python pipeline/merge_bilateral_distances.py    # merge L/R → bilateral
-
-# Copy outputs to app
-cp -r data/meshes/* neurdle/public/meshes/
-cp data/regions.json data/distances_bilateral.json neurdle/public/data/
-```
-
----
-
 ## Atlas & Data Credits
 
-- **Brain atlas data:** [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) `fsaverage` subject
-  - Desikan-Killiany atlas: Desikan et al. (2006), *NeuroImage*
-  - Destrieux atlas: Destrieux et al. (2010), *NeuroImage*
-  - Brainstem subregions: probabilistic brainstem atlas (Nigro et al.) registered to fsaverage space
+- **Brain atlas data:** [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) `fsaverage`
+  - Desikan-Killiany atlas (Desikan et al., 2006)
+  - Destrieux atlas (Destrieux et al., 2010)
+  - Brainstem subregions: [FreeSurfer Brainstem Probabilistic Atlas](https://freesurfer.net/fswiki/BrainstemSubstructures) (Iglesias et al., 2015)
+- **White matter tracts:** [HCP1065 population-averaged tractography](https://brain.labsolver.org/hcp_template.html) (Yeh et al., 2022)
 - **Heavy Inspiration:** [Wordle](https://www.nytimes.com/games/wordle) (NYT) · [Worldle](https://worldle.teuteuf.fr) (teuteuf)
 
 ---
