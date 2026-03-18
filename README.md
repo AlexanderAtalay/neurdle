@@ -29,17 +29,12 @@ A daily neuroanatomy guessing game. Identify a 3D brain region using feedback on
 | Styling | Tailwind CSS |
 | State | Zustand (persisted to localStorage) |
 
-## Data Pipeline (for contributors / regenerating meshes)
-
-Brain region meshes are derived from [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)'s `fsaverage` subject using the Desikan-Killiany and Destrieux parcellation atlases.
-
-## Atlas & Data Credits
+## Atlas & Data Sources
 
 - **Brain atlas data:** [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) `fsaverage`
   - Desikan-Killiany atlas (Desikan et al., 2006)
   - Destrieux atlas (Destrieux et al., 2010)
   - Brainstem subregions: [FreeSurfer Brainstem Probabilistic Atlas](https://freesurfer.net/fswiki/BrainstemSubstructures) (Iglesias et al., 2015)
 - **White matter tracts:** [HCP1065 population-averaged tractography](https://brain.labsolver.org/hcp_template.html) (Yeh et al., 2022)
-- **Heavy Inspiration:** [Wordle](https://www.nytimes.com/games/wordle) (NYT) · [Worldle](https://worldle.teuteuf.fr) (teuteuf)
 
 ---
